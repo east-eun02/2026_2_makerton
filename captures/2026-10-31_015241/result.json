@@ -1,0 +1,248 @@
+{
+  "route": "demo_real3",
+  "route_file": "/home/eun/plant_ws/install/plant_observer_gazebo/share/plant_observer_gazebo/config/patrol_demo_real3.yaml",
+  "image_rotation": 90,
+  "compare_to": "previous",
+  "reference_lap": "2026-10-31_015033",
+  "capture_policy": "front_compare_sides_for_admin",
+  "lap": 2,
+  "started": "2026-10-31T01:52:41",
+  "home": "ok",
+  "visit_order": [
+    {
+      "id": "P01",
+      "reason": "미확인 변화: 열매 손상 1곳 (2026-10-31_015033)"
+    },
+    {
+      "id": "P00",
+      "reason": "미확인 변화: 잎 탈락 1곳 재촬영 확인 (2026-10-31_005255)"
+    }
+  ],
+  "stops": [
+    {
+      "id": "P01",
+      "status": "ok",
+      "views": {
+        "front": {
+          "view_id": "front",
+          "target": {
+            "x": 0.41,
+            "y": 0.5,
+            "yaw": 1.545
+          },
+          "status": "ok",
+          "image": "P01.png",
+          "pose": {
+            "x": 0.38668589361790295,
+            "y": 0.45813304659409537,
+            "yaw": 1.6284835463004732
+          },
+          "odom_pose": {
+            "x": 1.1447062714449876,
+            "y": -1.0700161967548243,
+            "yaw": 2.8659999100880316
+          },
+          "compare": {
+            "reference_lap": "2026-10-31_015033",
+            "reference_image": "P01.png",
+            "view_id": "front",
+            "status": "unchanged",
+            "change": null,
+            "count": 0,
+            "changes": {},
+            "changed_ratio": 0.0,
+            "align": "features",
+            "feature_inliers": 1497,
+            "objects": [],
+            "color_correction": {
+              "reference": {
+                "wb_gains_bgr": [
+                  1.013,
+                  1.025,
+                  1.027
+                ],
+                "sat_scale": 0.6
+              },
+              "current": {
+                "wb_gains_bgr": [
+                  1.012,
+                  1.024,
+                  1.026
+                ],
+                "sat_scale": 0.6
+              }
+            },
+            "image": "P01_compare.jpg"
+          }
+        }
+      },
+      "initial_observation": false,
+      "image": "P01.png",
+      "pose": {
+        "x": 0.38668589361790295,
+        "y": 0.45813304659409537,
+        "yaw": 1.6284835463004732
+      },
+      "target": {
+        "x": 0.41,
+        "y": 0.5,
+        "yaw": 1.545
+      },
+      "observed_at": "2026-10-31T01:52:58.453586",
+      "error_xy_m": 0.048,
+      "error_yaw_deg": 4.8,
+      "compare": {
+        "reference_lap": "2026-10-31_015033",
+        "reference_image": "P01.png",
+        "view_id": "front",
+        "status": "unchanged",
+        "change": null,
+        "count": 0,
+        "changes": {},
+        "changed_ratio": 0.0,
+        "align": "features",
+        "feature_inliers": 1497,
+        "objects": [],
+        "color_correction": {
+          "reference": {
+            "wb_gains_bgr": [
+              1.013,
+              1.025,
+              1.027
+            ],
+            "sat_scale": 0.6
+          },
+          "current": {
+            "wb_gains_bgr": [
+              1.012,
+              1.024,
+              1.026
+            ],
+            "sat_scale": 0.6
+          }
+        },
+        "image": "P01_compare.jpg"
+      },
+      "final": {
+        "status": "unchanged",
+        "changes": {},
+        "change": null,
+        "count": 0,
+        "source": "front"
+      }
+    },
+    {
+      "id": "P00",
+      "status": "ok",
+      "views": {
+        "front": {
+          "view_id": "front",
+          "target": {
+            "x": 1.61,
+            "y": 0.47,
+            "yaw": 1.545
+          },
+          "status": "ok",
+          "image": "P00.png",
+          "pose": {
+            "x": 1.57815400444766,
+            "y": 0.4974394742422472,
+            "yaw": 1.697621447678577
+          },
+          "odom_pose": {
+            "x": 2.0814629279153447,
+            "y": -0.1781733811757643,
+            "yaw": 2.4008830385110387
+          },
+          "compare": {
+            "reference_lap": "2026-10-31_015033",
+            "reference_image": "P00.png",
+            "view_id": "front",
+            "status": "unchanged",
+            "change": null,
+            "count": 0,
+            "changes": {},
+            "changed_ratio": 0.0,
+            "align": "features",
+            "feature_inliers": 1387,
+            "objects": [],
+            "color_correction": {
+              "reference": {
+                "wb_gains_bgr": [
+                  1.004,
+                  1.017,
+                  1.019
+                ],
+                "sat_scale": 0.6
+              },
+              "current": {
+                "wb_gains_bgr": [
+                  1.006,
+                  1.018,
+                  1.02
+                ],
+                "sat_scale": 0.6
+              }
+            },
+            "image": "P00_compare.jpg"
+          }
+        }
+      },
+      "initial_observation": false,
+      "image": "P00.png",
+      "pose": {
+        "x": 1.57815400444766,
+        "y": 0.4974394742422472,
+        "yaw": 1.697621447678577
+      },
+      "target": {
+        "x": 1.61,
+        "y": 0.47,
+        "yaw": 1.545
+      },
+      "observed_at": "2026-10-31T01:53:35.180811",
+      "error_xy_m": 0.042,
+      "error_yaw_deg": 8.7,
+      "compare": {
+        "reference_lap": "2026-10-31_015033",
+        "reference_image": "P00.png",
+        "view_id": "front",
+        "status": "unchanged",
+        "change": null,
+        "count": 0,
+        "changes": {},
+        "changed_ratio": 0.0,
+        "align": "features",
+        "feature_inliers": 1387,
+        "objects": [],
+        "color_correction": {
+          "reference": {
+            "wb_gains_bgr": [
+              1.004,
+              1.017,
+              1.019
+            ],
+            "sat_scale": 0.6
+          },
+          "current": {
+            "wb_gains_bgr": [
+              1.006,
+              1.018,
+              1.02
+            ],
+            "sat_scale": 0.6
+          }
+        },
+        "image": "P00_compare.jpg"
+      },
+      "final": {
+        "status": "unchanged",
+        "changes": {},
+        "change": null,
+        "count": 0,
+        "source": "front"
+      }
+    }
+  ],
+  "finished": "2026-10-31T01:54:07"
+}
