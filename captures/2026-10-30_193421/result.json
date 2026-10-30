@@ -4,7 +4,7 @@
   "image_rotation": 90,
   "lap": 2,
   "started": "2026-10-30T19:34:21",
-  "home": "pending",
+  "home": "ok",
   "visit_order": [
     {
       "id": "P00",
@@ -105,6 +105,97 @@
           "leaf_color": 1
         }
       }
+    },
+    {
+      "id": "P01",
+      "target": {
+        "x": 0.41,
+        "y": 0.5,
+        "yaw": 1.545
+      },
+      "status": "ok",
+      "image": "P01.png",
+      "pose": {
+        "x": 0.426,
+        "y": 0.456,
+        "yaw": 1.46
+      },
+      "error_xy_m": 0.047,
+      "error_yaw_deg": -4.9,
+      "views": {
+        "front": {
+          "status": "ok",
+          "image": "P01.png",
+          "pose": {
+            "x": 0.426,
+            "y": 0.456,
+            "yaw": 1.46
+          },
+          "target": {
+            "x": 0.41,
+            "y": 0.5,
+            "yaw": 1.545
+          }
+        }
+      },
+      "compare": {
+        "reference_lap": "2026-10-30_193241",
+        "reference_image": "P01.png",
+        "view_id": "front",
+        "status": "changed",
+        "change": "fruit_damaged",
+        "count": 1,
+        "changes": {
+          "fruit_damaged": 1
+        },
+        "changed_ratio": 0.053,
+        "align": "features",
+        "feature_inliers": 386,
+        "objects": [
+          {
+            "type": "fruit_damaged",
+            "bbox": [
+              259,
+              220,
+              47,
+              58
+            ],
+            "area_px": 2069
+          }
+        ],
+        "color_correction": {
+          "reference": {
+            "wb_gains_bgr": [
+              1.014,
+              1.009,
+              1.009
+            ],
+            "sat_scale": 1.152
+          },
+          "current": {
+            "wb_gains_bgr": [
+              1.055,
+              1.049,
+              1.05
+            ],
+            "sat_scale": 1.188
+          }
+        },
+        "image": "P01_compare.jpg"
+      },
+      "observed_at": "2026-10-30T19:35:30.282583",
+      "recheck": {
+        "status": "pose_unavailable",
+        "attempts": []
+      },
+      "final": {
+        "verdict": "recheck_failed",
+        "status": "changed",
+        "changes": {
+          "fruit_damaged": 1
+        }
+      }
     }
-  ]
+  ],
+  "finished": "2026-10-30T19:35:54"
 }

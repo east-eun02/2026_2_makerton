@@ -4,7 +4,7 @@
   "image_rotation": 90,
   "lap": 3,
   "started": "2026-10-30T19:35:54",
-  "home": "pending",
+  "home": "ok",
   "visit_order": [
     {
       "id": "P01",
@@ -81,6 +81,73 @@
         "image": "P01_compare.jpg"
       },
       "observed_at": "2026-10-30T19:36:12.786480"
+    },
+    {
+      "id": "P00",
+      "target": {
+        "x": 1.61,
+        "y": 0.47,
+        "yaw": 1.545
+      },
+      "status": "ok",
+      "image": "P00.png",
+      "pose": {
+        "x": 1.572,
+        "y": 0.495,
+        "yaw": 1.59
+      },
+      "error_xy_m": 0.046,
+      "error_yaw_deg": 2.6,
+      "views": {
+        "front": {
+          "status": "ok",
+          "image": "P00.png",
+          "pose": {
+            "x": 1.572,
+            "y": 0.495,
+            "yaw": 1.59
+          },
+          "target": {
+            "x": 1.61,
+            "y": 0.47,
+            "yaw": 1.545
+          }
+        }
+      },
+      "compare": {
+        "reference_lap": "2026-10-30_193421",
+        "reference_image": "P00.png",
+        "view_id": "front",
+        "status": "unchanged",
+        "change": null,
+        "count": 0,
+        "changes": {},
+        "changed_ratio": 0.0,
+        "align": "features",
+        "feature_inliers": 391,
+        "objects": [],
+        "color_correction": {
+          "reference": {
+            "wb_gains_bgr": [
+              1.013,
+              1.008,
+              1.009
+            ],
+            "sat_scale": 1.226
+          },
+          "current": {
+            "wb_gains_bgr": [
+              1.047,
+              1.037,
+              1.039
+            ],
+            "sat_scale": 1.31
+          }
+        },
+        "image": "P00_compare.jpg"
+      },
+      "observed_at": "2026-10-30T19:36:47.122028"
     }
-  ]
+  ],
+  "finished": "2026-10-30T19:37:19"
 }
