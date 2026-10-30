@@ -1,0 +1,11 @@
+{
+  "route": "demo_real3",
+  "route_file": "/home/eun/plant_ws/install/plant_observer_gazebo/share/plant_observer_gazebo/config/patrol_demo_real3.yaml",
+  "lap": 1,
+  "mode": "baseline",
+  "image_rotation": 90,
+  "started": "2026-10-30T20:12:17",
+  "home": "pending",
+  "baseline_complete": false,
+  "stops": []
+}
