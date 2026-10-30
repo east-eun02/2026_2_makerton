@@ -1,9 +1,30 @@
 {
-  "updated": "2026-10-30T19:33:14",
+  "updated": "2026-10-30T19:35:20",
   "baselines": {
     "demo_real3": "2026-10-29_192945"
   },
   "laps": [
+    {
+      "lap": "2026-10-30_193421",
+      "route": "demo_real3",
+      "started": "2026-10-30T19:34:21",
+      "finished": null,
+      "stops": [
+        {
+          "id": "P00",
+          "status": "ok",
+          "image": "2026-10-30_193421/P00.png",
+          "compare": {
+            "status": "changed",
+            "change": "leaf_color",
+            "count": 1,
+            "reference_lap": "2026-10-30_193241",
+            "reference_image": "2026-10-30_193241/P00.png",
+            "image": "2026-10-30_193421/P00_compare.jpg"
+          }
+        }
+      ]
+    },
     {
       "lap": "2026-10-30_193241",
       "route": "demo_real3",
