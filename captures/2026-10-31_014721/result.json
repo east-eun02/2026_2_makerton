@@ -1,0 +1,248 @@
+{
+  "route": "demo_real3",
+  "route_file": "/home/eun/plant_ws/install/plant_observer_gazebo/share/plant_observer_gazebo/config/patrol_demo_real3.yaml",
+  "image_rotation": 90,
+  "compare_to": "previous",
+  "reference_lap": "2026-10-31_014448",
+  "capture_policy": "front_compare_sides_for_admin",
+  "lap": 2,
+  "started": "2026-10-31T01:47:21",
+  "home": "ok",
+  "visit_order": [
+    {
+      "id": "P01",
+      "reason": "미확인 변화: 열매 생성 1곳 (2026-10-31_014448)"
+    },
+    {
+      "id": "P00",
+      "reason": "미확인 변화: 잎 탈락 1곳 재촬영 확인 (2026-10-31_005255)"
+    }
+  ],
+  "stops": [
+    {
+      "id": "P01",
+      "status": "ok",
+      "views": {
+        "front": {
+          "view_id": "front",
+          "target": {
+            "x": 0.41,
+            "y": 0.5,
+            "yaw": 1.545
+          },
+          "status": "ok",
+          "image": "P01.png",
+          "pose": {
+            "x": 0.38460972026122253,
+            "y": 0.4463751065722399,
+            "yaw": 1.6241962164337893
+          },
+          "odom_pose": {
+            "x": 1.0255223425190445,
+            "y": -0.96590855614541,
+            "yaw": 3.04459910182045
+          },
+          "compare": {
+            "reference_lap": "2026-10-31_014448",
+            "reference_image": "P01.png",
+            "view_id": "front",
+            "status": "unchanged",
+            "change": null,
+            "count": 0,
+            "changes": {},
+            "changed_ratio": 0.0,
+            "align": "features",
+            "feature_inliers": 1152,
+            "objects": [],
+            "color_correction": {
+              "reference": {
+                "wb_gains_bgr": [
+                  0.975,
+                  1.017,
+                  1.02
+                ],
+                "sat_scale": 0.6
+              },
+              "current": {
+                "wb_gains_bgr": [
+                  1.013,
+                  1.025,
+                  1.027
+                ],
+                "sat_scale": 0.6
+              }
+            },
+            "image": "P01_compare.jpg"
+          }
+        }
+      },
+      "initial_observation": false,
+      "image": "P01.png",
+      "pose": {
+        "x": 0.38460972026122253,
+        "y": 0.4463751065722399,
+        "yaw": 1.6241962164337893
+      },
+      "target": {
+        "x": 0.41,
+        "y": 0.5,
+        "yaw": 1.545
+      },
+      "observed_at": "2026-10-31T01:47:37.640243",
+      "error_xy_m": 0.059,
+      "error_yaw_deg": 4.5,
+      "compare": {
+        "reference_lap": "2026-10-31_014448",
+        "reference_image": "P01.png",
+        "view_id": "front",
+        "status": "unchanged",
+        "change": null,
+        "count": 0,
+        "changes": {},
+        "changed_ratio": 0.0,
+        "align": "features",
+        "feature_inliers": 1152,
+        "objects": [],
+        "color_correction": {
+          "reference": {
+            "wb_gains_bgr": [
+              0.975,
+              1.017,
+              1.02
+            ],
+            "sat_scale": 0.6
+          },
+          "current": {
+            "wb_gains_bgr": [
+              1.013,
+              1.025,
+              1.027
+            ],
+            "sat_scale": 0.6
+          }
+        },
+        "image": "P01_compare.jpg"
+      },
+      "final": {
+        "status": "unchanged",
+        "changes": {},
+        "change": null,
+        "count": 0,
+        "source": "front"
+      }
+    },
+    {
+      "id": "P00",
+      "status": "ok",
+      "views": {
+        "front": {
+          "view_id": "front",
+          "target": {
+            "x": 1.61,
+            "y": 0.47,
+            "yaw": 1.545
+          },
+          "status": "ok",
+          "image": "P00.png",
+          "pose": {
+            "x": 1.5891362395524973,
+            "y": 0.48943299363707515,
+            "yaw": 1.7308238205845798
+          },
+          "odom_pose": {
+            "x": 1.5614314881637392,
+            "y": 0.18269936602407674,
+            "yaw": 2.81600924002152
+          },
+          "compare": {
+            "reference_lap": "2026-10-31_014448",
+            "reference_image": "P00.png",
+            "view_id": "front",
+            "status": "unchanged",
+            "change": null,
+            "count": 0,
+            "changes": {},
+            "changed_ratio": 0.0,
+            "align": "features",
+            "feature_inliers": 1039,
+            "objects": [],
+            "color_correction": {
+              "reference": {
+                "wb_gains_bgr": [
+                  0.999,
+                  1.011,
+                  1.013
+                ],
+                "sat_scale": 0.6
+              },
+              "current": {
+                "wb_gains_bgr": [
+                  1.004,
+                  1.017,
+                  1.018
+                ],
+                "sat_scale": 0.6
+              }
+            },
+            "image": "P00_compare.jpg"
+          }
+        }
+      },
+      "initial_observation": false,
+      "image": "P00.png",
+      "pose": {
+        "x": 1.5891362395524973,
+        "y": 0.48943299363707515,
+        "yaw": 1.7308238205845798
+      },
+      "target": {
+        "x": 1.61,
+        "y": 0.47,
+        "yaw": 1.545
+      },
+      "observed_at": "2026-10-31T01:48:11.916194",
+      "error_xy_m": 0.029,
+      "error_yaw_deg": 10.6,
+      "compare": {
+        "reference_lap": "2026-10-31_014448",
+        "reference_image": "P00.png",
+        "view_id": "front",
+        "status": "unchanged",
+        "change": null,
+        "count": 0,
+        "changes": {},
+        "changed_ratio": 0.0,
+        "align": "features",
+        "feature_inliers": 1039,
+        "objects": [],
+        "color_correction": {
+          "reference": {
+            "wb_gains_bgr": [
+              0.999,
+              1.011,
+              1.013
+            ],
+            "sat_scale": 0.6
+          },
+          "current": {
+            "wb_gains_bgr": [
+              1.004,
+              1.017,
+              1.018
+            ],
+            "sat_scale": 0.6
+          }
+        },
+        "image": "P00_compare.jpg"
+      },
+      "final": {
+        "status": "unchanged",
+        "changes": {},
+        "change": null,
+        "count": 0,
+        "source": "front"
+      }
+    }
+  ],
+  "finished": "2026-10-31T01:48:44"
+}
