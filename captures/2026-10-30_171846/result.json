@@ -1,0 +1,188 @@
+{
+  "route": "demo_real3",
+  "route_file": "/home/eun/plant_ws/install/plant_observer_gazebo/share/plant_observer_gazebo/config/patrol_demo_real3.yaml",
+  "image_rotation": 90,
+  "lap": 2,
+  "started": "2026-10-30T17:18:46",
+  "finished": "2026-10-30T17:20:30",
+  "home": "ok",
+  "visit_order": [
+    {
+      "id": "P00",
+      "reason": "직전 회차 잎 색 변화 2곳 확정"
+    },
+    {
+      "id": "P01",
+      "reason": null
+    }
+  ],
+  "stops": [
+    {
+      "id": "P00",
+      "target": {
+        "x": 1.61,
+        "y": 0.47,
+        "yaw": 1.545
+      },
+      "status": "ok",
+      "image": "P00.png",
+      "pose": {
+        "x": 1.528,
+        "y": 0.386,
+        "yaw": 1.594
+      },
+      "error_xy_m": 0.118,
+      "error_yaw_deg": 2.8,
+      "compare": {
+        "reference_lap": "2026-10-30_171702",
+        "status": "unchanged",
+        "change": null,
+        "count": 0,
+        "changes": {},
+        "changed_ratio": 0.0,
+        "align": "features",
+        "feature_inliers": 376,
+        "objects": [],
+        "color_correction": {
+          "reference": {
+            "wb_gains_bgr": [
+              0.98,
+              0.99,
+              0.996
+            ],
+            "sat_scale": 1.226
+          },
+          "current": {
+            "wb_gains_bgr": [
+              1.013,
+              1.023,
+              1.029
+            ],
+            "sat_scale": 1.357
+          }
+        },
+        "image": "P00_compare.jpg"
+      }
+    },
+    {
+      "id": "P01",
+      "target": {
+        "x": 0.41,
+        "y": 0.5,
+        "yaw": 1.545
+      },
+      "status": "ok",
+      "image": "P01.png",
+      "pose": {
+        "x": 0.495,
+        "y": 0.434,
+        "yaw": 1.487
+      },
+      "error_xy_m": 0.108,
+      "error_yaw_deg": -3.3,
+      "compare": {
+        "reference_lap": "2026-10-30_171702",
+        "status": "changed",
+        "change": "fruit_added",
+        "count": 1,
+        "changes": {
+          "fruit_added": 1
+        },
+        "changed_ratio": 0.0962,
+        "align": "features",
+        "feature_inliers": 262,
+        "objects": [
+          {
+            "type": "fruit_added",
+            "bbox": [
+              249,
+              374,
+              68,
+              62
+            ],
+            "area_px": 3064
+          }
+        ],
+        "color_correction": {
+          "reference": {
+            "wb_gains_bgr": [
+              0.982,
+              0.993,
+              1.0
+            ],
+            "sat_scale": 1.226
+          },
+          "current": {
+            "wb_gains_bgr": [
+              1.012,
+              1.024,
+              1.029
+            ],
+            "sat_scale": 1.31
+          }
+        },
+        "image": "P01_compare.jpg"
+      },
+      "recheck": {
+        "status": "ok",
+        "target": {
+          "x": 0.281,
+          "y": 0.52,
+          "yaw": 1.283
+        },
+        "image": "P01_recheck.png",
+        "compare": {
+          "reference_lap": "2026-10-30_171702",
+          "status": "changed",
+          "change": "fruit_added",
+          "count": 1,
+          "changes": {
+            "fruit_added": 1
+          },
+          "changed_ratio": 0.0932,
+          "align": "features",
+          "feature_inliers": 183,
+          "objects": [
+            {
+              "type": "fruit_added",
+              "bbox": [
+                249,
+                372,
+                68,
+                62
+              ],
+              "area_px": 3023
+            }
+          ],
+          "rotation_deg": 90,
+          "color_correction": {
+            "reference": {
+              "wb_gains_bgr": [
+                0.982,
+                0.993,
+                1.0
+              ],
+              "sat_scale": 1.226
+            },
+            "current": {
+              "wb_gains_bgr": [
+                1.005,
+                1.015,
+                1.02
+              ],
+              "sat_scale": 1.118
+            }
+          },
+          "image": "P01_recheck_compare.jpg"
+        }
+      },
+      "final": {
+        "verdict": "confirmed",
+        "status": "changed",
+        "changes": {
+          "fruit_added": 1
+        }
+      }
+    }
+  ]
+}

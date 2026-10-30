@@ -1,0 +1,115 @@
+{
+  "route": "demo_real3",
+  "route_file": "/home/eun/plant_ws/install/plant_observer_gazebo/share/plant_observer_gazebo/config/patrol_demo_real3.yaml",
+  "image_rotation": 90,
+  "lap": 3,
+  "started": "2026-10-30T17:12:49",
+  "finished": "2026-10-30T17:13:58",
+  "home": "ok",
+  "visit_order": [
+    {
+      "id": "P01",
+      "reason": "직전 회차 열매 생성 1곳 확정"
+    },
+    {
+      "id": "P00",
+      "reason": null
+    }
+  ],
+  "stops": [
+    {
+      "id": "P01",
+      "target": {
+        "x": 0.41,
+        "y": 0.5,
+        "yaw": 1.545
+      },
+      "status": "ok",
+      "image": "P01.png",
+      "pose": {
+        "x": 0.333,
+        "y": 0.37,
+        "yaw": 1.469
+      },
+      "error_xy_m": 0.151,
+      "error_yaw_deg": -4.4,
+      "compare": {
+        "reference_lap": "2026-10-30_171119",
+        "status": "unchanged",
+        "change": null,
+        "count": 0,
+        "changes": {},
+        "changed_ratio": 0.0,
+        "align": "features",
+        "feature_inliers": 313,
+        "objects": [],
+        "color_correction": {
+          "reference": {
+            "wb_gains_bgr": [
+              1.033,
+              1.019,
+              1.018
+            ],
+            "sat_scale": 1.086
+          },
+          "current": {
+            "wb_gains_bgr": [
+              1.021,
+              1.012,
+              1.01
+            ],
+            "sat_scale": 0.974
+          }
+        },
+        "image": "P01_compare.jpg"
+      }
+    },
+    {
+      "id": "P00",
+      "target": {
+        "x": 1.61,
+        "y": 0.47,
+        "yaw": 1.545
+      },
+      "status": "ok",
+      "image": "P00.png",
+      "pose": {
+        "x": 1.483,
+        "y": 0.452,
+        "yaw": 1.617
+      },
+      "error_xy_m": 0.128,
+      "error_yaw_deg": 4.1,
+      "compare": {
+        "reference_lap": "2026-10-30_171119",
+        "status": "unchanged",
+        "change": null,
+        "count": 0,
+        "changes": {},
+        "changed_ratio": 0.0,
+        "align": "features",
+        "feature_inliers": 281,
+        "objects": [],
+        "color_correction": {
+          "reference": {
+            "wb_gains_bgr": [
+              1.039,
+              1.033,
+              1.032
+            ],
+            "sat_scale": 0.974
+          },
+          "current": {
+            "wb_gains_bgr": [
+              1.033,
+              1.027,
+              1.025
+            ],
+            "sat_scale": 0.905
+          }
+        },
+        "image": "P00_compare.jpg"
+      }
+    }
+  ]
+}

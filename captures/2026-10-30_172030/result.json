@@ -1,0 +1,227 @@
+{
+  "route": "demo_real3",
+  "route_file": "/home/eun/plant_ws/install/plant_observer_gazebo/share/plant_observer_gazebo/config/patrol_demo_real3.yaml",
+  "image_rotation": 90,
+  "lap": 3,
+  "started": "2026-10-30T17:20:30",
+  "finished": "2026-10-30T17:21:24",
+  "home": "nav_failed",
+  "visit_order": [
+    {
+      "id": "P01",
+      "reason": "직전 회차 열매 생성 1곳 확정"
+    },
+    {
+      "id": "P00",
+      "reason": null
+    }
+  ],
+  "stops": [
+    {
+      "id": "P01",
+      "target": {
+        "x": 0.41,
+        "y": 0.5,
+        "yaw": 1.545
+      },
+      "status": "ok",
+      "image": "P01.png",
+      "pose": {
+        "x": 0.336,
+        "y": 0.365,
+        "yaw": 1.463
+      },
+      "error_xy_m": 0.154,
+      "error_yaw_deg": -4.7,
+      "compare": {
+        "reference_lap": "2026-10-30_171846",
+        "status": "unchanged",
+        "change": null,
+        "count": 0,
+        "changes": {},
+        "changed_ratio": 0.0,
+        "align": "features",
+        "feature_inliers": 296,
+        "objects": [],
+        "color_correction": {
+          "reference": {
+            "wb_gains_bgr": [
+              1.012,
+              1.024,
+              1.029
+            ],
+            "sat_scale": 1.31
+          },
+          "current": {
+            "wb_gains_bgr": [
+              1.003,
+              1.014,
+              1.019
+            ],
+            "sat_scale": 1.226
+          }
+        },
+        "image": "P01_compare.jpg"
+      }
+    },
+    {
+      "id": "P00",
+      "target": {
+        "x": 1.61,
+        "y": 0.47,
+        "yaw": 1.545
+      },
+      "status": "ok",
+      "image": "P00.png",
+      "pose": {
+        "x": 1.49,
+        "y": 0.42,
+        "yaw": 1.607
+      },
+      "error_xy_m": 0.13,
+      "error_yaw_deg": 3.5,
+      "compare": {
+        "reference_lap": "2026-10-30_171846",
+        "status": "changed",
+        "change": "leaf_color",
+        "count": 3,
+        "changes": {
+          "leaf_color": 3
+        },
+        "changed_ratio": 0.1649,
+        "align": "features",
+        "feature_inliers": 159,
+        "objects": [
+          {
+            "type": "leaf_color",
+            "bbox": [
+              224,
+              236,
+              44,
+              43
+            ],
+            "area_px": 1358
+          },
+          {
+            "type": "leaf_color",
+            "bbox": [
+              324,
+              324,
+              42,
+              38
+            ],
+            "area_px": 1148
+          },
+          {
+            "type": "leaf_color",
+            "bbox": [
+              211,
+              350,
+              46,
+              44
+            ],
+            "area_px": 1549
+          }
+        ],
+        "color_correction": {
+          "reference": {
+            "wb_gains_bgr": [
+              1.013,
+              1.023,
+              1.029
+            ],
+            "sat_scale": 1.357
+          },
+          "current": {
+            "wb_gains_bgr": [
+              1.03,
+              1.032,
+              1.019
+            ],
+            "sat_scale": 1.152
+          }
+        },
+        "image": "P00_compare.jpg"
+      },
+      "recheck": {
+        "status": "ok",
+        "target": {
+          "x": 1.481,
+          "y": 0.49,
+          "yaw": 1.283
+        },
+        "image": "P00_recheck.png",
+        "compare": {
+          "reference_lap": "2026-10-30_171846",
+          "status": "changed",
+          "change": "leaf_color",
+          "count": 3,
+          "changes": {
+            "leaf_color": 3
+          },
+          "changed_ratio": 0.1642,
+          "align": "features",
+          "feature_inliers": 146,
+          "objects": [
+            {
+              "type": "leaf_color",
+              "bbox": [
+                224,
+                238,
+                44,
+                40
+              ],
+              "area_px": 1353
+            },
+            {
+              "type": "leaf_color",
+              "bbox": [
+                324,
+                322,
+                42,
+                40
+              ],
+              "area_px": 1172
+            },
+            {
+              "type": "leaf_color",
+              "bbox": [
+                210,
+                350,
+                46,
+                44
+              ],
+              "area_px": 1552
+            }
+          ],
+          "color_correction": {
+            "reference": {
+              "wb_gains_bgr": [
+                1.013,
+                1.023,
+                1.029
+              ],
+              "sat_scale": 1.357
+            },
+            "current": {
+              "wb_gains_bgr": [
+                1.036,
+                1.039,
+                1.027
+              ],
+              "sat_scale": 1.086
+            }
+          },
+          "image": "P00_recheck_compare.jpg"
+        }
+      },
+      "final": {
+        "verdict": "confirmed",
+        "status": "changed",
+        "changes": {
+          "leaf_color": 3
+        }
+      }
+    }
+  ]
+}

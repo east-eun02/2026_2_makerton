@@ -1,0 +1,35 @@
+{
+  "route": "demo",
+  "route_file": "/home/eun/plant_ws/install/plant_observer_gazebo/share/plant_observer_gazebo/config/patrol_demo.yaml",
+  "lap": 1,
+  "started": "2026-10-29T19:00:31",
+  "finished": "2026-10-29T19:01:16",
+  "home": "ok",
+  "stops": [
+    {
+      "id": "P00",
+      "target": {
+        "x": 0.3,
+        "y": -0.6,
+        "yaw": 0.0
+      },
+      "status": "nav_failed"
+    },
+    {
+      "id": "P01",
+      "target": {
+        "x": 0.3,
+        "y": 0.6,
+        "yaw": 0.0
+      },
+      "status": "no_image",
+      "pose": {
+        "x": 0.234,
+        "y": 0.5,
+        "yaw": -0.02
+      },
+      "error_xy_m": 0.12,
+      "error_yaw_deg": -1.2
+    }
+  ]
+}

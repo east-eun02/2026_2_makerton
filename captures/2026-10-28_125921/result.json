@@ -1,0 +1,112 @@
+{
+  "route": "greenhouse",
+  "route_file": "/home/eun/plant_ws/install/plant_observer_gazebo/share/plant_observer_gazebo/config/patrol_greenhouse.yaml",
+  "lap": 1,
+  "started": "2026-10-28T12:59:21",
+  "finished": "2026-10-28T13:02:44",
+  "home": "ok",
+  "stops": [
+    {
+      "id": "P00",
+      "target": {
+        "x": 0.4,
+        "y": 0.5,
+        "yaw": 1.5708
+      },
+      "status": "ok",
+      "image": "P00.png",
+      "pose": {
+        "x": 0.379,
+        "y": 0.456,
+        "yaw": 1.598
+      },
+      "error_xy_m": 0.048,
+      "error_yaw_deg": 1.6
+    },
+    {
+      "id": "P01",
+      "target": {
+        "x": 1.6,
+        "y": 0.5,
+        "yaw": 1.5708
+      },
+      "status": "ok",
+      "image": "P01.png",
+      "pose": {
+        "x": 1.548,
+        "y": 0.54,
+        "yaw": 1.583
+      },
+      "error_xy_m": 0.066,
+      "error_yaw_deg": 0.7
+    },
+    {
+      "id": "P02",
+      "target": {
+        "x": 2.8,
+        "y": 0.5,
+        "yaw": 1.5708
+      },
+      "status": "ok",
+      "image": "P02.png",
+      "pose": {
+        "x": 2.774,
+        "y": 0.521,
+        "yaw": 1.571
+      },
+      "error_xy_m": 0.033,
+      "error_yaw_deg": 0.0
+    },
+    {
+      "id": "P05",
+      "target": {
+        "x": 2.8,
+        "y": -0.5,
+        "yaw": -1.5708
+      },
+      "status": "ok",
+      "image": "P05.png",
+      "pose": {
+        "x": 2.772,
+        "y": -0.454,
+        "yaw": -1.606
+      },
+      "error_xy_m": 0.054,
+      "error_yaw_deg": -2.0
+    },
+    {
+      "id": "P04",
+      "target": {
+        "x": 1.6,
+        "y": -0.5,
+        "yaw": -1.5708
+      },
+      "status": "ok",
+      "image": "P04.png",
+      "pose": {
+        "x": 1.656,
+        "y": -0.493,
+        "yaw": -1.561
+      },
+      "error_xy_m": 0.057,
+      "error_yaw_deg": 0.6
+    },
+    {
+      "id": "P03",
+      "target": {
+        "x": 0.4,
+        "y": -0.5,
+        "yaw": -1.5708
+      },
+      "status": "ok",
+      "image": "P03.png",
+      "pose": {
+        "x": 0.433,
+        "y": -0.526,
+        "yaw": -1.572
+      },
+      "error_xy_m": 0.042,
+      "error_yaw_deg": -0.0
+    }
+  ]
+}
