@@ -1,0 +1,451 @@
+{
+  "route": "demo_real3",
+  "route_file": "/home/eun/plant_ws/install/plant_observer_gazebo/share/plant_observer_gazebo/config/patrol_demo_real3.yaml",
+  "image_rotation": 90,
+  "compare_to": "previous",
+  "reference_lap": "2026-10-31_012850",
+  "capture_policy": "front_compare_sides_for_admin",
+  "lap": 1,
+  "started": "2026-10-31T01:44:48",
+  "home": "ok",
+  "visit_order": [
+    {
+      "id": "P01",
+      "reason": "미확인 변화: 열매 손상 1곳 (2026-10-31_012850)"
+    },
+    {
+      "id": "P00",
+      "reason": "미확인 변화: 잎 탈락 1곳 재촬영 확인 (2026-10-31_005255)"
+    }
+  ],
+  "stops": [
+    {
+      "id": "P01",
+      "status": "ok",
+      "views": {
+        "front": {
+          "view_id": "front",
+          "target": {
+            "x": 0.41,
+            "y": 0.5,
+            "yaw": 1.545
+          },
+          "status": "ok",
+          "image": "P01.png",
+          "pose": {
+            "x": 0.3910287479524951,
+            "y": 0.4268112158503896,
+            "yaw": 1.6061498033402162
+          },
+          "odom_pose": {
+            "x": 0.8551427473367177,
+            "y": -0.8525698748386678,
+            "yaw": 2.8551284225530194
+          },
+          "compare": {
+            "reference_lap": "2026-10-31_012850",
+            "reference_image": "P01.png",
+            "view_id": "front",
+            "status": "changed",
+            "change": "fruit_added",
+            "count": 1,
+            "changes": {
+              "fruit_added": 1
+            },
+            "changed_ratio": 0.1111,
+            "align": "features",
+            "feature_inliers": 664,
+            "objects": [
+              {
+                "type": "fruit_added",
+                "bbox": [
+                  123,
+                  316,
+                  72,
+                  72
+                ],
+                "area_px": 3758
+              }
+            ],
+            "color_correction": {
+              "reference": {
+                "wb_gains_bgr": [
+                  0.983,
+                  1.008,
+                  1.011
+                ],
+                "sat_scale": 0.6
+              },
+              "current": {
+                "wb_gains_bgr": [
+                  0.975,
+                  1.017,
+                  1.02
+                ],
+                "sat_scale": 0.6
+              }
+            },
+            "image": "P01_compare.jpg"
+          }
+        },
+        "left": {
+          "view_id": "left",
+          "target": {
+            "x": 0.13309132564889659,
+            "y": 0.4180150959304576,
+            "yaw": 1.1086676870014176
+          },
+          "purpose": "admin_review",
+          "status": "ok",
+          "pose": {
+            "x": 0.11828933775881234,
+            "y": 0.419302380432951,
+            "yaw": 0.9588725998221014
+          },
+          "odom_pose": {
+            "x": 0.7905802215384172,
+            "y": -1.183015847882217,
+            "yaw": 2.2817135763274576
+          },
+          "movement_m": 0.337,
+          "viewpoint_change_deg": 24.5,
+          "image": "P01_left.png"
+        },
+        "right": {
+          "view_id": "right",
+          "target": {
+            "x": 0.6823122755583699,
+            "y": 0.40384406931239314,
+            "yaw": 1.9813323129985823
+          },
+          "purpose": "admin_review",
+          "status": "ok",
+          "pose": {
+            "x": 0.6873644455840182,
+            "y": 0.35999035204295105,
+            "yaw": 2.1506272372915416
+          },
+          "odom_pose": {
+            "x": 1.0608962770594714,
+            "y": -0.6046748244099828,
+            "yaw": -2.9677023018370567
+          },
+          "movement_m": 0.322,
+          "viewpoint_change_deg": 25.6,
+          "image": "P01_right.png"
+        }
+      },
+      "initial_observation": false,
+      "image": "P01.png",
+      "pose": {
+        "x": 0.3910287479524951,
+        "y": 0.4268112158503896,
+        "yaw": 1.6061498033402162
+      },
+      "target": {
+        "x": 0.41,
+        "y": 0.5,
+        "yaw": 1.545
+      },
+      "observed_at": "2026-10-31T01:45:04.955158",
+      "error_xy_m": 0.076,
+      "error_yaw_deg": 3.5,
+      "compare": {
+        "reference_lap": "2026-10-31_012850",
+        "reference_image": "P01.png",
+        "view_id": "front",
+        "status": "changed",
+        "change": "fruit_added",
+        "count": 1,
+        "changes": {
+          "fruit_added": 1
+        },
+        "changed_ratio": 0.1111,
+        "align": "features",
+        "feature_inliers": 664,
+        "objects": [
+          {
+            "type": "fruit_added",
+            "bbox": [
+              123,
+              316,
+              72,
+              72
+            ],
+            "area_px": 3758
+          }
+        ],
+        "color_correction": {
+          "reference": {
+            "wb_gains_bgr": [
+              0.983,
+              1.008,
+              1.011
+            ],
+            "sat_scale": 0.6
+          },
+          "current": {
+            "wb_gains_bgr": [
+              0.975,
+              1.017,
+              1.02
+            ],
+            "sat_scale": 0.6
+          }
+        },
+        "image": "P01_compare.jpg"
+      },
+      "final": {
+        "status": "changed",
+        "changes": {
+          "fruit_added": 1
+        },
+        "change": "fruit_added",
+        "count": 1,
+        "source": "front"
+      },
+      "recheck": {
+        "purpose": "admin_review",
+        "attempts": [
+          {
+            "view_id": "left",
+            "target": {
+              "x": 0.13309132564889659,
+              "y": 0.4180150959304576,
+              "yaw": 1.1086676870014176
+            },
+            "purpose": "admin_review",
+            "status": "ok",
+            "pose": {
+              "x": 0.11828933775881234,
+              "y": 0.419302380432951,
+              "yaw": 0.9588725998221014
+            },
+            "odom_pose": {
+              "x": 0.7905802215384172,
+              "y": -1.183015847882217,
+              "yaw": 2.2817135763274576
+            },
+            "movement_m": 0.337,
+            "viewpoint_change_deg": 24.5,
+            "image": "P01_left.png"
+          },
+          {
+            "view_id": "right",
+            "target": {
+              "x": 0.6823122755583699,
+              "y": 0.40384406931239314,
+              "yaw": 1.9813323129985823
+            },
+            "purpose": "admin_review",
+            "status": "ok",
+            "pose": {
+              "x": 0.6873644455840182,
+              "y": 0.35999035204295105,
+              "yaw": 2.1506272372915416
+            },
+            "odom_pose": {
+              "x": 1.0608962770594714,
+              "y": -0.6046748244099828,
+              "yaw": -2.9677023018370567
+            },
+            "movement_m": 0.322,
+            "viewpoint_change_deg": 25.6,
+            "image": "P01_right.png"
+          }
+        ],
+        "views": {
+          "left": {
+            "view_id": "left",
+            "target": {
+              "x": 0.13309132564889659,
+              "y": 0.4180150959304576,
+              "yaw": 1.1086676870014176
+            },
+            "purpose": "admin_review",
+            "status": "ok",
+            "pose": {
+              "x": 0.11828933775881234,
+              "y": 0.419302380432951,
+              "yaw": 0.9588725998221014
+            },
+            "odom_pose": {
+              "x": 0.7905802215384172,
+              "y": -1.183015847882217,
+              "yaw": 2.2817135763274576
+            },
+            "movement_m": 0.337,
+            "viewpoint_change_deg": 24.5,
+            "image": "P01_left.png"
+          },
+          "right": {
+            "view_id": "right",
+            "target": {
+              "x": 0.6823122755583699,
+              "y": 0.40384406931239314,
+              "yaw": 1.9813323129985823
+            },
+            "purpose": "admin_review",
+            "status": "ok",
+            "pose": {
+              "x": 0.6873644455840182,
+              "y": 0.35999035204295105,
+              "yaw": 2.1506272372915416
+            },
+            "odom_pose": {
+              "x": 1.0608962770594714,
+              "y": -0.6046748244099828,
+              "yaw": -2.9677023018370567
+            },
+            "movement_m": 0.322,
+            "viewpoint_change_deg": 25.6,
+            "image": "P01_right.png"
+          }
+        },
+        "origin_pose": {
+          "x": 0.39102964035597176,
+          "y": 0.42678592090445244,
+          "yaw": 1.6059734222740136
+        },
+        "origin_odom_pose": {
+          "x": 0.855167025951853,
+          "y": -0.8525770288250419,
+          "yaw": 2.8549520414868166
+        },
+        "view_id": "left",
+        "target": {
+          "x": 0.13309132564889659,
+          "y": 0.4180150959304576,
+          "yaw": 1.1086676870014176
+        },
+        "status": "ok",
+        "pose": {
+          "x": 0.11828933775881234,
+          "y": 0.419302380432951,
+          "yaw": 0.9588725998221014
+        },
+        "odom_pose": {
+          "x": 0.7905802215384172,
+          "y": -1.183015847882217,
+          "yaw": 2.2817135763274576
+        },
+        "movement_m": 0.337,
+        "viewpoint_change_deg": 24.5,
+        "image": "P01_left.png"
+      }
+    },
+    {
+      "id": "P00",
+      "status": "ok",
+      "views": {
+        "front": {
+          "view_id": "front",
+          "target": {
+            "x": 1.61,
+            "y": 0.47,
+            "yaw": 1.545
+          },
+          "status": "ok",
+          "image": "P00.png",
+          "pose": {
+            "x": 1.5875147643739527,
+            "y": 0.4655527415229872,
+            "yaw": 1.6565026443190782
+          },
+          "odom_pose": {
+            "x": 1.4239242467063418,
+            "y": 0.25386507859860463,
+            "yaw": 2.839606888727161
+          },
+          "compare": {
+            "reference_lap": "2026-10-31_012850",
+            "reference_image": "P00.png",
+            "view_id": "front",
+            "status": "unchanged",
+            "change": null,
+            "count": 0,
+            "changes": {},
+            "changed_ratio": 0.0,
+            "align": "features",
+            "feature_inliers": 1139,
+            "objects": [],
+            "color_correction": {
+              "reference": {
+                "wb_gains_bgr": [
+                  0.969,
+                  0.991,
+                  0.995
+                ],
+                "sat_scale": 0.6
+              },
+              "current": {
+                "wb_gains_bgr": [
+                  0.996,
+                  1.007,
+                  1.01
+                ],
+                "sat_scale": 0.6
+              }
+            },
+            "image": "P00_compare.jpg"
+          }
+        }
+      },
+      "initial_observation": false,
+      "image": "P00.png",
+      "pose": {
+        "x": 1.5875147643739527,
+        "y": 0.4655527415229872,
+        "yaw": 1.6565026443190782
+      },
+      "target": {
+        "x": 1.61,
+        "y": 0.47,
+        "yaw": 1.545
+      },
+      "observed_at": "2026-10-31T01:46:50.134046",
+      "error_xy_m": 0.023,
+      "error_yaw_deg": 6.4,
+      "compare": {
+        "reference_lap": "2026-10-31_012850",
+        "reference_image": "P00.png",
+        "view_id": "front",
+        "status": "unchanged",
+        "change": null,
+        "count": 0,
+        "changes": {},
+        "changed_ratio": 0.0,
+        "align": "features",
+        "feature_inliers": 1139,
+        "objects": [],
+        "color_correction": {
+          "reference": {
+            "wb_gains_bgr": [
+              0.969,
+              0.991,
+              0.995
+            ],
+            "sat_scale": 0.6
+          },
+          "current": {
+            "wb_gains_bgr": [
+              0.996,
+              1.007,
+              1.01
+            ],
+            "sat_scale": 0.6
+          }
+        },
+        "image": "P00_compare.jpg"
+      },
+      "final": {
+        "status": "unchanged",
+        "changes": {},
+        "change": null,
+        "count": 0,
+        "source": "front"
+      }
+    }
+  ],
+  "finished": "2026-10-31T01:47:21"
+}
