@@ -1,9 +1,16 @@
 {
-  "updated": "2026-10-30T20:28:03",
+  "updated": "2026-10-30T20:33:09",
   "baselines": {
     "demo_real3": "2026-10-30_202412"
   },
   "laps": [
+    {
+      "lap": "2026-10-30_203302",
+      "route": "demo_real3",
+      "started": "2026-10-30T20:33:02",
+      "finished": null,
+      "stops": []
+    },
     {
       "lap": "2026-10-30_202412",
       "route": "demo_real3",
