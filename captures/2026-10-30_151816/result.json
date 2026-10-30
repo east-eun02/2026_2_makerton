@@ -1,0 +1,141 @@
+{
+  "route": "demo_real3",
+  "route_file": "/home/eun/plant_ws/install/plant_observer_gazebo/share/plant_observer_gazebo/config/patrol_demo_real3.yaml",
+  "image_rotation": 90,
+  "lap": 1,
+  "started": "2026-10-30T15:18:16",
+  "finished": "2026-10-30T15:19:26",
+  "home": "ok",
+  "stops": [
+    {
+      "id": "P00",
+      "target": {
+        "x": 1.61,
+        "y": 0.47,
+        "yaw": 1.545
+      },
+      "status": "ok",
+      "image": "P00.png",
+      "pose": {
+        "x": 1.511,
+        "y": 0.357,
+        "yaw": 1.528
+      },
+      "error_xy_m": 0.15,
+      "error_yaw_deg": -1.0,
+      "compare": {
+        "reference_lap": "2026-10-29_192945",
+        "status": "changed",
+        "change": "leaf_color",
+        "count": 4,
+        "changed_ratio": 0.2295,
+        "align": "features",
+        "feature_inliers": 55,
+        "objects": [
+          {
+            "type": "leaf_color",
+            "bbox": [
+              264,
+              122,
+              42,
+              48
+            ],
+            "area_px": 1426
+          },
+          {
+            "type": "leaf_color",
+            "bbox": [
+              245,
+              187,
+              43,
+              40
+            ],
+            "area_px": 1371
+          },
+          {
+            "type": "leaf_color",
+            "bbox": [
+              291,
+              215,
+              46,
+              39
+            ],
+            "area_px": 1388
+          },
+          {
+            "type": "leaf_color",
+            "bbox": [
+              363,
+              258,
+              28,
+              14
+            ],
+            "area_px": 269
+          }
+        ],
+        "rotation_deg": 90,
+        "image": "P00_compare.jpg"
+      }
+    },
+    {
+      "id": "P01",
+      "target": {
+        "x": 0.41,
+        "y": 0.5,
+        "yaw": 1.545
+      },
+      "status": "ok",
+      "image": "P01.png",
+      "pose": {
+        "x": 0.536,
+        "y": 0.487,
+        "yaw": 1.502
+      },
+      "error_xy_m": 0.127,
+      "error_yaw_deg": -2.4,
+      "compare": {
+        "reference_lap": "2026-10-29_192945",
+        "status": "changed",
+        "change": "fruit_added",
+        "count": 2,
+        "changed_ratio": 0.1781,
+        "align": "features",
+        "feature_inliers": 59,
+        "objects": [
+          {
+            "type": "leaf_loss",
+            "bbox": [
+              387,
+              142,
+              31,
+              11
+            ],
+            "area_px": 174
+          },
+          {
+            "type": "fruit_added",
+            "bbox": [
+              315,
+              203,
+              65,
+              71
+            ],
+            "area_px": 2771
+          },
+          {
+            "type": "fruit_added",
+            "bbox": [
+              346,
+              315,
+              51,
+              36
+            ],
+            "area_px": 1286
+          }
+        ],
+        "rotation_deg": 90,
+        "image": "P01_compare.jpg"
+      }
+    }
+  ]
+}

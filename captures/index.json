@@ -1,0 +1,504 @@
+{
+  "updated": "2026-10-30T17:00:37",
+  "baselines": {
+    "demo_real3": "2026-10-29_192945"
+  },
+  "laps": [
+    {
+      "lap": "2026-10-30_162653",
+      "route": "demo_real3",
+      "started": "2026-10-30T16:26:53",
+      "finished": "2026-10-30T16:28:49",
+      "stops": [
+        {
+          "id": "P00",
+          "status": "ok",
+          "image": "2026-10-30_162653/P00.png",
+          "compare": {
+            "status": "align_failed",
+            "change": null,
+            "count": null,
+            "reference_lap": "2026-10-29_192945",
+            "reference_image": "2026-10-29_192945/P00.png",
+            "image": null
+          }
+        },
+        {
+          "id": "P01",
+          "status": "ok",
+          "image": "2026-10-30_162653/P01.png",
+          "compare": {
+            "status": "unchanged",
+            "change": null,
+            "count": 0,
+            "reference_lap": "2026-10-29_192945",
+            "reference_image": "2026-10-29_192945/P01.png",
+            "image": "2026-10-30_162653/P01_compare.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "lap": "2026-10-30_162533",
+      "route": "demo_real3",
+      "started": "2026-10-30T16:25:33",
+      "finished": "2026-10-30T16:26:53",
+      "stops": [
+        {
+          "id": "P01",
+          "status": "ok",
+          "image": "2026-10-30_162533/P01.png",
+          "compare": {
+            "status": "align_failed",
+            "change": null,
+            "count": null,
+            "reference_lap": "2026-10-29_192945",
+            "reference_image": "2026-10-29_192945/P01.png",
+            "image": null
+          }
+        },
+        {
+          "id": "P00",
+          "status": "ok",
+          "image": "2026-10-30_162533/P00.png",
+          "compare": {
+            "status": "align_failed",
+            "change": null,
+            "count": null,
+            "reference_lap": "2026-10-29_192945",
+            "reference_image": "2026-10-29_192945/P00.png",
+            "image": null
+          }
+        }
+      ]
+    },
+    {
+      "lap": "2026-10-30_162404",
+      "route": "demo_real3",
+      "started": "2026-10-30T16:24:04",
+      "finished": "2026-10-30T16:25:33",
+      "stops": [
+        {
+          "id": "P00",
+          "status": "ok",
+          "image": "2026-10-30_162404/P00.png",
+          "compare": {
+            "status": "align_failed",
+            "change": null,
+            "count": null,
+            "reference_lap": "2026-10-29_192945",
+            "reference_image": "2026-10-29_192945/P00.png",
+            "image": null
+          }
+        },
+        {
+          "id": "P01",
+          "status": "ok",
+          "image": "2026-10-30_162404/P01.png",
+          "compare": {
+            "status": "align_failed",
+            "change": null,
+            "count": null,
+            "reference_lap": "2026-10-29_192945",
+            "reference_image": "2026-10-29_192945/P01.png",
+            "image": null
+          }
+        }
+      ]
+    },
+    {
+      "lap": "2026-10-30_161939",
+      "route": "demo_real3",
+      "started": "2026-10-30T16:19:39",
+      "finished": "2026-10-30T16:21:04",
+      "stops": [
+        {
+          "id": "P00",
+          "status": "ok",
+          "image": "2026-10-30_161939/P00.png",
+          "compare": {
+            "status": "changed",
+            "change": "leaf_loss",
+            "count": 1,
+            "reference_lap": "2026-10-29_192945",
+            "reference_image": "2026-10-29_192945/P00.png",
+            "image": "2026-10-30_161939/P00_compare.jpg"
+          }
+        },
+        {
+          "id": "P01",
+          "status": "ok",
+          "image": "2026-10-30_161939/P01.png",
+          "compare": {
+            "status": "unchanged",
+            "change": null,
+            "count": 0,
+            "reference_lap": "2026-10-29_192945",
+            "reference_image": "2026-10-29_192945/P01.png",
+            "image": "2026-10-30_161939/P01_compare.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "lap": "2026-10-30_153304",
+      "route": "demo_real3",
+      "started": "2026-10-30T15:33:04",
+      "finished": "2026-10-30T15:34:24",
+      "stops": [
+        {
+          "id": "P00",
+          "status": "ok",
+          "image": "2026-10-30_153304/P00.png",
+          "compare": {
+            "status": "error",
+            "change": null,
+            "count": null,
+            "reference_lap": null,
+            "reference_image": null,
+            "image": null
+          }
+        },
+        {
+          "id": "P01",
+          "status": "ok",
+          "image": "2026-10-30_153304/P01.png",
+          "compare": {
+            "status": "align_failed",
+            "change": null,
+            "count": null,
+            "reference_lap": "2026-10-29_192945",
+            "reference_image": "2026-10-29_192945/P01.png",
+            "image": null
+          }
+        }
+      ]
+    },
+    {
+      "lap": "2026-10-30_152557",
+      "route": "demo_real3",
+      "started": "2026-10-30T15:25:57",
+      "finished": "2026-10-30T15:27:37",
+      "stops": [
+        {
+          "id": "P00",
+          "status": "ok",
+          "image": "2026-10-30_152557/P00.png",
+          "compare": {
+            "status": "changed",
+            "change": "leaf_color",
+            "count": 4,
+            "reference_lap": "2026-10-29_192945",
+            "reference_image": "2026-10-29_192945/P00.png",
+            "image": "2026-10-30_152557/P00_compare.jpg"
+          }
+        },
+        {
+          "id": "P01",
+          "status": "ok",
+          "image": "2026-10-30_152557/P01.png",
+          "compare": {
+            "status": "changed",
+            "change": "fruit_added",
+            "count": 2,
+            "reference_lap": "2026-10-29_192945",
+            "reference_image": "2026-10-29_192945/P01.png",
+            "image": "2026-10-30_152557/P01_compare.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "lap": "2026-10-30_152118",
+      "route": "demo_real3",
+      "started": "2026-10-30T15:21:18",
+      "finished": "2026-10-30T15:22:36",
+      "stops": [
+        {
+          "id": "P00",
+          "status": "ok",
+          "image": "2026-10-30_152118/P00.png",
+          "compare": {
+            "status": "changed",
+            "change": "leaf_color",
+            "count": 5,
+            "reference_lap": "2026-10-29_192945",
+            "reference_image": "2026-10-29_192945/P00.png",
+            "image": "2026-10-30_152118/P00_compare.jpg"
+          }
+        },
+        {
+          "id": "P01",
+          "status": "ok",
+          "image": "2026-10-30_152118/P01.png",
+          "compare": {
+            "status": "changed",
+            "change": "fruit_added",
+            "count": 2,
+            "reference_lap": "2026-10-29_192945",
+            "reference_image": "2026-10-29_192945/P01.png",
+            "image": "2026-10-30_152118/P01_compare.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "lap": "2026-10-30_151816",
+      "route": "demo_real3",
+      "started": "2026-10-30T15:18:16",
+      "finished": "2026-10-30T15:19:26",
+      "stops": [
+        {
+          "id": "P00",
+          "status": "ok",
+          "image": "2026-10-30_151816/P00.png",
+          "compare": {
+            "status": "changed",
+            "change": "leaf_color",
+            "count": 4,
+            "reference_lap": "2026-10-29_192945",
+            "reference_image": "2026-10-29_192945/P00.png",
+            "image": "2026-10-30_151816/P00_compare.jpg"
+          }
+        },
+        {
+          "id": "P01",
+          "status": "ok",
+          "image": "2026-10-30_151816/P01.png",
+          "compare": {
+            "status": "changed",
+            "change": "fruit_added",
+            "count": 2,
+            "reference_lap": "2026-10-29_192945",
+            "reference_image": "2026-10-29_192945/P01.png",
+            "image": "2026-10-30_151816/P01_compare.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "lap": "2026-10-30_145733",
+      "route": "demo_real3",
+      "started": "2026-10-30T14:57:33",
+      "finished": "2026-10-30T14:58:54",
+      "stops": [
+        {
+          "id": "P00",
+          "status": "ok",
+          "image": "2026-10-30_145733/P00.png",
+          "compare": {
+            "status": "changed",
+            "change": "other",
+            "count": 1,
+            "reference_lap": "2026-10-29_192945",
+            "reference_image": "2026-10-29_192945/P00.png",
+            "image": "2026-10-30_145733/P00_compare.jpg"
+          }
+        },
+        {
+          "id": "P01",
+          "status": "ok",
+          "image": "2026-10-30_145733/P01.png",
+          "compare": {
+            "status": "changed",
+            "change": "fruit_added",
+            "count": 2,
+            "reference_lap": "2026-10-29_192945",
+            "reference_image": "2026-10-29_192945/P01.png",
+            "image": "2026-10-30_145733/P01_compare.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "lap": "2026-10-30_145602",
+      "route": "demo_real3",
+      "started": "2026-10-30T14:56:02",
+      "finished": "2026-10-30T14:57:17",
+      "stops": [
+        {
+          "id": "P00",
+          "status": "ok",
+          "image": "2026-10-30_145602/P00.png",
+          "compare": {
+            "status": "align_failed",
+            "change": null,
+            "count": null,
+            "reference_lap": "2026-10-29_192945",
+            "reference_image": "2026-10-29_192945/P00.png",
+            "image": null
+          }
+        },
+        {
+          "id": "P01",
+          "status": "ok",
+          "image": "2026-10-30_145602/P01.png",
+          "compare": {
+            "status": "align_failed",
+            "change": null,
+            "count": null,
+            "reference_lap": "2026-10-29_192945",
+            "reference_image": "2026-10-29_192945/P01.png",
+            "image": null
+          }
+        }
+      ]
+    },
+    {
+      "lap": "2026-10-30_002113",
+      "route": "demo_real3",
+      "started": "2026-10-30T00:21:13",
+      "finished": "2026-10-30T00:22:50",
+      "stops": [
+        {
+          "id": "P00",
+          "status": "ok",
+          "image": "2026-10-30_002113/P00.png",
+          "compare": {
+            "status": "changed",
+            "change": "fruit_added",
+            "count": 3,
+            "reference_lap": "2026-10-29_192945",
+            "reference_image": "2026-10-29_192945/P00.png",
+            "image": "2026-10-30_002113/P00_compare.jpg"
+          }
+        },
+        {
+          "id": "P01",
+          "status": "ok",
+          "image": "2026-10-30_002113/P01.png",
+          "compare": {
+            "status": "changed",
+            "change": "fruit_added",
+            "count": 2,
+            "reference_lap": "2026-10-29_192945",
+            "reference_image": "2026-10-29_192945/P01.png",
+            "image": "2026-10-30_002113/P01_compare.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "lap": "2026-10-29_225930",
+      "route": "demo_real3",
+      "started": "2026-10-29T22:59:30",
+      "finished": "2026-10-29T23:01:05",
+      "stops": [
+        {
+          "id": "P00",
+          "status": "ok",
+          "image": "2026-10-29_225930/P00.png",
+          "compare": {
+            "status": "changed",
+            "change": "leaf_loss",
+            "count": 3,
+            "reference_lap": "2026-10-29_192945",
+            "reference_image": "2026-10-29_192945/P00.png",
+            "image": "2026-10-29_225930/P00_compare.jpg"
+          }
+        },
+        {
+          "id": "P01",
+          "status": "ok",
+          "image": "2026-10-29_225930/P01.png",
+          "compare": {
+            "status": "changed",
+            "change": "fruit_added",
+            "count": 2,
+            "reference_lap": "2026-10-29_192945",
+            "reference_image": "2026-10-29_192945/P01.png",
+            "image": "2026-10-29_225930/P01_compare.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "lap": "2026-10-29_193253",
+      "route": "demo_real3",
+      "started": "2026-10-29T19:32:53",
+      "finished": "2026-10-29T19:34:24",
+      "stops": [
+        {
+          "id": "P00",
+          "status": "ok",
+          "image": "2026-10-29_193253/P00.png",
+          "compare": {
+            "status": "unchanged",
+            "change": null,
+            "count": 0,
+            "reference_lap": "2026-10-29_192945",
+            "reference_image": "2026-10-29_192945/P00.png",
+            "image": "2026-10-29_193253/P00_compare.jpg"
+          }
+        },
+        {
+          "id": "P01",
+          "status": "ok",
+          "image": "2026-10-29_193253/P01.png",
+          "compare": {
+            "status": "unchanged",
+            "change": null,
+            "count": 0,
+            "reference_lap": "2026-10-29_192945",
+            "reference_image": "2026-10-29_192945/P01.png",
+            "image": "2026-10-29_193253/P01_compare.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "lap": "2026-10-29_192945",
+      "route": "demo_real3",
+      "started": "2026-10-29T19:29:45",
+      "finished": "2026-10-29T19:31:20",
+      "stops": [
+        {
+          "id": "P00",
+          "status": "ok",
+          "image": "2026-10-29_192945/P00.png",
+          "compare": {
+            "status": "no_reference",
+            "change": null,
+            "count": null,
+            "reference_lap": null,
+            "reference_image": null,
+            "image": null
+          }
+        },
+        {
+          "id": "P01",
+          "status": "ok",
+          "image": "2026-10-29_192945/P01.png",
+          "compare": {
+            "status": "no_reference",
+            "change": null,
+            "count": null,
+            "reference_lap": null,
+            "reference_image": null,
+            "image": null
+          }
+        }
+      ]
+    },
+    {
+      "lap": "2026-10-29_191724",
+      "route": "demo_real3",
+      "started": "2026-10-29T19:17:24",
+      "finished": "2026-10-29T19:18:57",
+      "stops": [
+        {
+          "id": "P00",
+          "status": "no_image",
+          "image": null,
+          "compare": null
+        },
+        {
+          "id": "P01",
+          "status": "no_image",
+          "image": null,
+          "compare": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "route": "demo_real3",
+  "route_file": "/home/eun/plant_ws/install/plant_observer_gazebo/share/plant_observer_gazebo/config/patrol_demo_real3.yaml",
+  "lap": 1,
+  "started": "2026-10-30T00:21:13",
+  "finished": "2026-10-30T00:22:50",
+  "home": "ok",
+  "stops": [
+    {
+      "id": "P00",
+      "target": {
+        "x": 1.61,
+        "y": 0.47,
+        "yaw": 1.545
+      },
+      "status": "ok",
+      "image": "P00.png",
+      "pose": {
+        "x": 1.481,
+        "y": 0.411,
+        "yaw": 1.528
+      },
+      "error_xy_m": 0.142,
+      "error_yaw_deg": -0.9,
+      "compare": {
+        "reference_lap": "2026-10-29_192945",
+        "status": "changed",
+        "change": "fruit_added",
+        "count": 3,
+        "changed_ratio": 0.0991,
+        "align": "features",
+        "feature_inliers": 240,
+        "objects": [
+          {
+            "type": "fruit_added",
+            "bbox": [
+              245,
+              187,
+              41,
+              40
+            ],
+            "area_px": 1323
+          },
+          {
+            "type": "fruit_added",
+            "bbox": [
+              292,
+              215,
+              44,
+              38
+            ],
+            "area_px": 1291
+          },
+          {
+            "type": "fruit_added",
+            "bbox": [
+              359,
+              253,
+              33,
+              21
+            ],
+            "area_px": 497
+          }
+        ],
+        "image": "P00_compare.jpg"
+      }
+    },
+    {
+      "id": "P01",
+      "target": {
+        "x": 0.41,
+        "y": 0.5,
+        "yaw": 1.545
+      },
+      "status": "ok",
+      "image": "P01.png",
+      "pose": {
+        "x": 0.537,
+        "y": 0.505,
+        "yaw": 1.516
+      },
+      "error_xy_m": 0.127,
+      "error_yaw_deg": -1.7,
+      "compare": {
+        "reference_lap": "2026-10-29_192945",
+        "status": "changed",
+        "change": "fruit_added",
+        "count": 2,
+        "changed_ratio": 0.1555,
+        "align": "features",
+        "feature_inliers": 237,
+        "objects": [
+          {
+            "type": "fruit_added",
+            "bbox": [
+              314,
+              207,
+              66,
+              62
+            ],
+            "area_px": 2627
+          },
+          {
+            "type": "fruit_added",
+            "bbox": [
+              346,
+              315,
+              49,
+              35
+            ],
+            "area_px": 1156
+          }
+        ],
+        "image": "P01_compare.jpg"
+      }
+    }
+  ]
+}

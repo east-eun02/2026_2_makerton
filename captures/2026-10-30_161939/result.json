@@ -1,0 +1,136 @@
+{
+  "route": "demo_real3",
+  "route_file": "/home/eun/plant_ws/install/plant_observer_gazebo/share/plant_observer_gazebo/config/patrol_demo_real3.yaml",
+  "image_rotation": 90,
+  "lap": 1,
+  "started": "2026-10-30T16:19:39",
+  "finished": "2026-10-30T16:21:04",
+  "home": "ok",
+  "visit_order": [
+    {
+      "id": "P00",
+      "reason": "직전 회차 판정 실패"
+    },
+    {
+      "id": "P01",
+      "reason": "직전 회차 판정 실패"
+    }
+  ],
+  "stops": [
+    {
+      "id": "P00",
+      "target": {
+        "x": 1.61,
+        "y": 0.47,
+        "yaw": 1.545
+      },
+      "status": "ok",
+      "image": "P00.png",
+      "pose": {
+        "x": 1.517,
+        "y": 0.356,
+        "yaw": 1.495
+      },
+      "error_xy_m": 0.147,
+      "error_yaw_deg": -2.9,
+      "compare": {
+        "reference_lap": "2026-10-29_192945",
+        "status": "changed",
+        "change": "leaf_loss",
+        "count": 1,
+        "changes": {
+          "leaf_loss": 1
+        },
+        "changed_ratio": 0.0437,
+        "align": "features",
+        "feature_inliers": 26,
+        "objects": [
+          {
+            "type": "leaf_loss",
+            "bbox": [
+              269,
+              124,
+              33,
+              44
+            ],
+            "area_px": 904
+          }
+        ],
+        "rotation_deg": 90,
+        "image": "P00_compare.jpg"
+      },
+      "recheck": {
+        "status": "ok",
+        "target": {
+          "x": 1.481,
+          "y": 0.49,
+          "yaw": 1.283
+        },
+        "image": "P00_recheck.png",
+        "compare": {
+          "reference_lap": "2026-10-29_192945",
+          "status": "changed",
+          "change": "leaf_loss",
+          "count": 1,
+          "changes": {
+            "leaf_loss": 1
+          },
+          "changed_ratio": 0.0464,
+          "align": "features",
+          "feature_inliers": 27,
+          "objects": [
+            {
+              "type": "leaf_loss",
+              "bbox": [
+                269,
+                124,
+                34,
+                44
+              ],
+              "area_px": 985
+            }
+          ],
+          "rotation_deg": 90,
+          "image": "P00_recheck_compare.jpg"
+        }
+      },
+      "final": {
+        "verdict": "confirmed",
+        "status": "changed",
+        "changes": {
+          "leaf_loss": 1
+        }
+      }
+    },
+    {
+      "id": "P01",
+      "target": {
+        "x": 0.41,
+        "y": 0.5,
+        "yaw": 1.545
+      },
+      "status": "ok",
+      "image": "P01.png",
+      "pose": {
+        "x": 0.546,
+        "y": 0.438,
+        "yaw": 1.511
+      },
+      "error_xy_m": 0.15,
+      "error_yaw_deg": -1.9,
+      "compare": {
+        "reference_lap": "2026-10-29_192945",
+        "status": "unchanged",
+        "change": null,
+        "count": 0,
+        "changes": {},
+        "changed_ratio": 0.0,
+        "align": "features",
+        "feature_inliers": 63,
+        "objects": [],
+        "rotation_deg": 90,
+        "image": "P01_compare.jpg"
+      }
+    }
+  ]
+}

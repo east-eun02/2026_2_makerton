@@ -1,0 +1,54 @@
+{
+  "route": "demo_real3",
+  "route_file": "/home/eun/plant_ws/install/plant_observer_gazebo/share/plant_observer_gazebo/config/patrol_demo_real3.yaml",
+  "image_rotation": 90,
+  "lap": 1,
+  "started": "2026-10-30T15:33:04",
+  "finished": "2026-10-30T15:34:24",
+  "home": "ok",
+  "stops": [
+    {
+      "id": "P00",
+      "target": {
+        "x": 1.61,
+        "y": 0.47,
+        "yaw": 1.545
+      },
+      "status": "ok",
+      "image": "P00.png",
+      "pose": {
+        "x": 1.483,
+        "y": 0.441,
+        "yaw": 1.545
+      },
+      "error_xy_m": 0.131,
+      "error_yaw_deg": -0.0,
+      "compare": {
+        "status": "error",
+        "error": "NameError(\"name 'pixel_kinds' is not defined\")"
+      }
+    },
+    {
+      "id": "P01",
+      "target": {
+        "x": 0.41,
+        "y": 0.5,
+        "yaw": 1.545
+      },
+      "status": "ok",
+      "image": "P01.png",
+      "pose": {
+        "x": 0.53,
+        "y": 0.538,
+        "yaw": 1.351
+      },
+      "error_xy_m": 0.126,
+      "error_yaw_deg": -11.1,
+      "compare": {
+        "reference_lap": "2026-10-29_192945",
+        "status": "align_failed",
+        "feature_inliers": 50
+      }
+    }
+  ]
+}

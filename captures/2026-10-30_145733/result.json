@@ -1,0 +1,128 @@
+{
+  "route": "demo_real3",
+  "route_file": "/home/eun/plant_ws/install/plant_observer_gazebo/share/plant_observer_gazebo/config/patrol_demo_real3.yaml",
+  "lap": 1,
+  "started": "2026-10-30T14:57:33",
+  "finished": "2026-10-30T14:58:54",
+  "home": "ok",
+  "stops": [
+    {
+      "id": "P00",
+      "target": {
+        "x": 1.61,
+        "y": 0.47,
+        "yaw": 1.545
+      },
+      "status": "ok",
+      "image": "P00.png",
+      "pose": {
+        "x": 1.481,
+        "y": 0.385,
+        "yaw": 1.505
+      },
+      "error_xy_m": 0.155,
+      "error_yaw_deg": -2.3,
+      "compare": {
+        "reference_lap": "2026-10-29_192945",
+        "status": "changed",
+        "change": "other",
+        "count": 1,
+        "changed_ratio": 0.5258,
+        "align": "features",
+        "feature_inliers": 117,
+        "objects": [
+          {
+            "type": "other",
+            "bbox": [
+              123,
+              36,
+              123,
+              160
+            ],
+            "area_px": 9898
+          },
+          {
+            "type": "leaf_color",
+            "bbox": [
+              260,
+              122,
+              45,
+              48
+            ],
+            "area_px": 1592
+          },
+          {
+            "type": "fruit_added",
+            "bbox": [
+              244,
+              188,
+              43,
+              39
+            ],
+            "area_px": 1346
+          },
+          {
+            "type": "fruit_added",
+            "bbox": [
+              290,
+              215,
+              47,
+              39
+            ],
+            "area_px": 1394
+          }
+        ],
+        "image": "P00_compare.jpg"
+      }
+    },
+    {
+      "id": "P01",
+      "target": {
+        "x": 0.41,
+        "y": 0.5,
+        "yaw": 1.545
+      },
+      "status": "ok",
+      "image": "P01.png",
+      "pose": {
+        "x": 0.547,
+        "y": 0.457,
+        "yaw": 1.535
+      },
+      "error_xy_m": 0.143,
+      "error_yaw_deg": -0.6,
+      "compare": {
+        "reference_lap": "2026-10-29_192945",
+        "status": "changed",
+        "change": "fruit_added",
+        "count": 2,
+        "changed_ratio": 0.176,
+        "align": "features",
+        "feature_inliers": 161,
+        "objects": [
+          {
+            "type": "fruit_added",
+            "bbox": [
+              314,
+              203,
+              69,
+              69
+            ],
+            "area_px": 2896
+          },
+          {
+            "type": "fruit_added",
+            "bbox": [
+              344,
+              316,
+              53,
+              33
+            ],
+            "area_px": 1187
+          }
+        ],
+        "image": "P01_compare.jpg"
+      }
+    }
+  ]
+}

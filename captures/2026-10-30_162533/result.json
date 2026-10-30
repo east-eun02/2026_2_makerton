@@ -1,0 +1,103 @@
+{
+  "route": "demo_real3",
+  "route_file": "/home/eun/plant_ws/install/plant_observer_gazebo/share/plant_observer_gazebo/config/patrol_demo_real3.yaml",
+  "image_rotation": 90,
+  "lap": 2,
+  "started": "2026-10-30T16:25:33",
+  "finished": "2026-10-30T16:26:53",
+  "home": "ok",
+  "visit_order": [
+    {
+      "id": "P01",
+      "reason": "직전 회차 판정 실패"
+    },
+    {
+      "id": "P00",
+      "reason": null
+    }
+  ],
+  "stops": [
+    {
+      "id": "P01",
+      "target": {
+        "x": 0.41,
+        "y": 0.5,
+        "yaw": 1.545
+      },
+      "status": "ok",
+      "image": "P01.png",
+      "pose": {
+        "x": 0.339,
+        "y": 0.369,
+        "yaw": 1.452
+      },
+      "error_xy_m": 0.149,
+      "error_yaw_deg": -5.3,
+      "compare": {
+        "reference_lap": "2026-10-29_192945",
+        "status": "align_failed",
+        "feature_inliers": 5
+      },
+      "recheck": {
+        "status": "ok",
+        "target": {
+          "x": 0.281,
+          "y": 0.52,
+          "yaw": 1.283
+        },
+        "image": "P01_recheck.png",
+        "compare": {
+          "reference_lap": "2026-10-29_192945",
+          "status": "align_failed",
+          "feature_inliers": 22
+        }
+      },
+      "final": {
+        "verdict": "recheck_failed",
+        "status": "align_failed",
+        "changes": {}
+      }
+    },
+    {
+      "id": "P00",
+      "target": {
+        "x": 1.61,
+        "y": 0.47,
+        "yaw": 1.545
+      },
+      "status": "ok",
+      "image": "P00.png",
+      "pose": {
+        "x": 1.481,
+        "y": 0.471,
+        "yaw": 1.662
+      },
+      "error_xy_m": 0.129,
+      "error_yaw_deg": 6.7,
+      "compare": {
+        "reference_lap": "2026-10-29_192945",
+        "status": "align_failed",
+        "feature_inliers": 21
+      },
+      "recheck": {
+        "status": "ok",
+        "target": {
+          "x": 1.481,
+          "y": 0.49,
+          "yaw": 1.283
+        },
+        "image": "P00_recheck.png",
+        "compare": {
+          "reference_lap": "2026-10-29_192945",
+          "status": "align_failed",
+          "feature_inliers": 18
+        }
+      },
+      "final": {
+        "verdict": "recheck_failed",
+        "status": "align_failed",
+        "changes": {}
+      }
+    }
+  ]
+}

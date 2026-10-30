@@ -1,0 +1,111 @@
+{
+  "route": "demo_real3",
+  "route_file": "/home/eun/plant_ws/install/plant_observer_gazebo/share/plant_observer_gazebo/config/patrol_demo_real3.yaml",
+  "image_rotation": 90,
+  "lap": 1,
+  "started": "2026-10-30T16:24:04",
+  "finished": "2026-10-30T16:25:33",
+  "home": "ok",
+  "visit_order": [
+    {
+      "id": "P00",
+      "reason": "직전 회차 잎 탈락 1곳 확정"
+    },
+    {
+      "id": "P01",
+      "reason": null
+    }
+  ],
+  "stops": [
+    {
+      "id": "P00",
+      "target": {
+        "x": 1.61,
+        "y": 0.47,
+        "yaw": 1.545
+      },
+      "status": "ok",
+      "image": "P00.png",
+      "pose": {
+        "x": 1.517,
+        "y": 0.379,
+        "yaw": 1.545
+      },
+      "error_xy_m": 0.13,
+      "error_yaw_deg": 0.0,
+      "compare": {
+        "reference_lap": "2026-10-29_192945",
+        "status": "align_failed",
+        "feature_inliers": 0
+      },
+      "recheck": {
+        "status": "ok",
+        "target": {
+          "x": 1.481,
+          "y": 0.49,
+          "yaw": 1.283
+        },
+        "image": "P00_recheck.png",
+        "compare": {
+          "reference_lap": "2026-10-29_192945",
+          "status": "unchanged",
+          "change": null,
+          "count": 0,
+          "changes": {},
+          "changed_ratio": 0.0,
+          "align": "features",
+          "feature_inliers": 32,
+          "objects": [],
+          "rotation_deg": 90,
+          "image": "P00_recheck_compare.jpg"
+        }
+      },
+      "final": {
+        "verdict": "recheck_used",
+        "status": "unchanged",
+        "changes": {}
+      }
+    },
+    {
+      "id": "P01",
+      "target": {
+        "x": 0.41,
+        "y": 0.5,
+        "yaw": 1.545
+      },
+      "status": "ok",
+      "image": "P01.png",
+      "pose": {
+        "x": 0.54,
+        "y": 0.438,
+        "yaw": 1.383
+      },
+      "error_xy_m": 0.145,
+      "error_yaw_deg": -9.3,
+      "compare": {
+        "reference_lap": "2026-10-29_192945",
+        "status": "align_failed",
+        "feature_inliers": 8
+      },
+      "recheck": {
+        "status": "ok",
+        "target": {
+          "x": 0.281,
+          "y": 0.52,
+          "yaw": 1.283
+        },
+        "image": "P01_recheck.png",
+        "compare": {
+          "reference_lap": "2026-10-29_192945",
+          "status": "align_failed",
+          "feature_inliers": 24
+        }
+      },
+      "final": {
+        "verdict": "recheck_failed",
+        "status": "align_failed",
+        "changes": {}
+      }
+    }
+  ]
+}

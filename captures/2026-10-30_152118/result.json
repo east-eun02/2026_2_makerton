@@ -1,0 +1,180 @@
+{
+  "route": "demo_real3",
+  "route_file": "/home/eun/plant_ws/install/plant_observer_gazebo/share/plant_observer_gazebo/config/patrol_demo_real3.yaml",
+  "image_rotation": 90,
+  "lap": 1,
+  "started": "2026-10-30T15:21:18",
+  "finished": "2026-10-30T15:22:36",
+  "home": "ok",
+  "stops": [
+    {
+      "id": "P00",
+      "target": {
+        "x": 1.61,
+        "y": 0.47,
+        "yaw": 1.545
+      },
+      "status": "ok",
+      "image": "P00.png",
+      "pose": {
+        "x": 1.529,
+        "y": 0.376,
+        "yaw": 1.535
+      },
+      "error_xy_m": 0.124,
+      "error_yaw_deg": -0.6,
+      "compare": {
+        "reference_lap": "2026-10-29_192945",
+        "status": "changed",
+        "change": "leaf_color",
+        "count": 5,
+        "changed_ratio": 0.4362,
+        "align": "features",
+        "feature_inliers": 27,
+        "objects": [
+          {
+            "type": "fruit_damaged",
+            "bbox": [
+              337,
+              114,
+              57,
+              61
+            ],
+            "area_px": 2082
+          },
+          {
+            "type": "leaf_color",
+            "bbox": [
+              256,
+              120,
+              82,
+              54
+            ],
+            "area_px": 2149
+          },
+          {
+            "type": "leaf_color",
+            "bbox": [
+              438,
+              137,
+              9,
+              29
+            ],
+            "area_px": 202
+          },
+          {
+            "type": "leaf_color",
+            "bbox": [
+              439,
+              177,
+              12,
+              18
+            ],
+            "area_px": 182
+          },
+          {
+            "type": "fruit_damaged",
+            "bbox": [
+              349,
+              187,
+              51,
+              68
+            ],
+            "area_px": 1996
+          },
+          {
+            "type": "leaf_color",
+            "bbox": [
+              241,
+              188,
+              49,
+              38
+            ],
+            "area_px": 1366
+          },
+          {
+            "type": "leaf_color",
+            "bbox": [
+              291,
+              215,
+              53,
+              39
+            ],
+            "area_px": 1396
+          }
+        ],
+        "image": "P00_compare.jpg"
+      }
+    },
+    {
+      "id": "P01",
+      "target": {
+        "x": 0.41,
+        "y": 0.5,
+        "yaw": 1.545
+      },
+      "status": "ok",
+      "image": "P01.png",
+      "pose": {
+        "x": 0.53,
+        "y": 0.483,
+        "yaw": 1.523
+      },
+      "error_xy_m": 0.121,
+      "error_yaw_deg": -1.3,
+      "compare": {
+        "reference_lap": "2026-10-29_192945",
+        "status": "changed",
+        "change": "fruit_added",
+        "count": 2,
+        "changed_ratio": 0.2025,
+        "align": "features",
+        "feature_inliers": 85,
+        "objects": [
+          {
+            "type": "leaf_loss",
+            "bbox": [
+              325,
+              140,
+              46,
+              12
+            ],
+            "area_px": 315
+          },
+          {
+            "type": "leaf_loss",
+            "bbox": [
+              387,
+              141,
+              32,
+              18
+            ],
+            "area_px": 344
+          },
+          {
+            "type": "fruit_added",
+            "bbox": [
+              313,
+              203,
+              66,
+              69
+            ],
+            "area_px": 2774
+          },
+          {
+            "type": "fruit_added",
+            "bbox": [
+              348,
+              316,
+              54,
+              41
+            ],
+            "area_px": 1483
+          }
+        ],
+        "rotation_deg": 90,
+        "image": "P01_compare.jpg"
+      }
+    }
+  ]
+}

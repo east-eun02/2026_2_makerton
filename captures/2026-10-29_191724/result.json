@@ -1,0 +1,42 @@
+{
+  "route": "demo_real3",
+  "route_file": "/home/eun/plant_ws/install/plant_observer_gazebo/share/plant_observer_gazebo/config/patrol_demo_real3.yaml",
+  "lap": 1,
+  "started": "2026-10-29T19:17:24",
+  "finished": "2026-10-29T19:18:57",
+  "home": "ok",
+  "stops": [
+    {
+      "id": "P00",
+      "target": {
+        "x": 1.61,
+        "y": 0.47,
+        "yaw": 1.545
+      },
+      "status": "no_image",
+      "pose": {
+        "x": 1.55,
+        "y": 0.314,
+        "yaw": 1.317
+      },
+      "error_xy_m": 0.167,
+      "error_yaw_deg": -13.1
+    },
+    {
+      "id": "P01",
+      "target": {
+        "x": 0.41,
+        "y": 0.5,
+        "yaw": 1.545
+      },
+      "status": "no_image",
+      "pose": {
+        "x": 0.502,
+        "y": 0.421,
+        "yaw": 1.507
+      },
+      "error_xy_m": 0.121,
+      "error_yaw_deg": -2.2
+    }
+  ]
+}
