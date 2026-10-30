@@ -1,9 +1,30 @@
 {
-  "updated": "2026-10-30T19:24:25",
+  "updated": "2026-10-30T19:33:14",
   "baselines": {
     "demo_real3": "2026-10-29_192945"
   },
   "laps": [
+    {
+      "lap": "2026-10-30_193241",
+      "route": "demo_real3",
+      "started": "2026-10-30T19:32:41",
+      "finished": null,
+      "stops": [
+        {
+          "id": "P00",
+          "status": "ok",
+          "image": "2026-10-30_193241/P00.png",
+          "compare": {
+            "status": "unchanged",
+            "change": null,
+            "count": 0,
+            "reference_lap": "2026-10-30_172030",
+            "reference_image": "2026-10-30_172030/P00.png",
+            "image": "2026-10-30_193241/P00_compare.jpg"
+          }
+        }
+      ]
+    },
     {
       "lap": "2026-10-30_172030",
       "route": "demo_real3",
