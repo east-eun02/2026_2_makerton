@@ -1,0 +1,153 @@
+{
+  "route": "demo_real3",
+  "route_file": "/home/eun/plant_ws/install/plant_observer_gazebo/share/plant_observer_gazebo/config/patrol_demo_real3.yaml",
+  "image_rotation": 90,
+  "lap": 1,
+  "started": "2026-10-31T00:40:02",
+  "home": "ok",
+  "visit_order": [
+    {
+      "id": "P00",
+      "reason": null
+    },
+    {
+      "id": "P01",
+      "reason": null
+    }
+  ],
+  "stops": [
+    {
+      "id": "P00",
+      "target": {
+        "x": 1.61,
+        "y": 0.47,
+        "yaw": 1.545
+      },
+      "status": "ok",
+      "image": "P00.png",
+      "pose": {
+        "x": 1.592,
+        "y": 0.425,
+        "yaw": 1.691
+      },
+      "error_xy_m": 0.049,
+      "error_yaw_deg": 8.4,
+      "views": {
+        "front": {
+          "status": "ok",
+          "image": "P00.png",
+          "pose": {
+            "x": 1.592,
+            "y": 0.425,
+            "yaw": 1.691
+          },
+          "target": {
+            "x": 1.61,
+            "y": 0.47,
+            "yaw": 1.545
+          }
+        }
+      },
+      "compare": {
+        "reference_lap": "2026-10-31_003632",
+        "reference_image": "P00.png",
+        "view_id": "front",
+        "status": "unchanged",
+        "change": null,
+        "count": 0,
+        "changes": {},
+        "changed_ratio": 0.0,
+        "align": "features",
+        "feature_inliers": 1267,
+        "objects": [],
+        "color_correction": {
+          "reference": {
+            "wb_gains_bgr": [
+              0.993,
+              1.016,
+              1.02
+            ],
+            "sat_scale": 0.6
+          },
+          "current": {
+            "wb_gains_bgr": [
+              0.976,
+              1.0,
+              1.004
+            ],
+            "sat_scale": 0.6
+          }
+        },
+        "image": "P00_compare.jpg"
+      },
+      "observed_at": "2026-10-31T00:40:31.209017"
+    },
+    {
+      "id": "P01",
+      "target": {
+        "x": 0.41,
+        "y": 0.5,
+        "yaw": 1.545
+      },
+      "status": "ok",
+      "image": "P01.png",
+      "pose": {
+        "x": 0.455,
+        "y": 0.479,
+        "yaw": 1.396
+      },
+      "error_xy_m": 0.05,
+      "error_yaw_deg": -8.6,
+      "views": {
+        "front": {
+          "status": "ok",
+          "image": "P01.png",
+          "pose": {
+            "x": 0.455,
+            "y": 0.479,
+            "yaw": 1.396
+          },
+          "target": {
+            "x": 0.41,
+            "y": 0.5,
+            "yaw": 1.545
+          }
+        }
+      },
+      "compare": {
+        "reference_lap": "2026-10-31_003632",
+        "reference_image": "P01.png",
+        "view_id": "front",
+        "status": "unchanged",
+        "change": null,
+        "count": 0,
+        "changes": {},
+        "changed_ratio": 0.0,
+        "align": "features",
+        "feature_inliers": 1106,
+        "objects": [],
+        "color_correction": {
+          "reference": {
+            "wb_gains_bgr": [
+              0.996,
+              1.022,
+              1.024
+            ],
+            "sat_scale": 0.6
+          },
+          "current": {
+            "wb_gains_bgr": [
+              0.981,
+              1.006,
+              1.01
+            ],
+            "sat_scale": 0.6
+          }
+        },
+        "image": "P01_compare.jpg"
+      },
+      "observed_at": "2026-10-31T00:41:00.082319"
+    }
+  ],
+  "finished": "2026-10-31T00:41:21"
+}

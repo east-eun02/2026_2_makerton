@@ -1,0 +1,1123 @@
+{
+  "route": "demo_real3",
+  "route_file": "/home/eun/plant_ws/install/plant_observer_gazebo/share/plant_observer_gazebo/config/patrol_demo_real3.yaml",
+  "image_rotation": 90,
+  "lap": 1,
+  "started": "2026-10-31T00:45:54",
+  "home": "ok",
+  "visit_order": [
+    {
+      "id": "P00",
+      "reason": null
+    },
+    {
+      "id": "P01",
+      "reason": null
+    }
+  ],
+  "stops": [
+    {
+      "id": "P00",
+      "target": {
+        "x": 1.61,
+        "y": 0.47,
+        "yaw": 1.545
+      },
+      "status": "ok",
+      "image": "P00.png",
+      "pose": {
+        "x": 1.589,
+        "y": 0.432,
+        "yaw": 1.7
+      },
+      "error_xy_m": 0.043,
+      "error_yaw_deg": 8.9,
+      "views": {
+        "front": {
+          "status": "ok",
+          "image": "P00.png",
+          "pose": {
+            "x": 1.589,
+            "y": 0.432,
+            "yaw": 1.7
+          },
+          "target": {
+            "x": 1.61,
+            "y": 0.47,
+            "yaw": 1.545
+          }
+        },
+        "left": {
+          "view_id": "left",
+          "target": {
+            "x": 1.3330913256488968,
+            "y": 0.3880150959304576,
+            "yaw": 1.1086676870014176
+          },
+          "status": "ok",
+          "pose": {
+            "x": 1.326578842325076,
+            "y": 0.36589901380927636,
+            "yaw": 0.9699387551073386
+          },
+          "odom_pose": {
+            "x": 1.3531844965316076,
+            "y": 0.144980059095888,
+            "yaw": 1.726391151589759
+          },
+          "movement_m": 0.327,
+          "viewpoint_change_deg": 22.5,
+          "image": "P00_left.png",
+          "compare": {
+            "reference_lap": "2026-10-31_003632",
+            "reference_image": "P00_left.png",
+            "view_id": "left",
+            "reference_pose": {
+              "x": 1.316323095434721,
+              "y": 0.3988033605127623,
+              "yaw": 0.9090105174259856
+            },
+            "pose_distance_m": 0.034,
+            "pose_yaw_difference_deg": 3.5,
+            "status": "changed",
+            "change": "leaf_loss",
+            "count": 1,
+            "changes": {
+              "leaf_loss": 1
+            },
+            "changed_ratio": 0.0518,
+            "align": "features",
+            "feature_inliers": 639,
+            "objects": [
+              {
+                "type": "leaf_loss",
+                "bbox": [
+                  208,
+                  265,
+                  38,
+                  51
+                ],
+                "area_px": 1435
+              }
+            ],
+            "color_correction": {
+              "reference": {
+                "wb_gains_bgr": [
+                  0.998,
+                  1.022,
+                  1.025
+                ],
+                "sat_scale": 0.6
+              },
+              "current": {
+                "wb_gains_bgr": [
+                  0.999,
+                  1.025,
+                  1.028
+                ],
+                "sat_scale": 0.6
+              }
+            },
+            "image": "P00_left_compare.jpg"
+          }
+        },
+        "right": {
+          "view_id": "right",
+          "target": {
+            "x": 1.88231227555837,
+            "y": 0.3738440693123931,
+            "yaw": 1.9813323129985823
+          },
+          "status": "ok",
+          "pose": {
+            "x": 1.8729621219876362,
+            "y": 0.3671879272674099,
+            "yaw": 2.1028039300364156
+          },
+          "odom_pose": {
+            "x": 1.8148728550165936,
+            "y": 0.5315708986838218,
+            "yaw": 2.8545244510233645
+          },
+          "movement_m": 0.288,
+          "viewpoint_change_deg": 26.1,
+          "image": "P00_right.png",
+          "compare": {
+            "reference_lap": "2026-10-31_003632",
+            "reference_image": "P00_right.png",
+            "view_id": "right",
+            "reference_pose": {
+              "x": 1.8790586856769944,
+              "y": 0.38275861190528027,
+              "yaw": 2.1090266159900852
+            },
+            "pose_distance_m": 0.017,
+            "pose_yaw_difference_deg": 0.4,
+            "status": "changed",
+            "change": "leaf_loss",
+            "count": 1,
+            "changes": {
+              "leaf_loss": 1
+            },
+            "changed_ratio": 0.0563,
+            "align": "features",
+            "feature_inliers": 543,
+            "objects": [
+              {
+                "type": "leaf_loss",
+                "bbox": [
+                  242,
+                  265,
+                  34,
+                  50
+                ],
+                "area_px": 1298
+              }
+            ],
+            "color_correction": {
+              "reference": {
+                "wb_gains_bgr": [
+                  0.997,
+                  1.021,
+                  1.024
+                ],
+                "sat_scale": 0.6
+              },
+              "current": {
+                "wb_gains_bgr": [
+                  0.993,
+                  1.017,
+                  1.02
+                ],
+                "sat_scale": 0.6
+              }
+            },
+            "image": "P00_right_compare.jpg"
+          }
+        }
+      },
+      "compare": {
+        "reference_lap": "2026-10-31_003632",
+        "reference_image": "P00.png",
+        "view_id": "front",
+        "status": "changed",
+        "change": "leaf_loss",
+        "count": 1,
+        "changes": {
+          "leaf_loss": 1
+        },
+        "changed_ratio": 0.0665,
+        "align": "features",
+        "feature_inliers": 805,
+        "objects": [
+          {
+            "type": "leaf_loss",
+            "bbox": [
+              276,
+              260,
+              50,
+              60
+            ],
+            "area_px": 2229
+          }
+        ],
+        "color_correction": {
+          "reference": {
+            "wb_gains_bgr": [
+              0.993,
+              1.016,
+              1.02
+            ],
+            "sat_scale": 0.6
+          },
+          "current": {
+            "wb_gains_bgr": [
+              0.993,
+              1.016,
+              1.02
+            ],
+            "sat_scale": 0.6
+          }
+        },
+        "image": "P00_compare.jpg"
+      },
+      "observed_at": "2026-10-31T00:46:21.612334",
+      "recheck": {
+        "origin_pose": {
+          "x": 1.5891005743266677,
+          "y": 0.4324298038383725,
+          "yaw": 1.6998459301543256
+        },
+        "origin_odom_pose": {
+          "x": 1.5587147155455918,
+          "y": 0.3997692490835525,
+          "yaw": 2.399284919153742
+        },
+        "attempts": [
+          {
+            "view_id": "left",
+            "target": {
+              "x": 1.3330913256488968,
+              "y": 0.3880150959304576,
+              "yaw": 1.1086676870014176
+            },
+            "status": "ok",
+            "pose": {
+              "x": 1.326578842325076,
+              "y": 0.36589901380927636,
+              "yaw": 0.9699387551073386
+            },
+            "odom_pose": {
+              "x": 1.3531844965316076,
+              "y": 0.144980059095888,
+              "yaw": 1.726391151589759
+            },
+            "movement_m": 0.327,
+            "viewpoint_change_deg": 22.5,
+            "image": "P00_left.png",
+            "compare_status": "changed"
+          },
+          {
+            "view_id": "right",
+            "target": {
+              "x": 1.88231227555837,
+              "y": 0.3738440693123931,
+              "yaw": 1.9813323129985823
+            },
+            "status": "ok",
+            "pose": {
+              "x": 1.8729621219876362,
+              "y": 0.3671879272674099,
+              "yaw": 2.1028039300364156
+            },
+            "odom_pose": {
+              "x": 1.8148728550165936,
+              "y": 0.5315708986838218,
+              "yaw": 2.8545244510233645
+            },
+            "movement_m": 0.288,
+            "viewpoint_change_deg": 26.1,
+            "image": "P00_right.png",
+            "compare_status": "changed"
+          }
+        ],
+        "views": {
+          "left": {
+            "view_id": "left",
+            "target": {
+              "x": 1.3330913256488968,
+              "y": 0.3880150959304576,
+              "yaw": 1.1086676870014176
+            },
+            "status": "ok",
+            "pose": {
+              "x": 1.326578842325076,
+              "y": 0.36589901380927636,
+              "yaw": 0.9699387551073386
+            },
+            "odom_pose": {
+              "x": 1.3531844965316076,
+              "y": 0.144980059095888,
+              "yaw": 1.726391151589759
+            },
+            "movement_m": 0.327,
+            "viewpoint_change_deg": 22.5,
+            "image": "P00_left.png",
+            "compare": {
+              "reference_lap": "2026-10-31_003632",
+              "reference_image": "P00_left.png",
+              "view_id": "left",
+              "reference_pose": {
+                "x": 1.316323095434721,
+                "y": 0.3988033605127623,
+                "yaw": 0.9090105174259856
+              },
+              "pose_distance_m": 0.034,
+              "pose_yaw_difference_deg": 3.5,
+              "status": "changed",
+              "change": "leaf_loss",
+              "count": 1,
+              "changes": {
+                "leaf_loss": 1
+              },
+              "changed_ratio": 0.0518,
+              "align": "features",
+              "feature_inliers": 639,
+              "objects": [
+                {
+                  "type": "leaf_loss",
+                  "bbox": [
+                    208,
+                    265,
+                    38,
+                    51
+                  ],
+                  "area_px": 1435
+                }
+              ],
+              "color_correction": {
+                "reference": {
+                  "wb_gains_bgr": [
+                    0.998,
+                    1.022,
+                    1.025
+                  ],
+                  "sat_scale": 0.6
+                },
+                "current": {
+                  "wb_gains_bgr": [
+                    0.999,
+                    1.025,
+                    1.028
+                  ],
+                  "sat_scale": 0.6
+                }
+              },
+              "image": "P00_left_compare.jpg"
+            }
+          },
+          "right": {
+            "view_id": "right",
+            "target": {
+              "x": 1.88231227555837,
+              "y": 0.3738440693123931,
+              "yaw": 1.9813323129985823
+            },
+            "status": "ok",
+            "pose": {
+              "x": 1.8729621219876362,
+              "y": 0.3671879272674099,
+              "yaw": 2.1028039300364156
+            },
+            "odom_pose": {
+              "x": 1.8148728550165936,
+              "y": 0.5315708986838218,
+              "yaw": 2.8545244510233645
+            },
+            "movement_m": 0.288,
+            "viewpoint_change_deg": 26.1,
+            "image": "P00_right.png",
+            "compare": {
+              "reference_lap": "2026-10-31_003632",
+              "reference_image": "P00_right.png",
+              "view_id": "right",
+              "reference_pose": {
+                "x": 1.8790586856769944,
+                "y": 0.38275861190528027,
+                "yaw": 2.1090266159900852
+              },
+              "pose_distance_m": 0.017,
+              "pose_yaw_difference_deg": 0.4,
+              "status": "changed",
+              "change": "leaf_loss",
+              "count": 1,
+              "changes": {
+                "leaf_loss": 1
+              },
+              "changed_ratio": 0.0563,
+              "align": "features",
+              "feature_inliers": 543,
+              "objects": [
+                {
+                  "type": "leaf_loss",
+                  "bbox": [
+                    242,
+                    265,
+                    34,
+                    50
+                  ],
+                  "area_px": 1298
+                }
+              ],
+              "color_correction": {
+                "reference": {
+                  "wb_gains_bgr": [
+                    0.997,
+                    1.021,
+                    1.024
+                  ],
+                  "sat_scale": 0.6
+                },
+                "current": {
+                  "wb_gains_bgr": [
+                    0.993,
+                    1.017,
+                    1.02
+                  ],
+                  "sat_scale": 0.6
+                }
+              },
+              "image": "P00_right_compare.jpg"
+            }
+          }
+        },
+        "view_id": "left",
+        "target": {
+          "x": 1.3330913256488968,
+          "y": 0.3880150959304576,
+          "yaw": 1.1086676870014176
+        },
+        "status": "ok",
+        "pose": {
+          "x": 1.326578842325076,
+          "y": 0.36589901380927636,
+          "yaw": 0.9699387551073386
+        },
+        "odom_pose": {
+          "x": 1.3531844965316076,
+          "y": 0.144980059095888,
+          "yaw": 1.726391151589759
+        },
+        "movement_m": 0.327,
+        "viewpoint_change_deg": 22.5,
+        "image": "P00_left.png",
+        "compare": {
+          "reference_lap": "2026-10-31_003632",
+          "reference_image": "P00_left.png",
+          "view_id": "left",
+          "reference_pose": {
+            "x": 1.316323095434721,
+            "y": 0.3988033605127623,
+            "yaw": 0.9090105174259856
+          },
+          "pose_distance_m": 0.034,
+          "pose_yaw_difference_deg": 3.5,
+          "status": "changed",
+          "change": "leaf_loss",
+          "count": 1,
+          "changes": {
+            "leaf_loss": 1
+          },
+          "changed_ratio": 0.0518,
+          "align": "features",
+          "feature_inliers": 639,
+          "objects": [
+            {
+              "type": "leaf_loss",
+              "bbox": [
+                208,
+                265,
+                38,
+                51
+              ],
+              "area_px": 1435
+            }
+          ],
+          "color_correction": {
+            "reference": {
+              "wb_gains_bgr": [
+                0.998,
+                1.022,
+                1.025
+              ],
+              "sat_scale": 0.6
+            },
+            "current": {
+              "wb_gains_bgr": [
+                0.999,
+                1.025,
+                1.028
+              ],
+              "sat_scale": 0.6
+            }
+          },
+          "image": "P00_left_compare.jpg"
+        }
+      },
+      "final": {
+        "verdict": "confirmed",
+        "status": "changed",
+        "changes": {
+          "leaf_loss": 1
+        },
+        "agreeing_views": [
+          "front",
+          "left",
+          "right"
+        ]
+      }
+    },
+    {
+      "id": "P01",
+      "target": {
+        "x": 0.41,
+        "y": 0.5,
+        "yaw": 1.545
+      },
+      "status": "ok",
+      "image": "P01.png",
+      "pose": {
+        "x": 0.427,
+        "y": 0.489,
+        "yaw": 1.493
+      },
+      "error_xy_m": 0.02,
+      "error_yaw_deg": -3.0,
+      "views": {
+        "front": {
+          "status": "ok",
+          "image": "P01.png",
+          "pose": {
+            "x": 0.427,
+            "y": 0.489,
+            "yaw": 1.493
+          },
+          "target": {
+            "x": 0.41,
+            "y": 0.5,
+            "yaw": 1.545
+          }
+        },
+        "left": {
+          "view_id": "left",
+          "target": {
+            "x": 0.13309132564889659,
+            "y": 0.4180150959304576,
+            "yaw": 1.1086676870014176
+          },
+          "status": "ok",
+          "pose": {
+            "x": 0.13225657115985473,
+            "y": 0.433040880061904,
+            "yaw": 0.9403529047607494
+          },
+          "odom_pose": {
+            "x": 0.5546951993485225,
+            "y": -0.7977980216248579,
+            "yaw": 1.7900647164889911
+          },
+          "movement_m": 0.275,
+          "viewpoint_change_deg": 27.6,
+          "image": "P01_left.png",
+          "compare": {
+            "reference_lap": "2026-10-31_003632",
+            "reference_image": "P01_left.png",
+            "view_id": "left",
+            "reference_pose": {
+              "x": 0.13201342673092575,
+              "y": 0.4178077002286261,
+              "yaw": 1.011120418948738
+            },
+            "pose_distance_m": 0.015,
+            "pose_yaw_difference_deg": 4.1,
+            "status": "changed",
+            "change": "fruit_added",
+            "count": 2,
+            "changes": {
+              "fruit_added": 2
+            },
+            "changed_ratio": 0.1724,
+            "align": "features",
+            "feature_inliers": 779,
+            "objects": [
+              {
+                "type": "fruit_added",
+                "bbox": [
+                  257,
+                  340,
+                  53,
+                  58
+                ],
+                "area_px": 2239
+              },
+              {
+                "type": "fruit_added",
+                "bbox": [
+                  181,
+                  355,
+                  56,
+                  62
+                ],
+                "area_px": 2583
+              }
+            ],
+            "color_correction": {
+              "reference": {
+                "wb_gains_bgr": [
+                  1.002,
+                  1.028,
+                  1.031
+                ],
+                "sat_scale": 0.6
+              },
+              "current": {
+                "wb_gains_bgr": [
+                  0.985,
+                  1.011,
+                  1.014
+                ],
+                "sat_scale": 0.6
+              }
+            },
+            "image": "P01_left_compare.jpg"
+          }
+        },
+        "right": {
+          "view_id": "right",
+          "target": {
+            "x": 0.6823122755583699,
+            "y": 0.40384406931239314,
+            "yaw": 1.9813323129985823
+          },
+          "status": "ok",
+          "pose": {
+            "x": 0.6674820472712302,
+            "y": 0.4049006508736843,
+            "yaw": 2.1435661199271148
+          },
+          "odom_pose": {
+            "x": 1.0002762098489426,
+            "y": -0.41162391124918135,
+            "yaw": 2.8993252418388895
+          },
+          "movement_m": 0.334,
+          "viewpoint_change_deg": 21.9,
+          "image": "P01_right.png",
+          "compare": {
+            "reference_lap": "2026-10-31_003632",
+            "reference_image": "P01_right.png",
+            "view_id": "right",
+            "reference_pose": {
+              "x": 0.6807493169309238,
+              "y": 0.41648947529127345,
+              "yaw": 2.1240393311441657
+            },
+            "pose_distance_m": 0.018,
+            "pose_yaw_difference_deg": 1.1,
+            "status": "changed",
+            "change": "fruit_added",
+            "count": 2,
+            "changes": {
+              "fruit_added": 2
+            },
+            "changed_ratio": 0.1434,
+            "align": "features",
+            "feature_inliers": 621,
+            "objects": [
+              {
+                "type": "fruit_added",
+                "bbox": [
+                  270,
+                  340,
+                  44,
+                  58
+                ],
+                "area_px": 1757
+              },
+              {
+                "type": "fruit_added",
+                "bbox": [
+                  206,
+                  345,
+                  42,
+                  55
+                ],
+                "area_px": 1613
+              }
+            ],
+            "color_correction": {
+              "reference": {
+                "wb_gains_bgr": [
+                  0.991,
+                  1.015,
+                  1.019
+                ],
+                "sat_scale": 0.6
+              },
+              "current": {
+                "wb_gains_bgr": [
+                  0.985,
+                  1.008,
+                  1.012
+                ],
+                "sat_scale": 0.6
+              }
+            },
+            "image": "P01_right_compare.jpg"
+          }
+        }
+      },
+      "compare": {
+        "reference_lap": "2026-10-31_003632",
+        "reference_image": "P01.png",
+        "view_id": "front",
+        "status": "changed",
+        "change": "fruit_added",
+        "count": 2,
+        "changes": {
+          "fruit_added": 2
+        },
+        "changed_ratio": 0.2041,
+        "align": "features",
+        "feature_inliers": 515,
+        "objects": [
+          {
+            "type": "fruit_added",
+            "bbox": [
+              284,
+              350,
+              65,
+              67
+            ],
+            "area_px": 3138
+          },
+          {
+            "type": "fruit_added",
+            "bbox": [
+              191,
+              360,
+              64,
+              65
+            ],
+            "area_px": 3167
+          }
+        ],
+        "color_correction": {
+          "reference": {
+            "wb_gains_bgr": [
+              0.996,
+              1.022,
+              1.024
+            ],
+            "sat_scale": 0.6
+          },
+          "current": {
+            "wb_gains_bgr": [
+              0.982,
+              1.008,
+              1.011
+            ],
+            "sat_scale": 0.6
+          }
+        },
+        "image": "P01_compare.jpg"
+      },
+      "observed_at": "2026-10-31T00:47:58.113064",
+      "recheck": {
+        "origin_pose": {
+          "x": 0.4269980873336205,
+          "y": 0.4887894295087569,
+          "yaw": 1.4931051725204965
+        },
+        "origin_odom_pose": {
+          "x": 0.7039358075407942,
+          "y": -0.5667159913320501,
+          "yaw": 2.358893654993281
+        },
+        "attempts": [
+          {
+            "view_id": "left",
+            "target": {
+              "x": 0.13309132564889659,
+              "y": 0.4180150959304576,
+              "yaw": 1.1086676870014176
+            },
+            "status": "ok",
+            "pose": {
+              "x": 0.13225657115985473,
+              "y": 0.433040880061904,
+              "yaw": 0.9403529047607494
+            },
+            "odom_pose": {
+              "x": 0.5546951993485225,
+              "y": -0.7977980216248579,
+              "yaw": 1.7900647164889911
+            },
+            "movement_m": 0.275,
+            "viewpoint_change_deg": 27.6,
+            "image": "P01_left.png",
+            "compare_status": "changed"
+          },
+          {
+            "view_id": "right",
+            "target": {
+              "x": 0.6823122755583699,
+              "y": 0.40384406931239314,
+              "yaw": 1.9813323129985823
+            },
+            "status": "ok",
+            "pose": {
+              "x": 0.6674820472712302,
+              "y": 0.4049006508736843,
+              "yaw": 2.1435661199271148
+            },
+            "odom_pose": {
+              "x": 1.0002762098489426,
+              "y": -0.41162391124918135,
+              "yaw": 2.8993252418388895
+            },
+            "movement_m": 0.334,
+            "viewpoint_change_deg": 21.9,
+            "image": "P01_right.png",
+            "compare_status": "changed"
+          }
+        ],
+        "views": {
+          "left": {
+            "view_id": "left",
+            "target": {
+              "x": 0.13309132564889659,
+              "y": 0.4180150959304576,
+              "yaw": 1.1086676870014176
+            },
+            "status": "ok",
+            "pose": {
+              "x": 0.13225657115985473,
+              "y": 0.433040880061904,
+              "yaw": 0.9403529047607494
+            },
+            "odom_pose": {
+              "x": 0.5546951993485225,
+              "y": -0.7977980216248579,
+              "yaw": 1.7900647164889911
+            },
+            "movement_m": 0.275,
+            "viewpoint_change_deg": 27.6,
+            "image": "P01_left.png",
+            "compare": {
+              "reference_lap": "2026-10-31_003632",
+              "reference_image": "P01_left.png",
+              "view_id": "left",
+              "reference_pose": {
+                "x": 0.13201342673092575,
+                "y": 0.4178077002286261,
+                "yaw": 1.011120418948738
+              },
+              "pose_distance_m": 0.015,
+              "pose_yaw_difference_deg": 4.1,
+              "status": "changed",
+              "change": "fruit_added",
+              "count": 2,
+              "changes": {
+                "fruit_added": 2
+              },
+              "changed_ratio": 0.1724,
+              "align": "features",
+              "feature_inliers": 779,
+              "objects": [
+                {
+                  "type": "fruit_added",
+                  "bbox": [
+                    257,
+                    340,
+                    53,
+                    58
+                  ],
+                  "area_px": 2239
+                },
+                {
+                  "type": "fruit_added",
+                  "bbox": [
+                    181,
+                    355,
+                    56,
+                    62
+                  ],
+                  "area_px": 2583
+                }
+              ],
+              "color_correction": {
+                "reference": {
+                  "wb_gains_bgr": [
+                    1.002,
+                    1.028,
+                    1.031
+                  ],
+                  "sat_scale": 0.6
+                },
+                "current": {
+                  "wb_gains_bgr": [
+                    0.985,
+                    1.011,
+                    1.014
+                  ],
+                  "sat_scale": 0.6
+                }
+              },
+              "image": "P01_left_compare.jpg"
+            }
+          },
+          "right": {
+            "view_id": "right",
+            "target": {
+              "x": 0.6823122755583699,
+              "y": 0.40384406931239314,
+              "yaw": 1.9813323129985823
+            },
+            "status": "ok",
+            "pose": {
+              "x": 0.6674820472712302,
+              "y": 0.4049006508736843,
+              "yaw": 2.1435661199271148
+            },
+            "odom_pose": {
+              "x": 1.0002762098489426,
+              "y": -0.41162391124918135,
+              "yaw": 2.8993252418388895
+            },
+            "movement_m": 0.334,
+            "viewpoint_change_deg": 21.9,
+            "image": "P01_right.png",
+            "compare": {
+              "reference_lap": "2026-10-31_003632",
+              "reference_image": "P01_right.png",
+              "view_id": "right",
+              "reference_pose": {
+                "x": 0.6807493169309238,
+                "y": 0.41648947529127345,
+                "yaw": 2.1240393311441657
+              },
+              "pose_distance_m": 0.018,
+              "pose_yaw_difference_deg": 1.1,
+              "status": "changed",
+              "change": "fruit_added",
+              "count": 2,
+              "changes": {
+                "fruit_added": 2
+              },
+              "changed_ratio": 0.1434,
+              "align": "features",
+              "feature_inliers": 621,
+              "objects": [
+                {
+                  "type": "fruit_added",
+                  "bbox": [
+                    270,
+                    340,
+                    44,
+                    58
+                  ],
+                  "area_px": 1757
+                },
+                {
+                  "type": "fruit_added",
+                  "bbox": [
+                    206,
+                    345,
+                    42,
+                    55
+                  ],
+                  "area_px": 1613
+                }
+              ],
+              "color_correction": {
+                "reference": {
+                  "wb_gains_bgr": [
+                    0.991,
+                    1.015,
+                    1.019
+                  ],
+                  "sat_scale": 0.6
+                },
+                "current": {
+                  "wb_gains_bgr": [
+                    0.985,
+                    1.008,
+                    1.012
+                  ],
+                  "sat_scale": 0.6
+                }
+              },
+              "image": "P01_right_compare.jpg"
+            }
+          }
+        },
+        "view_id": "left",
+        "target": {
+          "x": 0.13309132564889659,
+          "y": 0.4180150959304576,
+          "yaw": 1.1086676870014176
+        },
+        "status": "ok",
+        "pose": {
+          "x": 0.13225657115985473,
+          "y": 0.433040880061904,
+          "yaw": 0.9403529047607494
+        },
+        "odom_pose": {
+          "x": 0.5546951993485225,
+          "y": -0.7977980216248579,
+          "yaw": 1.7900647164889911
+        },
+        "movement_m": 0.275,
+        "viewpoint_change_deg": 27.6,
+        "image": "P01_left.png",
+        "compare": {
+          "reference_lap": "2026-10-31_003632",
+          "reference_image": "P01_left.png",
+          "view_id": "left",
+          "reference_pose": {
+            "x": 0.13201342673092575,
+            "y": 0.4178077002286261,
+            "yaw": 1.011120418948738
+          },
+          "pose_distance_m": 0.015,
+          "pose_yaw_difference_deg": 4.1,
+          "status": "changed",
+          "change": "fruit_added",
+          "count": 2,
+          "changes": {
+            "fruit_added": 2
+          },
+          "changed_ratio": 0.1724,
+          "align": "features",
+          "feature_inliers": 779,
+          "objects": [
+            {
+              "type": "fruit_added",
+              "bbox": [
+                257,
+                340,
+                53,
+                58
+              ],
+              "area_px": 2239
+            },
+            {
+              "type": "fruit_added",
+              "bbox": [
+                181,
+                355,
+                56,
+                62
+              ],
+              "area_px": 2583
+            }
+          ],
+          "color_correction": {
+            "reference": {
+              "wb_gains_bgr": [
+                1.002,
+                1.028,
+                1.031
+              ],
+              "sat_scale": 0.6
+            },
+            "current": {
+              "wb_gains_bgr": [
+                0.985,
+                1.011,
+                1.014
+              ],
+              "sat_scale": 0.6
+            }
+          },
+          "image": "P01_left_compare.jpg"
+        }
+      },
+      "final": {
+        "verdict": "confirmed",
+        "status": "changed",
+        "changes": {
+          "fruit_added": 2
+        },
+        "agreeing_views": [
+          "front",
+          "left",
+          "right"
+        ]
+      }
+    }
+  ],
+  "finished": "2026-10-31T00:49:10"
+}
