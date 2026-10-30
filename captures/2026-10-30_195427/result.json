@@ -1,0 +1,19 @@
+{
+  "route": "demo_real3",
+  "route_file": "/home/eun/plant_ws/install/plant_observer_gazebo/share/plant_observer_gazebo/config/patrol_demo_real3.yaml",
+  "image_rotation": 90,
+  "lap": 1,
+  "started": "2026-10-30T19:54:27",
+  "home": "pending",
+  "visit_order": [
+    {
+      "id": "P01",
+      "reason": "미확인 변화: 열매 손상 1곳 (2026-10-30_193421)"
+    },
+    {
+      "id": "P00",
+      "reason": "미확인 변화: 잎 색 변화 1곳 (2026-10-30_193421)"
+    }
+  ],
+  "stops": []
+}
