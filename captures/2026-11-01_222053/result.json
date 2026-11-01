@@ -1,0 +1,511 @@
+{
+  "route": "demo_real3",
+  "route_file": "/home/eun/plant_ws/install/plant_observer_gazebo/share/plant_observer_gazebo/config/patrol_demo_real3.yaml",
+  "image_rotation": 90,
+  "compare_to": "previous",
+  "reference_lap": "2026-11-01_221750",
+  "capture_policy": "front_compare_sides_for_admin",
+  "lap": 2,
+  "started": "2026-11-01T22:20:53",
+  "home": "ok",
+  "visit_order": [
+    {
+      "id": "P01",
+      "reason": "미확인 변화: 열매 생성 1곳 (2026-11-01_221750)"
+    },
+    {
+      "id": "P00",
+      "reason": "모델 보조 결과 미확인 (2026-11-01_221750)"
+    }
+  ],
+  "stops": [
+    {
+      "id": "P01",
+      "status": "ok",
+      "views": {
+        "front": {
+          "view_id": "front",
+          "target": {
+            "x": 0.41,
+            "y": 0.5,
+            "yaw": 1.545
+          },
+          "navigation_elapsed_s": 13.54,
+          "status": "ok",
+          "image": "P01.png",
+          "pose": {
+            "x": 0.38928018759643757,
+            "y": 0.432989707610393,
+            "yaw": 1.5952230235917462
+          },
+          "odom_pose": {
+            "x": 1.634605339382655,
+            "y": -0.48044609248926046,
+            "yaw": 2.4767803457863664
+          },
+          "error_xy_m": 0.07,
+          "error_yaw_deg": 2.9,
+          "compare": {
+            "reference_lap": "2026-11-01_221750",
+            "reference_image": "P01.png",
+            "view_id": "front",
+            "comparison_scope": "board",
+            "board": {
+              "reference": {
+                "polygon": [
+                  [
+                    246.0,
+                    212.6999969482422
+                  ],
+                  [
+                    421.0,
+                    213.3000030517578
+                  ],
+                  [
+                    443.6000061035156,
+                    296.5
+                  ],
+                  [
+                    431.1000061035156,
+                    563.5999755859375
+                  ],
+                  [
+                    239.60000610351562,
+                    551.0999755859375
+                  ],
+                  [
+                    221.1999969482422,
+                    452.5
+                  ],
+                  [
+                    223.39999389648438,
+                    310.0
+                  ]
+                ],
+                "inset_px": 6.0,
+                "feature_inliers": 271,
+                "feature_coverage": 0.403
+              },
+              "current": {
+                "polygon": [
+                  [
+                    128.0,
+                    207.6999969482422
+                  ],
+                  [
+                    323.3999938964844,
+                    207.39999389648438
+                  ],
+                  [
+                    350.70001220703125,
+                    299.3999938964844
+                  ],
+                  [
+                    345.20001220703125,
+                    587.0999755859375
+                  ],
+                  [
+                    137.0,
+                    579.0
+                  ],
+                  [
+                    112.0,
+                    473.29998779296875
+                  ],
+                  [
+                    107.4000015258789,
+                    316.79998779296875
+                  ]
+                ],
+                "inset_px": 6.0,
+                "feature_inliers": 511,
+                "feature_coverage": 0.472
+              }
+            },
+            "status": "unchanged",
+            "change": null,
+            "count": 0,
+            "changes": {},
+            "changed_ratio": 0.0,
+            "align": "features",
+            "feature_inliers": 932,
+            "objects": [],
+            "color_correction": {
+              "reference": {
+                "wb_gains_bgr": [
+                  0.954,
+                  0.988,
+                  0.986
+                ],
+                "sat_scale": 0.6
+              },
+              "current": {
+                "wb_gains_bgr": [
+                  0.978,
+                  1.013,
+                  1.009
+                ],
+                "sat_scale": 0.6
+              }
+            },
+            "image": "P01_compare.jpg"
+          }
+        }
+      },
+      "initial_observation": false,
+      "image": "P01.png",
+      "pose": {
+        "x": 0.38928018759643757,
+        "y": 0.432989707610393,
+        "yaw": 1.5952230235917462
+      },
+      "target": {
+        "x": 0.41,
+        "y": 0.5,
+        "yaw": 1.545
+      },
+      "observed_at": "2026-11-01T22:21:08.842972",
+      "error_xy_m": 0.07,
+      "error_yaw_deg": 2.9,
+      "compare": {
+        "reference_lap": "2026-11-01_221750",
+        "reference_image": "P01.png",
+        "view_id": "front",
+        "comparison_scope": "board",
+        "board": {
+          "reference": {
+            "polygon": [
+              [
+                246.0,
+                212.6999969482422
+              ],
+              [
+                421.0,
+                213.3000030517578
+              ],
+              [
+                443.6000061035156,
+                296.5
+              ],
+              [
+                431.1000061035156,
+                563.5999755859375
+              ],
+              [
+                239.60000610351562,
+                551.0999755859375
+              ],
+              [
+                221.1999969482422,
+                452.5
+              ],
+              [
+                223.39999389648438,
+                310.0
+              ]
+            ],
+            "inset_px": 6.0,
+            "feature_inliers": 271,
+            "feature_coverage": 0.403
+          },
+          "current": {
+            "polygon": [
+              [
+                128.0,
+                207.6999969482422
+              ],
+              [
+                323.3999938964844,
+                207.39999389648438
+              ],
+              [
+                350.70001220703125,
+                299.3999938964844
+              ],
+              [
+                345.20001220703125,
+                587.0999755859375
+              ],
+              [
+                137.0,
+                579.0
+              ],
+              [
+                112.0,
+                473.29998779296875
+              ],
+              [
+                107.4000015258789,
+                316.79998779296875
+              ]
+            ],
+            "inset_px": 6.0,
+            "feature_inliers": 511,
+            "feature_coverage": 0.472
+          }
+        },
+        "status": "unchanged",
+        "change": null,
+        "count": 0,
+        "changes": {},
+        "changed_ratio": 0.0,
+        "align": "features",
+        "feature_inliers": 932,
+        "objects": [],
+        "color_correction": {
+          "reference": {
+            "wb_gains_bgr": [
+              0.954,
+              0.988,
+              0.986
+            ],
+            "sat_scale": 0.6
+          },
+          "current": {
+            "wb_gains_bgr": [
+              0.978,
+              1.013,
+              1.009
+            ],
+            "sat_scale": 0.6
+          }
+        },
+        "image": "P01_compare.jpg"
+      },
+      "final": {
+        "status": "unchanged",
+        "changes": {},
+        "change": null,
+        "count": 0,
+        "source": "front"
+      }
+    },
+    {
+      "id": "P00",
+      "status": "ok",
+      "views": {
+        "front": {
+          "view_id": "front",
+          "target": {
+            "x": 1.61,
+            "y": 0.47,
+            "yaw": 1.545
+          },
+          "navigation_elapsed_s": 26.99,
+          "status": "ok",
+          "image": "P00.png",
+          "pose": {
+            "x": 1.5807833871878652,
+            "y": 0.45782132712147394,
+            "yaw": 1.7151882603686122
+          },
+          "odom_pose": {
+            "x": 2.4806951955112257,
+            "y": 0.4262398820558867,
+            "yaw": 2.5610904954313405
+          },
+          "error_xy_m": 0.032,
+          "error_yaw_deg": 9.8,
+          "compare": {
+            "reference_lap": "2026-11-01_221750",
+            "reference_image": "P00.png",
+            "view_id": "front",
+            "comparison_scope": "model_bbox",
+            "status": "unchanged",
+            "change": null,
+            "count": 0,
+            "changes": {},
+            "changed_ratio": 0.0,
+            "align": "features",
+            "feature_inliers": 1077,
+            "objects": [],
+            "color_correction": {
+              "reference": {
+                "wb_gains_bgr": [
+                  0.956,
+                  0.998,
+                  0.992
+                ],
+                "sat_scale": 0.6
+              },
+              "current": {
+                "wb_gains_bgr": [
+                  0.993,
+                  1.006,
+                  1.003
+                ],
+                "sat_scale": 0.6
+              }
+            },
+            "analysis_source": "model_fallback",
+            "requires_review": true,
+            "primary_status": "board_not_found",
+            "primary_result": {
+              "comparison_scope": "board",
+              "board": {},
+              "status": "board_not_found",
+              "failed_image": "reference",
+              "reason": "보드가 잘렸거나 위치·크기 변화가 너무 큼"
+            },
+            "model_fallback": {
+              "model": {
+                "name": "yolo11n-seg.pt",
+                "weights_sha256": "55ed65c56c91713d23e8402371c6c49a6fd84f257f7dce452e8d70e41dcbe152",
+                "ultralytics": "8.4.197",
+                "device": "cpu",
+                "confidence": 0.25,
+                "input_size": 640,
+                "threads": 2
+              },
+              "views": {
+                "reference": {
+                  "confidence": 0.587,
+                  "bbox": [
+                    1.57,
+                    207.72,
+                    279.21,
+                    615.15
+                  ],
+                  "area_ratio": 0.1694,
+                  "inference_ms": 59.7,
+                  "image_sha256": "f8a1e09aaaebb62f98fbcd64a0efcbee5fa94d888df9e9135d7ab22b4b8bf9c5",
+                  "cache_hit": true
+                },
+                "current": {
+                  "confidence": 0.3792,
+                  "bbox": [
+                    90.44,
+                    196.81,
+                    355.84,
+                    639.94
+                  ],
+                  "area_ratio": 0.1576,
+                  "inference_ms": 292.63,
+                  "image_sha256": "8e3fb6ff13f2a655ae71298f3661134908b33bffc6fba189ce579d9ab63abae5",
+                  "cache_hit": false
+                }
+              },
+              "status": "used",
+              "inference_wall_ms": 329.97,
+              "total_wall_ms": 1153.96,
+              "candidate_status": "unchanged"
+            },
+            "image": "P00_compare.jpg"
+          }
+        }
+      },
+      "initial_observation": false,
+      "image": "P00.png",
+      "pose": {
+        "x": 1.5807833871878652,
+        "y": 0.45782132712147394,
+        "yaw": 1.7151882603686122
+      },
+      "target": {
+        "x": 1.61,
+        "y": 0.47,
+        "yaw": 1.545
+      },
+      "observed_at": "2026-11-01T22:21:38.387878",
+      "error_xy_m": 0.032,
+      "error_yaw_deg": 9.8,
+      "compare": {
+        "reference_lap": "2026-11-01_221750",
+        "reference_image": "P00.png",
+        "view_id": "front",
+        "comparison_scope": "model_bbox",
+        "status": "unchanged",
+        "change": null,
+        "count": 0,
+        "changes": {},
+        "changed_ratio": 0.0,
+        "align": "features",
+        "feature_inliers": 1077,
+        "objects": [],
+        "color_correction": {
+          "reference": {
+            "wb_gains_bgr": [
+              0.956,
+              0.998,
+              0.992
+            ],
+            "sat_scale": 0.6
+          },
+          "current": {
+            "wb_gains_bgr": [
+              0.993,
+              1.006,
+              1.003
+            ],
+            "sat_scale": 0.6
+          }
+        },
+        "analysis_source": "model_fallback",
+        "requires_review": true,
+        "primary_status": "board_not_found",
+        "primary_result": {
+          "comparison_scope": "board",
+          "board": {},
+          "status": "board_not_found",
+          "failed_image": "reference",
+          "reason": "보드가 잘렸거나 위치·크기 변화가 너무 큼"
+        },
+        "model_fallback": {
+          "model": {
+            "name": "yolo11n-seg.pt",
+            "weights_sha256": "55ed65c56c91713d23e8402371c6c49a6fd84f257f7dce452e8d70e41dcbe152",
+            "ultralytics": "8.4.197",
+            "device": "cpu",
+            "confidence": 0.25,
+            "input_size": 640,
+            "threads": 2
+          },
+          "views": {
+            "reference": {
+              "confidence": 0.587,
+              "bbox": [
+                1.57,
+                207.72,
+                279.21,
+                615.15
+              ],
+              "area_ratio": 0.1694,
+              "inference_ms": 59.7,
+              "image_sha256": "f8a1e09aaaebb62f98fbcd64a0efcbee5fa94d888df9e9135d7ab22b4b8bf9c5",
+              "cache_hit": true
+            },
+            "current": {
+              "confidence": 0.3792,
+              "bbox": [
+                90.44,
+                196.81,
+                355.84,
+                639.94
+              ],
+              "area_ratio": 0.1576,
+              "inference_ms": 292.63,
+              "image_sha256": "8e3fb6ff13f2a655ae71298f3661134908b33bffc6fba189ce579d9ab63abae5",
+              "cache_hit": false
+            }
+          },
+          "status": "used",
+          "inference_wall_ms": 329.97,
+          "total_wall_ms": 1153.96,
+          "candidate_status": "unchanged"
+        },
+        "image": "P00_compare.jpg"
+      },
+      "final": {
+        "status": "unchanged",
+        "changes": {},
+        "change": null,
+        "count": 0,
+        "analysis_source": "model_fallback",
+        "requires_review": true,
+        "primary_status": "board_not_found",
+        "source": "front"
+      }
+    }
+  ],
+  "finished": "2026-11-01T22:22:11"
+}
