@@ -54,4 +54,9 @@ captures/
 `compare`는 최초 사진의 결과이므로 `final`을 대신하지 않는다. 회차의 `home`, `mode`,
 `baseline_complete`도 결과 파일과 동일하게 제공한다.
 
+`analysis_source: model_fallback`은 기존 정면 비교 실패 후 모델 영역으로 보조한 결과다.
+`requires_review: true`이면 변화 없음이어도 관리자 확인이 필요하다. `primary_status`와
+`primary_result`에 원래 비교 실패를 보존하고, `model_fallback`에 모델·처리 시간·실패 사유를 남긴다.
+`final`에도 보조 여부와 확인 필요 표시를 보존한다. 모델 결과를 자동 확정으로 표시하지 않는다.
+
 사진 주소 예 (GitHub Pages가 이 저장소를 올린 경우): `https://<팀>.github.io/<저장소>/captures/2026-10-30_002113/P00.png`
