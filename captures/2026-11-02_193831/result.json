@@ -1,0 +1,304 @@
+{
+  "route": "demo_real3",
+  "route_file": "/home/eun/plant_ws/install/plant_observer_gazebo/share/plant_observer_gazebo/config/patrol_demo_real3.yaml",
+  "image_rotation": 90,
+  "compare_to": "previous",
+  "reference_lap": "2026-11-01_222814",
+  "capture_policy": "front_compare_sides_for_admin",
+  "lap": 1,
+  "started": "2026-11-02T19:38:31",
+  "home": "ok",
+  "visit_order": [
+    {
+      "id": "P00",
+      "reason": "모델 보조 결과 미확인 (2026-11-01_222053)"
+    },
+    {
+      "id": "P01",
+      "reason": "미확인 변화: 열매 생성 1곳 (2026-11-01_221750)"
+    }
+  ],
+  "stops": [
+    {
+      "id": "P00",
+      "status": "ok",
+      "views": {
+        "front": {
+          "view_id": "front",
+          "target": {
+            "x": 1.61,
+            "y": 0.47,
+            "yaw": 1.545
+          },
+          "navigation_elapsed_s": 23.31,
+          "status": "ok",
+          "image": "P00.png",
+          "pose": {
+            "x": 1.5911436943549968,
+            "y": 0.4347448914785798,
+            "yaw": 1.6405168478177687
+          },
+          "odom_pose": {
+            "x": 1.5004018109074813,
+            "y": 0.517450954293174,
+            "yaw": 1.7036647184536087
+          },
+          "error_xy_m": 0.04,
+          "error_yaw_deg": 5.5,
+          "compare": {
+            "reference_lap": "2026-11-01_222814",
+            "reference_image": "P00.png",
+            "view_id": "front",
+            "comparison_scope": "board",
+            "board": {
+              "reference": {
+                "polygon": [
+                  [
+                    65.5,
+                    213.6999969482422
+                  ],
+                  [
+                    291.6000061035156,
+                    214.0
+                  ],
+                  [
+                    301.6000061035156,
+                    328.0
+                  ],
+                  [
+                    297.6000061035156,
+                    571.7999877929688
+                  ],
+                  [
+                    90.9000015258789,
+                    570.9000244140625
+                  ],
+                  [
+                    73.69999694824219,
+                    445.20001220703125
+                  ],
+                  [
+                    62.5,
+                    323.5
+                  ]
+                ],
+                "inset_px": 6.0,
+                "feature_inliers": 329,
+                "feature_coverage": 0.372
+              }
+            },
+            "status": "board_not_found",
+            "failed_image": "current",
+            "reason": "보드의 작은 일부만 일치함"
+          }
+        }
+      },
+      "initial_observation": false,
+      "image": "P00.png",
+      "pose": {
+        "x": 1.5911436943549968,
+        "y": 0.4347448914785798,
+        "yaw": 1.6405168478177687
+      },
+      "target": {
+        "x": 1.61,
+        "y": 0.47,
+        "yaw": 1.545
+      },
+      "observed_at": "2026-11-02T19:38:57.245467",
+      "error_xy_m": 0.04,
+      "error_yaw_deg": 5.5,
+      "compare": {
+        "reference_lap": "2026-11-01_222814",
+        "reference_image": "P00.png",
+        "view_id": "front",
+        "comparison_scope": "board",
+        "board": {
+          "reference": {
+            "polygon": [
+              [
+                65.5,
+                213.6999969482422
+              ],
+              [
+                291.6000061035156,
+                214.0
+              ],
+              [
+                301.6000061035156,
+                328.0
+              ],
+              [
+                297.6000061035156,
+                571.7999877929688
+              ],
+              [
+                90.9000015258789,
+                570.9000244140625
+              ],
+              [
+                73.69999694824219,
+                445.20001220703125
+              ],
+              [
+                62.5,
+                323.5
+              ]
+            ],
+            "inset_px": 6.0,
+            "feature_inliers": 329,
+            "feature_coverage": 0.372
+          }
+        },
+        "status": "board_not_found",
+        "failed_image": "current",
+        "reason": "보드의 작은 일부만 일치함"
+      },
+      "final": {
+        "status": "board_not_found",
+        "source": "front"
+      }
+    },
+    {
+      "id": "P01",
+      "status": "ok",
+      "views": {
+        "front": {
+          "view_id": "front",
+          "target": {
+            "x": 0.41,
+            "y": 0.5,
+            "yaw": 1.545
+          },
+          "navigation_elapsed_s": 31.21,
+          "status": "ok",
+          "image": "P01.png",
+          "pose": {
+            "x": 0.43613938397775653,
+            "y": 0.49898722836703635,
+            "yaw": 1.4017827233801767
+          },
+          "odom_pose": {
+            "x": 0.23573480740551264,
+            "y": 0.3460302854819096,
+            "yaw": 1.6112410397632946
+          },
+          "error_xy_m": 0.026,
+          "error_yaw_deg": -8.2,
+          "compare": {
+            "reference_lap": "2026-11-01_222814",
+            "reference_image": "P01.png",
+            "view_id": "front",
+            "comparison_scope": "board",
+            "board": {
+              "reference": {
+                "polygon": [
+                  [
+                    95.80000305175781,
+                    207.5
+                  ],
+                  [
+                    294.70001220703125,
+                    206.39999389648438
+                  ],
+                  [
+                    323.70001220703125,
+                    298.79998779296875
+                  ],
+                  [
+                    324.29998779296875,
+                    588.0
+                  ],
+                  [
+                    113.30000305175781,
+                    590.4000244140625
+                  ],
+                  [
+                    84.9000015258789,
+                    482.3999938964844
+                  ],
+                  [
+                    76.5999984741211,
+                    320.6000061035156
+                  ]
+                ],
+                "inset_px": 6.0,
+                "feature_inliers": 451,
+                "feature_coverage": 0.456
+              }
+            },
+            "status": "board_not_found",
+            "failed_image": "current",
+            "reason": "보드의 작은 일부만 일치함"
+          }
+        }
+      },
+      "initial_observation": false,
+      "image": "P01.png",
+      "pose": {
+        "x": 0.43613938397775653,
+        "y": 0.49898722836703635,
+        "yaw": 1.4017827233801767
+      },
+      "target": {
+        "x": 0.41,
+        "y": 0.5,
+        "yaw": 1.545
+      },
+      "observed_at": "2026-11-02T19:39:30.585732",
+      "error_xy_m": 0.026,
+      "error_yaw_deg": -8.2,
+      "compare": {
+        "reference_lap": "2026-11-01_222814",
+        "reference_image": "P01.png",
+        "view_id": "front",
+        "comparison_scope": "board",
+        "board": {
+          "reference": {
+            "polygon": [
+              [
+                95.80000305175781,
+                207.5
+              ],
+              [
+                294.70001220703125,
+                206.39999389648438
+              ],
+              [
+                323.70001220703125,
+                298.79998779296875
+              ],
+              [
+                324.29998779296875,
+                588.0
+              ],
+              [
+                113.30000305175781,
+                590.4000244140625
+              ],
+              [
+                84.9000015258789,
+                482.3999938964844
+              ],
+              [
+                76.5999984741211,
+                320.6000061035156
+              ]
+            ],
+            "inset_px": 6.0,
+            "feature_inliers": 451,
+            "feature_coverage": 0.456
+          }
+        },
+        "status": "board_not_found",
+        "failed_image": "current",
+        "reason": "보드의 작은 일부만 일치함"
+      },
+      "final": {
+        "status": "board_not_found",
+        "source": "front"
+      }
+    }
+  ],
+  "finished": "2026-11-02T19:39:52"
+}
