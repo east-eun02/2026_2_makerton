@@ -1,9 +1,175 @@
 {
-  "updated": "2026-11-02T19:39:52",
+  "updated": "2026-11-02T22:47:53",
   "baselines": {
     "demo_real3": "2026-10-31_003632"
   },
   "laps": [
+    {
+      "lap": "2026-11-02_224627",
+      "route": "demo_real3",
+      "started": "2026-11-02T22:46:27",
+      "finished": "2026-11-02T22:47:53",
+      "home": "ok",
+      "mode": null,
+      "baseline_complete": null,
+      "compare_to": "previous",
+      "reference_lap": "2026-11-02_193831",
+      "capture_policy": "front_compare_sides_for_admin",
+      "visit_order": [
+        {
+          "id": "P00",
+          "reason": "모델 보조 결과 미확인 (2026-11-01_222053)"
+        },
+        {
+          "id": "P01",
+          "reason": "미확인 변화: 열매 생성 1곳 (2026-11-01_221750)"
+        }
+      ],
+      "stops": [
+        {
+          "id": "P00",
+          "status": "ok",
+          "views": {
+            "front": {
+              "view_id": "front",
+              "target": {
+                "x": 1.61,
+                "y": 0.47,
+                "yaw": 1.545
+              },
+              "navigation_elapsed_s": 25.88,
+              "status": "ok",
+              "image": "2026-11-02_224627/P00.png",
+              "pose": {
+                "x": 1.5877106059999295,
+                "y": 0.43573838006780996,
+                "yaw": 1.6779950192768307
+              },
+              "odom_pose": {
+                "x": 1.6790149421003808,
+                "y": 0.3140449113611989,
+                "yaw": 1.6893778520911729
+              },
+              "error_xy_m": 0.041,
+              "error_yaw_deg": 7.6,
+              "compare": {
+                "reference_lap": "2026-11-02_193831",
+                "reference_image": "2026-11-02_193831/P00.png",
+                "view_id": "front",
+                "comparison_scope": "board",
+                "board": {},
+                "status": "board_not_found",
+                "failed_image": "reference",
+                "reason": "보드의 작은 일부만 일치함"
+              }
+            }
+          },
+          "initial_observation": false,
+          "image": "2026-11-02_224627/P00.png",
+          "pose": {
+            "x": 1.5877106059999295,
+            "y": 0.43573838006780996,
+            "yaw": 1.6779950192768307
+          },
+          "target": {
+            "x": 1.61,
+            "y": 0.47,
+            "yaw": 1.545
+          },
+          "observed_at": "2026-11-02T22:46:55.539814",
+          "error_xy_m": 0.041,
+          "error_yaw_deg": 7.6,
+          "compare": {
+            "status": "board_not_found",
+            "change": null,
+            "count": null,
+            "reference_lap": "2026-11-02_193831",
+            "reference_image": "2026-11-02_193831/P00.png",
+            "image": null,
+            "view_id": "front",
+            "comparison_scope": "board",
+            "board": {},
+            "failed_image": "reference",
+            "reason": "보드의 작은 일부만 일치함"
+          },
+          "final": {
+            "status": "board_not_found",
+            "source": "front"
+          }
+        },
+        {
+          "id": "P01",
+          "status": "ok",
+          "views": {
+            "front": {
+              "view_id": "front",
+              "target": {
+                "x": 0.41,
+                "y": 0.5,
+                "yaw": 1.545
+              },
+              "navigation_elapsed_s": 31.45,
+              "status": "ok",
+              "image": "2026-11-02_224627/P01.png",
+              "pose": {
+                "x": 0.4053293366816056,
+                "y": 0.434001209357891,
+                "yaw": 1.6769184829466812
+              },
+              "odom_pose": {
+                "x": 0.427344114900525,
+                "y": 0.2138482189963291,
+                "yaw": 1.743350458349254
+              },
+              "error_xy_m": 0.066,
+              "error_yaw_deg": 7.6,
+              "compare": {
+                "reference_lap": "2026-11-02_193831",
+                "reference_image": "2026-11-02_193831/P01.png",
+                "view_id": "front",
+                "comparison_scope": "board",
+                "board": {},
+                "status": "board_not_found",
+                "failed_image": "reference",
+                "reason": "보드의 작은 일부만 일치함"
+              }
+            }
+          },
+          "initial_observation": false,
+          "image": "2026-11-02_224627/P01.png",
+          "pose": {
+            "x": 0.4053293366816056,
+            "y": 0.434001209357891,
+            "yaw": 1.6769184829466812
+          },
+          "target": {
+            "x": 0.41,
+            "y": 0.5,
+            "yaw": 1.545
+          },
+          "observed_at": "2026-11-02T22:47:29.108608",
+          "error_xy_m": 0.066,
+          "error_yaw_deg": 7.6,
+          "compare": {
+            "status": "board_not_found",
+            "change": null,
+            "count": null,
+            "reference_lap": "2026-11-02_193831",
+            "reference_image": "2026-11-02_193831/P01.png",
+            "image": null,
+            "view_id": "front",
+            "comparison_scope": "board",
+            "board": {},
+            "failed_image": "reference",
+            "reason": "보드의 작은 일부만 일치함"
+          },
+          "final": {
+            "status": "board_not_found",
+            "source": "front"
+          }
+        }
+      ]
+    },
     {
       "lap": "2026-11-02_193831",
       "route": "demo_real3",
