@@ -1,0 +1,770 @@
+{
+  "route": "demo_real3",
+  "route_file": "/home/eun/plant_ws/install/plant_observer_gazebo/share/plant_observer_gazebo/config/patrol_demo_real3.yaml",
+  "image_rotation": 90,
+  "compare_to": "previous",
+  "reference_lap": "2026-11-02_224758",
+  "capture_policy": "front_compare_sides_for_admin",
+  "lap": 1,
+  "started": "2026-11-02T22:50:11",
+  "home": "ok",
+  "visit_order": [
+    {
+      "id": "P00",
+      "reason": "모델 보조 결과 미확인 (2026-11-01_222053)"
+    },
+    {
+      "id": "P01",
+      "reason": "미확인 변화: 열매 생성 1곳 (2026-11-01_221750)"
+    }
+  ],
+  "stops": [
+    {
+      "id": "P00",
+      "status": "ok",
+      "views": {
+        "front": {
+          "view_id": "front",
+          "target": {
+            "x": 1.61,
+            "y": 0.47,
+            "yaw": 1.545
+          },
+          "navigation_elapsed_s": 24.64,
+          "status": "ok",
+          "image": "P00.png",
+          "pose": {
+            "x": 1.5838357678189412,
+            "y": 0.4195572844356962,
+            "yaw": 1.6718104653510766
+          },
+          "odom_pose": {
+            "x": 1.457836174123896,
+            "y": 0.7381606732455589,
+            "yaw": 2.319309467832757
+          },
+          "error_xy_m": 0.057,
+          "error_yaw_deg": 7.3,
+          "compare": {
+            "reference_lap": "2026-11-02_224758",
+            "reference_image": "P00.png",
+            "view_id": "front",
+            "comparison_scope": "board",
+            "board": {
+              "reference": {
+                "polygon": [
+                  [
+                    132.39999389648438,
+                    223.6999969482422
+                  ],
+                  [
+                    317.5,
+                    225.0
+                  ],
+                  [
+                    325.6000061035156,
+                    316.20001220703125
+                  ],
+                  [
+                    322.70001220703125,
+                    521.2999877929688
+                  ],
+                  [
+                    145.1999969482422,
+                    526.0999755859375
+                  ],
+                  [
+                    133.39999389648438,
+                    416.3999938964844
+                  ],
+                  [
+                    127.0,
+                    313.6000061035156
+                  ]
+                ],
+                "inset_px": 6.0,
+                "feature_inliers": 346,
+                "feature_coverage": 0.428
+              },
+              "current": {
+                "polygon": [
+                  [
+                    121.69999694824219,
+                    228.5
+                  ],
+                  [
+                    298.3999938964844,
+                    230.39999389648438
+                  ],
+                  [
+                    306.70001220703125,
+                    316.70001220703125
+                  ],
+                  [
+                    305.3999938964844,
+                    516.2000122070312
+                  ],
+                  [
+                    131.10000610351562,
+                    522.7999877929688
+                  ],
+                  [
+                    120.5999984741211,
+                    414.20001220703125
+                  ],
+                  [
+                    115.5,
+                    314.20001220703125
+                  ]
+                ],
+                "inset_px": 6.0,
+                "feature_inliers": 293,
+                "feature_coverage": 0.344
+              }
+            },
+            "status": "unchanged",
+            "change": null,
+            "count": 0,
+            "changes": {},
+            "changed_ratio": 0.0,
+            "align": "features",
+            "feature_inliers": 1156,
+            "objects": [],
+            "color_correction": {
+              "reference": {
+                "wb_gains_bgr": [
+                  0.966,
+                  1.012,
+                  1.01
+                ],
+                "sat_scale": 0.6
+              },
+              "current": {
+                "wb_gains_bgr": [
+                  0.968,
+                  1.015,
+                  1.013
+                ],
+                "sat_scale": 0.6
+              }
+            },
+            "image": "P00_compare.jpg"
+          }
+        }
+      },
+      "initial_observation": false,
+      "image": "P00.png",
+      "pose": {
+        "x": 1.5838357678189412,
+        "y": 0.4195572844356962,
+        "yaw": 1.6718104653510766
+      },
+      "target": {
+        "x": 1.61,
+        "y": 0.47,
+        "yaw": 1.545
+      },
+      "observed_at": "2026-11-02T22:50:38.550893",
+      "error_xy_m": 0.057,
+      "error_yaw_deg": 7.3,
+      "compare": {
+        "reference_lap": "2026-11-02_224758",
+        "reference_image": "P00.png",
+        "view_id": "front",
+        "comparison_scope": "board",
+        "board": {
+          "reference": {
+            "polygon": [
+              [
+                132.39999389648438,
+                223.6999969482422
+              ],
+              [
+                317.5,
+                225.0
+              ],
+              [
+                325.6000061035156,
+                316.20001220703125
+              ],
+              [
+                322.70001220703125,
+                521.2999877929688
+              ],
+              [
+                145.1999969482422,
+                526.0999755859375
+              ],
+              [
+                133.39999389648438,
+                416.3999938964844
+              ],
+              [
+                127.0,
+                313.6000061035156
+              ]
+            ],
+            "inset_px": 6.0,
+            "feature_inliers": 346,
+            "feature_coverage": 0.428
+          },
+          "current": {
+            "polygon": [
+              [
+                121.69999694824219,
+                228.5
+              ],
+              [
+                298.3999938964844,
+                230.39999389648438
+              ],
+              [
+                306.70001220703125,
+                316.70001220703125
+              ],
+              [
+                305.3999938964844,
+                516.2000122070312
+              ],
+              [
+                131.10000610351562,
+                522.7999877929688
+              ],
+              [
+                120.5999984741211,
+                414.20001220703125
+              ],
+              [
+                115.5,
+                314.20001220703125
+              ]
+            ],
+            "inset_px": 6.0,
+            "feature_inliers": 293,
+            "feature_coverage": 0.344
+          }
+        },
+        "status": "unchanged",
+        "change": null,
+        "count": 0,
+        "changes": {},
+        "changed_ratio": 0.0,
+        "align": "features",
+        "feature_inliers": 1156,
+        "objects": [],
+        "color_correction": {
+          "reference": {
+            "wb_gains_bgr": [
+              0.966,
+              1.012,
+              1.01
+            ],
+            "sat_scale": 0.6
+          },
+          "current": {
+            "wb_gains_bgr": [
+              0.968,
+              1.015,
+              1.013
+            ],
+            "sat_scale": 0.6
+          }
+        },
+        "image": "P00_compare.jpg"
+      },
+      "final": {
+        "status": "unchanged",
+        "changes": {},
+        "change": null,
+        "count": 0,
+        "source": "front"
+      }
+    },
+    {
+      "id": "P01",
+      "status": "ok",
+      "views": {
+        "front": {
+          "view_id": "front",
+          "target": {
+            "x": 0.41,
+            "y": 0.5,
+            "yaw": 1.545
+          },
+          "navigation_elapsed_s": 24.98,
+          "status": "ok",
+          "image": "P01.png",
+          "pose": {
+            "x": 0.4522311831430677,
+            "y": 0.46343753978551816,
+            "yaw": 1.4342152659803389
+          },
+          "odom_pose": {
+            "x": 0.4627298125260029,
+            "y": -0.06303663802104917,
+            "yaw": 2.157391649058512
+          },
+          "error_xy_m": 0.056,
+          "error_yaw_deg": -6.3,
+          "compare": {
+            "reference_lap": "2026-11-02_224758",
+            "reference_image": "P01.png",
+            "view_id": "front",
+            "comparison_scope": "board",
+            "board": {
+              "reference": {
+                "polygon": [
+                  [
+                    136.5,
+                    213.6999969482422
+                  ],
+                  [
+                    314.29998779296875,
+                    215.8000030517578
+                  ],
+                  [
+                    339.6000061035156,
+                    297.0
+                  ],
+                  [
+                    341.20001220703125,
+                    557.5999755859375
+                  ],
+                  [
+                    148.39999389648438,
+                    569.0
+                  ],
+                  [
+                    122.9000015258789,
+                    467.5
+                  ],
+                  [
+                    117.19999694824219,
+                    316.70001220703125
+                  ]
+                ],
+                "inset_px": 6.0,
+                "feature_inliers": 246,
+                "feature_coverage": 0.409
+              },
+              "current": {
+                "polygon": [
+                  [
+                    165.6999969482422,
+                    217.10000610351562
+                  ],
+                  [
+                    338.79998779296875,
+                    215.3000030517578
+                  ],
+                  [
+                    363.5,
+                    295.1000061035156
+                  ],
+                  [
+                    363.1000061035156,
+                    551.2999877929688
+                  ],
+                  [
+                    175.5,
+                    557.9000244140625
+                  ],
+                  [
+                    151.8000030517578,
+                    460.6000061035156
+                  ],
+                  [
+                    147.10000610351562,
+                    316.3999938964844
+                  ]
+                ],
+                "inset_px": 6.0,
+                "feature_inliers": 233,
+                "feature_coverage": 0.371
+              }
+            },
+            "status": "changed",
+            "change": "leaf_loss",
+            "count": 1,
+            "changes": {
+              "leaf_loss": 1
+            },
+            "changed_ratio": 0.0812,
+            "align": "features",
+            "feature_inliers": 866,
+            "objects": [
+              {
+                "type": "leaf_loss",
+                "bbox": [
+                  130,
+                  287,
+                  71,
+                  69
+                ],
+                "area_px": 2626
+              }
+            ],
+            "color_correction": {
+              "reference": {
+                "wb_gains_bgr": [
+                  0.997,
+                  1.043,
+                  1.041
+                ],
+                "sat_scale": 0.6
+              },
+              "current": {
+                "wb_gains_bgr": [
+                  0.996,
+                  1.042,
+                  1.039
+                ],
+                "sat_scale": 0.6
+              }
+            },
+            "image": "P01_compare.jpg"
+          }
+        },
+        "right": {
+          "view_id": "right",
+          "target": {
+            "x": 0.6823122755583699,
+            "y": 0.40384406931239314,
+            "yaw": 1.9813323129985823
+          },
+          "purpose": "admin_review",
+          "navigation_elapsed_s": 39.23,
+          "status": "ok",
+          "pose": {
+            "x": 0.646547112594414,
+            "y": 0.4143748425533673,
+            "yaw": 2.077654250380019
+          },
+          "odom_pose": {
+            "x": 0.7192673559753069,
+            "y": 0.0870816265697066,
+            "yaw": 2.66395807119318
+          },
+          "movement_m": 0.297,
+          "viewpoint_change_deg": 17.8,
+          "image": "P01_right.png",
+          "error_xy_m": 0.037,
+          "error_yaw_deg": 5.5
+        },
+        "left": {
+          "view_id": "left",
+          "target": {
+            "x": 0.13309132564889659,
+            "y": 0.4180150959304576,
+            "yaw": 1.1086676870014176
+          },
+          "purpose": "admin_review",
+          "navigation_elapsed_s": 32.49,
+          "status": "ok",
+          "pose": {
+            "x": 0.18432539958142447,
+            "y": 0.44406627616130706,
+            "yaw": 1.0647756519151772
+          },
+          "odom_pose": {
+            "x": 0.2686837598922809,
+            "y": -0.21524367322915153,
+            "yaw": 1.6929803017463363
+          },
+          "movement_m": 0.247,
+          "viewpoint_change_deg": 26.4,
+          "image": "P01_left.png",
+          "error_xy_m": 0.057,
+          "error_yaw_deg": -2.5
+        }
+      },
+      "initial_observation": false,
+      "image": "P01.png",
+      "pose": {
+        "x": 0.4522311831430677,
+        "y": 0.46343753978551816,
+        "yaw": 1.4342152659803389
+      },
+      "target": {
+        "x": 0.41,
+        "y": 0.5,
+        "yaw": 1.545
+      },
+      "observed_at": "2026-11-02T22:51:06.524198",
+      "error_xy_m": 0.056,
+      "error_yaw_deg": -6.3,
+      "compare": {
+        "reference_lap": "2026-11-02_224758",
+        "reference_image": "P01.png",
+        "view_id": "front",
+        "comparison_scope": "board",
+        "board": {
+          "reference": {
+            "polygon": [
+              [
+                136.5,
+                213.6999969482422
+              ],
+              [
+                314.29998779296875,
+                215.8000030517578
+              ],
+              [
+                339.6000061035156,
+                297.0
+              ],
+              [
+                341.20001220703125,
+                557.5999755859375
+              ],
+              [
+                148.39999389648438,
+                569.0
+              ],
+              [
+                122.9000015258789,
+                467.5
+              ],
+              [
+                117.19999694824219,
+                316.70001220703125
+              ]
+            ],
+            "inset_px": 6.0,
+            "feature_inliers": 246,
+            "feature_coverage": 0.409
+          },
+          "current": {
+            "polygon": [
+              [
+                165.6999969482422,
+                217.10000610351562
+              ],
+              [
+                338.79998779296875,
+                215.3000030517578
+              ],
+              [
+                363.5,
+                295.1000061035156
+              ],
+              [
+                363.1000061035156,
+                551.2999877929688
+              ],
+              [
+                175.5,
+                557.9000244140625
+              ],
+              [
+                151.8000030517578,
+                460.6000061035156
+              ],
+              [
+                147.10000610351562,
+                316.3999938964844
+              ]
+            ],
+            "inset_px": 6.0,
+            "feature_inliers": 233,
+            "feature_coverage": 0.371
+          }
+        },
+        "status": "changed",
+        "change": "leaf_loss",
+        "count": 1,
+        "changes": {
+          "leaf_loss": 1
+        },
+        "changed_ratio": 0.0812,
+        "align": "features",
+        "feature_inliers": 866,
+        "objects": [
+          {
+            "type": "leaf_loss",
+            "bbox": [
+              130,
+              287,
+              71,
+              69
+            ],
+            "area_px": 2626
+          }
+        ],
+        "color_correction": {
+          "reference": {
+            "wb_gains_bgr": [
+              0.997,
+              1.043,
+              1.041
+            ],
+            "sat_scale": 0.6
+          },
+          "current": {
+            "wb_gains_bgr": [
+              0.996,
+              1.042,
+              1.039
+            ],
+            "sat_scale": 0.6
+          }
+        },
+        "image": "P01_compare.jpg"
+      },
+      "final": {
+        "status": "changed",
+        "changes": {
+          "leaf_loss": 1
+        },
+        "change": "leaf_loss",
+        "count": 1,
+        "source": "front"
+      },
+      "recheck": {
+        "purpose": "admin_review",
+        "attempts": [
+          {
+            "view_id": "right",
+            "target": {
+              "x": 0.6823122755583699,
+              "y": 0.40384406931239314,
+              "yaw": 1.9813323129985823
+            },
+            "purpose": "admin_review",
+            "navigation_elapsed_s": 39.23,
+            "status": "ok",
+            "pose": {
+              "x": 0.646547112594414,
+              "y": 0.4143748425533673,
+              "yaw": 2.077654250380019
+            },
+            "odom_pose": {
+              "x": 0.7192673559753069,
+              "y": 0.0870816265697066,
+              "yaw": 2.66395807119318
+            },
+            "movement_m": 0.297,
+            "viewpoint_change_deg": 17.8,
+            "image": "P01_right.png",
+            "error_xy_m": 0.037,
+            "error_yaw_deg": 5.5
+          },
+          {
+            "view_id": "left",
+            "target": {
+              "x": 0.13309132564889659,
+              "y": 0.4180150959304576,
+              "yaw": 1.1086676870014176
+            },
+            "purpose": "admin_review",
+            "navigation_elapsed_s": 32.49,
+            "status": "ok",
+            "pose": {
+              "x": 0.18432539958142447,
+              "y": 0.44406627616130706,
+              "yaw": 1.0647756519151772
+            },
+            "odom_pose": {
+              "x": 0.2686837598922809,
+              "y": -0.21524367322915153,
+              "yaw": 1.6929803017463363
+            },
+            "movement_m": 0.247,
+            "viewpoint_change_deg": 26.4,
+            "image": "P01_left.png",
+            "error_xy_m": 0.057,
+            "error_yaw_deg": -2.5
+          }
+        ],
+        "views": {
+          "right": {
+            "view_id": "right",
+            "target": {
+              "x": 0.6823122755583699,
+              "y": 0.40384406931239314,
+              "yaw": 1.9813323129985823
+            },
+            "purpose": "admin_review",
+            "navigation_elapsed_s": 39.23,
+            "status": "ok",
+            "pose": {
+              "x": 0.646547112594414,
+              "y": 0.4143748425533673,
+              "yaw": 2.077654250380019
+            },
+            "odom_pose": {
+              "x": 0.7192673559753069,
+              "y": 0.0870816265697066,
+              "yaw": 2.66395807119318
+            },
+            "movement_m": 0.297,
+            "viewpoint_change_deg": 17.8,
+            "image": "P01_right.png",
+            "error_xy_m": 0.037,
+            "error_yaw_deg": 5.5
+          },
+          "left": {
+            "view_id": "left",
+            "target": {
+              "x": 0.13309132564889659,
+              "y": 0.4180150959304576,
+              "yaw": 1.1086676870014176
+            },
+            "purpose": "admin_review",
+            "navigation_elapsed_s": 32.49,
+            "status": "ok",
+            "pose": {
+              "x": 0.18432539958142447,
+              "y": 0.44406627616130706,
+              "yaw": 1.0647756519151772
+            },
+            "odom_pose": {
+              "x": 0.2686837598922809,
+              "y": -0.21524367322915153,
+              "yaw": 1.6929803017463363
+            },
+            "movement_m": 0.247,
+            "viewpoint_change_deg": 26.4,
+            "image": "P01_left.png",
+            "error_xy_m": 0.057,
+            "error_yaw_deg": -2.5
+          }
+        },
+        "origin_pose": {
+          "x": 0.4522311831430677,
+          "y": 0.46343753978551816,
+          "yaw": 1.4342152659803389
+        },
+        "origin_odom_pose": {
+          "x": 0.4627298125260029,
+          "y": -0.06303663802104917,
+          "yaw": 2.157391649058512
+        },
+        "view_id": "right",
+        "target": {
+          "x": 0.6823122755583699,
+          "y": 0.40384406931239314,
+          "yaw": 1.9813323129985823
+        },
+        "navigation_elapsed_s": 39.23,
+        "status": "ok",
+        "pose": {
+          "x": 0.646547112594414,
+          "y": 0.4143748425533673,
+          "yaw": 2.077654250380019
+        },
+        "odom_pose": {
+          "x": 0.7192673559753069,
+          "y": 0.0870816265697066,
+          "yaw": 2.66395807119318
+        },
+        "movement_m": 0.297,
+        "viewpoint_change_deg": 17.8,
+        "image": "P01_right.png",
+        "error_xy_m": 0.037,
+        "error_yaw_deg": 5.5
+      }
+    }
+  ],
+  "finished": "2026-11-02T22:52:58"
+}
