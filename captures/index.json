@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03T22:17:29",
+  "updated": "2026-11-03T23:14:03",
   "baselines": {
     "demo_real3": "2026-10-31_003632"
   },
@@ -479,6 +479,37 @@
             "primary_status": "board_not_found",
             "source": "front"
           }
+        }
+      ]
+    },
+    {
+      "lap": "2026-11-03_221504",
+      "route": "demo_real3",
+      "started": "2026-11-03T22:15:04",
+      "finished": null,
+      "home": "pending",
+      "mode": null,
+      "baseline_complete": null,
+      "compare_to": "previous",
+      "reference_lap": "2026-11-03_212306",
+      "capture_policy": "front_compare_sides_for_admin",
+      "visit_order": [
+        {
+          "id": "P01",
+          "reason": "모델 보조 결과 미확인 (2026-11-03_212306)"
+        },
+        {
+          "id": "P00",
+          "reason": "모델 보조 결과 미확인 (2026-11-03_212306)"
+        }
+      ],
+      "stops": [
+        {
+          "id": "P01",
+          "status": "pending",
+          "views": {},
+          "initial_observation": false,
+          "compare": null
         }
       ]
     },

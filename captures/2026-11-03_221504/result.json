@@ -1,0 +1,29 @@
+{
+  "route": "demo_real3",
+  "route_file": "/home/eun/plant_ws/install/plant_observer_gazebo/share/plant_observer_gazebo/config/patrol_demo_real3.yaml",
+  "image_rotation": 90,
+  "compare_to": "previous",
+  "reference_lap": "2026-11-03_212306",
+  "capture_policy": "front_compare_sides_for_admin",
+  "lap": 1,
+  "started": "2026-11-03T22:15:04",
+  "home": "pending",
+  "visit_order": [
+    {
+      "id": "P01",
+      "reason": "모델 보조 결과 미확인 (2026-11-03_212306)"
+    },
+    {
+      "id": "P00",
+      "reason": "모델 보조 결과 미확인 (2026-11-03_212306)"
+    }
+  ],
+  "stops": [
+    {
+      "id": "P01",
+      "status": "pending",
+      "views": {},
+      "initial_observation": false
+    }
+  ]
+}
