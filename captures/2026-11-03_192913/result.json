@@ -1,0 +1,700 @@
+{
+  "route": "demo_real3",
+  "route_file": "/home/eun/plant_ws/install/plant_observer_gazebo/share/plant_observer_gazebo/config/patrol_demo_real3.yaml",
+  "image_rotation": 90,
+  "compare_to": "previous",
+  "reference_lap": "2026-11-03_192228",
+  "capture_policy": "front_compare_sides_for_admin",
+  "lap": 1,
+  "started": "2026-11-03T19:29:13",
+  "home": "ok",
+  "visit_order": [
+    {
+      "id": "P00",
+      "reason": "모델 보조 결과 미확인 (2026-11-03_192228)"
+    },
+    {
+      "id": "P01",
+      "reason": "모델 보조 결과 미확인 (2026-11-03_192228)"
+    }
+  ],
+  "stops": [
+    {
+      "id": "P00",
+      "status": "ok",
+      "views": {
+        "front": {
+          "view_id": "front",
+          "target": {
+            "x": 1.61,
+            "y": 0.47,
+            "yaw": 1.545
+          },
+          "navigation_elapsed_s": 24.5,
+          "status": "ok",
+          "image": "P00.png",
+          "pose": {
+            "x": 1.5727087866928966,
+            "y": 0.4028611998218872,
+            "yaw": 1.6590951043002806
+          },
+          "odom_pose": {
+            "x": 1.1002525556430003,
+            "y": 0.9209213350660953,
+            "yaw": 2.615137930020519
+          },
+          "error_xy_m": 0.077,
+          "error_yaw_deg": 6.5,
+          "compare": {
+            "reference_lap": "2026-11-03_192228",
+            "reference_image": "P00.png",
+            "view_id": "front",
+            "comparison_scope": "model_bbox",
+            "status": "unchanged",
+            "change": null,
+            "count": 0,
+            "changes": {},
+            "changed_ratio": 0.0,
+            "align": "features",
+            "feature_inliers": 851,
+            "objects": [],
+            "color_correction": {
+              "reference": {
+                "wb_gains_bgr": [
+                  0.985,
+                  1.008,
+                  1.005
+                ],
+                "sat_scale": 0.6
+              },
+              "current": {
+                "wb_gains_bgr": [
+                  0.977,
+                  1.004,
+                  0.999
+                ],
+                "sat_scale": 0.6
+              }
+            },
+            "analysis_source": "model_fallback",
+            "requires_review": true,
+            "primary_status": "board_not_found",
+            "primary_result": {
+              "comparison_scope": "board",
+              "board": {},
+              "status": "board_not_found",
+              "failed_image": "reference",
+              "reason": "보드의 작은 일부만 일치함"
+            },
+            "model_fallback": {
+              "model": {
+                "name": "yolo11n-seg.pt",
+                "weights_sha256": "55ed65c56c91713d23e8402371c6c49a6fd84f257f7dce452e8d70e41dcbe152",
+                "ultralytics": "8.4.197",
+                "device": "cpu",
+                "confidence": 0.25,
+                "input_size": 640,
+                "threads": 2
+              },
+              "views": {
+                "reference": {
+                  "confidence": 0.4845,
+                  "bbox": [
+                    188.51,
+                    209.43,
+                    453.96,
+                    608.77
+                  ],
+                  "area_ratio": 0.1495,
+                  "inference_ms": 1176.64,
+                  "image_sha256": "1a74d604033cff42c28000ac96cc0097999aa1e9ef09cf47dd2202846fb9b33e",
+                  "cache_hit": false
+                },
+                "current": {
+                  "confidence": 0.5141,
+                  "bbox": [
+                    198.75,
+                    207.76,
+                    449.13,
+                    639.27
+                  ],
+                  "area_ratio": 0.1293,
+                  "inference_ms": 181.76,
+                  "image_sha256": "988bd161ef7e0e82d254d8b105b5074740191dd079d0e9473dd38767c5e4180f",
+                  "cache_hit": false
+                }
+              },
+              "status": "used",
+              "inference_wall_ms": 2575.32,
+              "total_wall_ms": 3549.89,
+              "candidate_status": "unchanged"
+            },
+            "image": "P00_compare.jpg"
+          }
+        }
+      },
+      "initial_observation": false,
+      "image": "P00.png",
+      "pose": {
+        "x": 1.5727087866928966,
+        "y": 0.4028611998218872,
+        "yaw": 1.6590951043002806
+      },
+      "target": {
+        "x": 1.61,
+        "y": 0.47,
+        "yaw": 1.545
+      },
+      "observed_at": "2026-11-03T19:29:39.625176",
+      "error_xy_m": 0.077,
+      "error_yaw_deg": 6.5,
+      "compare": {
+        "reference_lap": "2026-11-03_192228",
+        "reference_image": "P00.png",
+        "view_id": "front",
+        "comparison_scope": "model_bbox",
+        "status": "unchanged",
+        "change": null,
+        "count": 0,
+        "changes": {},
+        "changed_ratio": 0.0,
+        "align": "features",
+        "feature_inliers": 851,
+        "objects": [],
+        "color_correction": {
+          "reference": {
+            "wb_gains_bgr": [
+              0.985,
+              1.008,
+              1.005
+            ],
+            "sat_scale": 0.6
+          },
+          "current": {
+            "wb_gains_bgr": [
+              0.977,
+              1.004,
+              0.999
+            ],
+            "sat_scale": 0.6
+          }
+        },
+        "analysis_source": "model_fallback",
+        "requires_review": true,
+        "primary_status": "board_not_found",
+        "primary_result": {
+          "comparison_scope": "board",
+          "board": {},
+          "status": "board_not_found",
+          "failed_image": "reference",
+          "reason": "보드의 작은 일부만 일치함"
+        },
+        "model_fallback": {
+          "model": {
+            "name": "yolo11n-seg.pt",
+            "weights_sha256": "55ed65c56c91713d23e8402371c6c49a6fd84f257f7dce452e8d70e41dcbe152",
+            "ultralytics": "8.4.197",
+            "device": "cpu",
+            "confidence": 0.25,
+            "input_size": 640,
+            "threads": 2
+          },
+          "views": {
+            "reference": {
+              "confidence": 0.4845,
+              "bbox": [
+                188.51,
+                209.43,
+                453.96,
+                608.77
+              ],
+              "area_ratio": 0.1495,
+              "inference_ms": 1176.64,
+              "image_sha256": "1a74d604033cff42c28000ac96cc0097999aa1e9ef09cf47dd2202846fb9b33e",
+              "cache_hit": false
+            },
+            "current": {
+              "confidence": 0.5141,
+              "bbox": [
+                198.75,
+                207.76,
+                449.13,
+                639.27
+              ],
+              "area_ratio": 0.1293,
+              "inference_ms": 181.76,
+              "image_sha256": "988bd161ef7e0e82d254d8b105b5074740191dd079d0e9473dd38767c5e4180f",
+              "cache_hit": false
+            }
+          },
+          "status": "used",
+          "inference_wall_ms": 2575.32,
+          "total_wall_ms": 3549.89,
+          "candidate_status": "unchanged"
+        },
+        "image": "P00_compare.jpg"
+      },
+      "final": {
+        "status": "unchanged",
+        "changes": {},
+        "change": null,
+        "count": 0,
+        "analysis_source": "model_fallback",
+        "requires_review": true,
+        "primary_status": "board_not_found",
+        "source": "front"
+      }
+    },
+    {
+      "id": "P01",
+      "status": "ok",
+      "views": {
+        "front": {
+          "view_id": "front",
+          "target": {
+            "x": 0.41,
+            "y": 0.5,
+            "yaw": 1.545
+          },
+          "navigation_elapsed_s": 26.55,
+          "status": "ok",
+          "image": "P01.png",
+          "pose": {
+            "x": 0.45160305338231344,
+            "y": 0.4570394428026596,
+            "yaw": 1.4001560085585245
+          },
+          "odom_pose": {
+            "x": 0.4752502289863153,
+            "y": -0.16562012710916127,
+            "yaw": 2.491142040479895
+          },
+          "error_xy_m": 0.06,
+          "error_yaw_deg": -8.3,
+          "compare": {
+            "reference_lap": "2026-11-03_192228",
+            "reference_image": "P01.png",
+            "view_id": "front",
+            "comparison_scope": "model_bbox",
+            "status": "changed",
+            "change": "fruit_added",
+            "count": 1,
+            "changes": {
+              "fruit_added": 1
+            },
+            "changed_ratio": 0.1178,
+            "align": "features",
+            "feature_inliers": 652,
+            "objects": [
+              {
+                "type": "fruit_added",
+                "bbox": [
+                  273,
+                  226,
+                  79,
+                  77
+                ],
+                "area_px": 4389
+              }
+            ],
+            "color_correction": {
+              "reference": {
+                "wb_gains_bgr": [
+                  1.017,
+                  1.029,
+                  1.006
+                ],
+                "sat_scale": 0.6
+              },
+              "current": {
+                "wb_gains_bgr": [
+                  0.984,
+                  1.007,
+                  1.002
+                ],
+                "sat_scale": 0.6
+              }
+            },
+            "analysis_source": "model_fallback",
+            "requires_review": true,
+            "primary_status": "board_not_found",
+            "primary_result": {
+              "comparison_scope": "board",
+              "board": {},
+              "status": "board_not_found",
+              "failed_image": "reference",
+              "reason": "보드 위치 추정이 안정적이지 않음"
+            },
+            "model_fallback": {
+              "model": {
+                "name": "yolo11n-seg.pt",
+                "weights_sha256": "55ed65c56c91713d23e8402371c6c49a6fd84f257f7dce452e8d70e41dcbe152",
+                "ultralytics": "8.4.197",
+                "device": "cpu",
+                "confidence": 0.25,
+                "input_size": 640,
+                "threads": 2
+              },
+              "views": {
+                "reference": {
+                  "confidence": 0.5811,
+                  "bbox": [
+                    147.83,
+                    215.87,
+                    393.79,
+                    637.41
+                  ],
+                  "area_ratio": 0.1397,
+                  "inference_ms": 196.42,
+                  "image_sha256": "d5c8aef4d01438310f973793169c703b2c3c1b5bc1ff78a2bad8710e7682f053",
+                  "cache_hit": false
+                },
+                "current": {
+                  "confidence": 0.5631,
+                  "bbox": [
+                    116.96,
+                    200.96,
+                    359.84,
+                    618.01
+                  ],
+                  "area_ratio": 0.1546,
+                  "inference_ms": 112.44,
+                  "image_sha256": "9726180ffaa3f3b2c1a2b9ec0abacdcd7cbe53bef99a1f33ac8cc76cc3c2fd82",
+                  "cache_hit": false
+                }
+              },
+              "status": "used",
+              "inference_wall_ms": 353.97,
+              "total_wall_ms": 1368.94,
+              "candidate_status": "changed"
+            },
+            "image": "P01_compare.jpg"
+          }
+        },
+        "right": {
+          "view_id": "right",
+          "target": {
+            "x": 0.6823122755583699,
+            "y": 0.40384406931239314,
+            "yaw": 1.9813323129985823
+          },
+          "purpose": "admin_review",
+          "navigation_elapsed_s": 33.1,
+          "status": "ok",
+          "pose": {
+            "x": 0.6416353960529357,
+            "y": 0.4313034809743912,
+            "yaw": 2.0547752275762816
+          },
+          "odom_pose": {
+            "x": 0.6356936231611807,
+            "y": 0.06847249921825765,
+            "yaw": 3.1068883425941425
+          },
+          "movement_m": 0.284,
+          "viewpoint_change_deg": 18.0,
+          "image": "P01_right.png",
+          "error_xy_m": 0.05,
+          "error_yaw_deg": 4.3
+        },
+        "left": {
+          "view_id": "left",
+          "target": {
+            "x": 0.13309132564889659,
+            "y": 0.4180150959304576,
+            "yaw": 1.1086676870014176
+          },
+          "purpose": "admin_review",
+          "navigation_elapsed_s": 31.69,
+          "status": "ok",
+          "pose": {
+            "x": 0.17404334299935126,
+            "y": 0.46394206442670116,
+            "yaw": 1.0983278592296157
+          },
+          "odom_pose": {
+            "x": 0.43379384748438327,
+            "y": -0.4493866271607099,
+            "yaw": 2.362736624284194
+          },
+          "movement_m": 0.287,
+          "viewpoint_change_deg": 27.9,
+          "image": "P01_left.png",
+          "error_xy_m": 0.062,
+          "error_yaw_deg": -0.6
+        }
+      },
+      "initial_observation": false,
+      "image": "P01.png",
+      "pose": {
+        "x": 0.45160305338231344,
+        "y": 0.4570394428026596,
+        "yaw": 1.4001560085585245
+      },
+      "target": {
+        "x": 0.41,
+        "y": 0.5,
+        "yaw": 1.545
+      },
+      "observed_at": "2026-11-03T19:30:11.482713",
+      "error_xy_m": 0.06,
+      "error_yaw_deg": -8.3,
+      "compare": {
+        "reference_lap": "2026-11-03_192228",
+        "reference_image": "P01.png",
+        "view_id": "front",
+        "comparison_scope": "model_bbox",
+        "status": "changed",
+        "change": "fruit_added",
+        "count": 1,
+        "changes": {
+          "fruit_added": 1
+        },
+        "changed_ratio": 0.1178,
+        "align": "features",
+        "feature_inliers": 652,
+        "objects": [
+          {
+            "type": "fruit_added",
+            "bbox": [
+              273,
+              226,
+              79,
+              77
+            ],
+            "area_px": 4389
+          }
+        ],
+        "color_correction": {
+          "reference": {
+            "wb_gains_bgr": [
+              1.017,
+              1.029,
+              1.006
+            ],
+            "sat_scale": 0.6
+          },
+          "current": {
+            "wb_gains_bgr": [
+              0.984,
+              1.007,
+              1.002
+            ],
+            "sat_scale": 0.6
+          }
+        },
+        "analysis_source": "model_fallback",
+        "requires_review": true,
+        "primary_status": "board_not_found",
+        "primary_result": {
+          "comparison_scope": "board",
+          "board": {},
+          "status": "board_not_found",
+          "failed_image": "reference",
+          "reason": "보드 위치 추정이 안정적이지 않음"
+        },
+        "model_fallback": {
+          "model": {
+            "name": "yolo11n-seg.pt",
+            "weights_sha256": "55ed65c56c91713d23e8402371c6c49a6fd84f257f7dce452e8d70e41dcbe152",
+            "ultralytics": "8.4.197",
+            "device": "cpu",
+            "confidence": 0.25,
+            "input_size": 640,
+            "threads": 2
+          },
+          "views": {
+            "reference": {
+              "confidence": 0.5811,
+              "bbox": [
+                147.83,
+                215.87,
+                393.79,
+                637.41
+              ],
+              "area_ratio": 0.1397,
+              "inference_ms": 196.42,
+              "image_sha256": "d5c8aef4d01438310f973793169c703b2c3c1b5bc1ff78a2bad8710e7682f053",
+              "cache_hit": false
+            },
+            "current": {
+              "confidence": 0.5631,
+              "bbox": [
+                116.96,
+                200.96,
+                359.84,
+                618.01
+              ],
+              "area_ratio": 0.1546,
+              "inference_ms": 112.44,
+              "image_sha256": "9726180ffaa3f3b2c1a2b9ec0abacdcd7cbe53bef99a1f33ac8cc76cc3c2fd82",
+              "cache_hit": false
+            }
+          },
+          "status": "used",
+          "inference_wall_ms": 353.97,
+          "total_wall_ms": 1368.94,
+          "candidate_status": "changed"
+        },
+        "image": "P01_compare.jpg"
+      },
+      "final": {
+        "status": "changed",
+        "changes": {
+          "fruit_added": 1
+        },
+        "change": "fruit_added",
+        "count": 1,
+        "analysis_source": "model_fallback",
+        "requires_review": true,
+        "primary_status": "board_not_found",
+        "source": "front"
+      },
+      "recheck": {
+        "purpose": "admin_review",
+        "attempts": [
+          {
+            "view_id": "right",
+            "target": {
+              "x": 0.6823122755583699,
+              "y": 0.40384406931239314,
+              "yaw": 1.9813323129985823
+            },
+            "purpose": "admin_review",
+            "navigation_elapsed_s": 33.1,
+            "status": "ok",
+            "pose": {
+              "x": 0.6416353960529357,
+              "y": 0.4313034809743912,
+              "yaw": 2.0547752275762816
+            },
+            "odom_pose": {
+              "x": 0.6356936231611807,
+              "y": 0.06847249921825765,
+              "yaw": 3.1068883425941425
+            },
+            "movement_m": 0.284,
+            "viewpoint_change_deg": 18.0,
+            "image": "P01_right.png",
+            "error_xy_m": 0.05,
+            "error_yaw_deg": 4.3
+          },
+          {
+            "view_id": "left",
+            "target": {
+              "x": 0.13309132564889659,
+              "y": 0.4180150959304576,
+              "yaw": 1.1086676870014176
+            },
+            "purpose": "admin_review",
+            "navigation_elapsed_s": 31.69,
+            "status": "ok",
+            "pose": {
+              "x": 0.17404334299935126,
+              "y": 0.46394206442670116,
+              "yaw": 1.0983278592296157
+            },
+            "odom_pose": {
+              "x": 0.43379384748438327,
+              "y": -0.4493866271607099,
+              "yaw": 2.362736624284194
+            },
+            "movement_m": 0.287,
+            "viewpoint_change_deg": 27.9,
+            "image": "P01_left.png",
+            "error_xy_m": 0.062,
+            "error_yaw_deg": -0.6
+          }
+        ],
+        "views": {
+          "right": {
+            "view_id": "right",
+            "target": {
+              "x": 0.6823122755583699,
+              "y": 0.40384406931239314,
+              "yaw": 1.9813323129985823
+            },
+            "purpose": "admin_review",
+            "navigation_elapsed_s": 33.1,
+            "status": "ok",
+            "pose": {
+              "x": 0.6416353960529357,
+              "y": 0.4313034809743912,
+              "yaw": 2.0547752275762816
+            },
+            "odom_pose": {
+              "x": 0.6356936231611807,
+              "y": 0.06847249921825765,
+              "yaw": 3.1068883425941425
+            },
+            "movement_m": 0.284,
+            "viewpoint_change_deg": 18.0,
+            "image": "P01_right.png",
+            "error_xy_m": 0.05,
+            "error_yaw_deg": 4.3
+          },
+          "left": {
+            "view_id": "left",
+            "target": {
+              "x": 0.13309132564889659,
+              "y": 0.4180150959304576,
+              "yaw": 1.1086676870014176
+            },
+            "purpose": "admin_review",
+            "navigation_elapsed_s": 31.69,
+            "status": "ok",
+            "pose": {
+              "x": 0.17404334299935126,
+              "y": 0.46394206442670116,
+              "yaw": 1.0983278592296157
+            },
+            "odom_pose": {
+              "x": 0.43379384748438327,
+              "y": -0.4493866271607099,
+              "yaw": 2.362736624284194
+            },
+            "movement_m": 0.287,
+            "viewpoint_change_deg": 27.9,
+            "image": "P01_left.png",
+            "error_xy_m": 0.062,
+            "error_yaw_deg": -0.6
+          }
+        },
+        "origin_pose": {
+          "x": 0.45160305338231344,
+          "y": 0.4570394428026596,
+          "yaw": 1.4001560085585245
+        },
+        "origin_odom_pose": {
+          "x": 0.4752502289863153,
+          "y": -0.16562012710916127,
+          "yaw": 2.491142040479895
+        },
+        "view_id": "right",
+        "target": {
+          "x": 0.6823122755583699,
+          "y": 0.40384406931239314,
+          "yaw": 1.9813323129985823
+        },
+        "navigation_elapsed_s": 33.1,
+        "status": "ok",
+        "pose": {
+          "x": 0.6416353960529357,
+          "y": 0.4313034809743912,
+          "yaw": 2.0547752275762816
+        },
+        "odom_pose": {
+          "x": 0.6356936231611807,
+          "y": 0.06847249921825765,
+          "yaw": 3.1068883425941425
+        },
+        "movement_m": 0.284,
+        "viewpoint_change_deg": 18.0,
+        "image": "P01_right.png",
+        "error_xy_m": 0.05,
+        "error_yaw_deg": 4.3
+      }
+    }
+  ],
+  "finished": "2026-11-03T19:31:44"
+}
