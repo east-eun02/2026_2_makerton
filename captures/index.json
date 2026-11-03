@@ -1,9 +1,520 @@
 {
-  "updated": "2026-11-03T19:39:44",
+  "updated": "2026-11-03T19:42:16",
   "baselines": {
     "demo_real3": "2026-10-31_003632"
   },
   "laps": [
+    {
+      "lap": "2026-11-03_194052",
+      "route": "demo_real3",
+      "started": "2026-11-03T19:40:52",
+      "finished": "2026-11-03T19:42:16",
+      "home": "ok",
+      "mode": null,
+      "baseline_complete": null,
+      "compare_to": "previous",
+      "reference_lap": "2026-11-03_193819",
+      "capture_policy": "front_compare_sides_for_admin",
+      "visit_order": [
+        {
+          "id": "P01",
+          "reason": "모델 보조 결과 미확인 (2026-11-03_193819)"
+        },
+        {
+          "id": "P00",
+          "reason": "모델 보조 결과 미확인 (2026-11-03_193819)"
+        }
+      ],
+      "stops": [
+        {
+          "id": "P01",
+          "status": "ok",
+          "views": {
+            "front": {
+              "view_id": "front",
+              "target": {
+                "x": 0.41,
+                "y": 0.5,
+                "yaw": 1.545
+              },
+              "navigation_elapsed_s": 13.54,
+              "status": "ok",
+              "image": "2026-11-03_194052/P01.png",
+              "pose": {
+                "x": 0.39972794538687295,
+                "y": 0.43098476206464587,
+                "yaw": 1.553171261566289
+              },
+              "odom_pose": {
+                "x": 1.8210170452694328,
+                "y": 0.1756562475736456,
+                "yaw": -2.1521536658804314
+              },
+              "error_xy_m": 0.07,
+              "error_yaw_deg": 0.5,
+              "compare": {
+                "reference_lap": "2026-11-03_193819",
+                "reference_image": "2026-11-03_193819/P01.png",
+                "view_id": "front",
+                "comparison_scope": "model_bbox",
+                "status": "unchanged",
+                "change": null,
+                "count": 0,
+                "changes": {},
+                "changed_ratio": 0.0,
+                "align": "features",
+                "feature_inliers": 1155,
+                "objects": [],
+                "color_correction": {
+                  "reference": {
+                    "wb_gains_bgr": [
+                      1.008,
+                      1.037,
+                      1.031
+                    ],
+                    "sat_scale": 0.6
+                  },
+                  "current": {
+                    "wb_gains_bgr": [
+                      0.997,
+                      1.022,
+                      1.016
+                    ],
+                    "sat_scale": 0.6
+                  }
+                },
+                "analysis_source": "model_fallback",
+                "requires_review": true,
+                "primary_status": "board_not_found",
+                "primary_result": {
+                  "comparison_scope": "board",
+                  "board": {},
+                  "status": "board_not_found",
+                  "failed_image": "reference",
+                  "reason": "보드 위치 추정이 안정적이지 않음"
+                },
+                "model_fallback": {
+                  "model": {
+                    "name": "yolo11n-seg.pt",
+                    "weights_sha256": "55ed65c56c91713d23e8402371c6c49a6fd84f257f7dce452e8d70e41dcbe152",
+                    "ultralytics": "8.4.197",
+                    "device": "cpu",
+                    "confidence": 0.25,
+                    "input_size": 640,
+                    "threads": 2
+                  },
+                  "views": {
+                    "reference": {
+                      "confidence": 0.5877,
+                      "bbox": [
+                        156.17,
+                        211.42,
+                        408.17,
+                        618.79
+                      ],
+                      "area_ratio": 0.1496,
+                      "inference_ms": 1126.78,
+                      "image_sha256": "98524792a76c6254893d65886b7401948dda75d7ffdfb28c21476539ee736079",
+                      "cache_hit": false
+                    },
+                    "current": {
+                      "confidence": 0.548,
+                      "bbox": [
+                        146.4,
+                        212.88,
+                        389.79,
+                        600.73
+                      ],
+                      "area_ratio": 0.1358,
+                      "inference_ms": 65.54,
+                      "image_sha256": "9c8f63edf01c7a4fa878985c53be47251b37de35782b470feed324aa2956c91b",
+                      "cache_hit": false
+                    }
+                  },
+                  "status": "used",
+                  "inference_wall_ms": 2321.11,
+                  "total_wall_ms": 3255.87,
+                  "candidate_status": "unchanged"
+                },
+                "image": "2026-11-03_194052/P01_compare.jpg"
+              }
+            }
+          },
+          "initial_observation": false,
+          "image": "2026-11-03_194052/P01.png",
+          "pose": {
+            "x": 0.39972794538687295,
+            "y": 0.43098476206464587,
+            "yaw": 1.553171261566289
+          },
+          "target": {
+            "x": 0.41,
+            "y": 0.5,
+            "yaw": 1.545
+          },
+          "observed_at": "2026-11-03T19:41:07.982926",
+          "error_xy_m": 0.07,
+          "error_yaw_deg": 0.5,
+          "compare": {
+            "status": "unchanged",
+            "change": null,
+            "count": 0,
+            "reference_lap": "2026-11-03_193819",
+            "reference_image": "2026-11-03_193819/P01.png",
+            "image": "2026-11-03_194052/P01_compare.jpg",
+            "view_id": "front",
+            "comparison_scope": "model_bbox",
+            "changes": {},
+            "changed_ratio": 0.0,
+            "align": "features",
+            "feature_inliers": 1155,
+            "objects": [],
+            "color_correction": {
+              "reference": {
+                "wb_gains_bgr": [
+                  1.008,
+                  1.037,
+                  1.031
+                ],
+                "sat_scale": 0.6
+              },
+              "current": {
+                "wb_gains_bgr": [
+                  0.997,
+                  1.022,
+                  1.016
+                ],
+                "sat_scale": 0.6
+              }
+            },
+            "analysis_source": "model_fallback",
+            "requires_review": true,
+            "primary_status": "board_not_found",
+            "primary_result": {
+              "comparison_scope": "board",
+              "board": {},
+              "status": "board_not_found",
+              "failed_image": "reference",
+              "reason": "보드 위치 추정이 안정적이지 않음"
+            },
+            "model_fallback": {
+              "model": {
+                "name": "yolo11n-seg.pt",
+                "weights_sha256": "55ed65c56c91713d23e8402371c6c49a6fd84f257f7dce452e8d70e41dcbe152",
+                "ultralytics": "8.4.197",
+                "device": "cpu",
+                "confidence": 0.25,
+                "input_size": 640,
+                "threads": 2
+              },
+              "views": {
+                "reference": {
+                  "confidence": 0.5877,
+                  "bbox": [
+                    156.17,
+                    211.42,
+                    408.17,
+                    618.79
+                  ],
+                  "area_ratio": 0.1496,
+                  "inference_ms": 1126.78,
+                  "image_sha256": "98524792a76c6254893d65886b7401948dda75d7ffdfb28c21476539ee736079",
+                  "cache_hit": false
+                },
+                "current": {
+                  "confidence": 0.548,
+                  "bbox": [
+                    146.4,
+                    212.88,
+                    389.79,
+                    600.73
+                  ],
+                  "area_ratio": 0.1358,
+                  "inference_ms": 65.54,
+                  "image_sha256": "9c8f63edf01c7a4fa878985c53be47251b37de35782b470feed324aa2956c91b",
+                  "cache_hit": false
+                }
+              },
+              "status": "used",
+              "inference_wall_ms": 2321.11,
+              "total_wall_ms": 3255.87,
+              "candidate_status": "unchanged"
+            }
+          },
+          "final": {
+            "status": "unchanged",
+            "changes": {},
+            "change": null,
+            "count": 0,
+            "analysis_source": "model_fallback",
+            "requires_review": true,
+            "primary_status": "board_not_found",
+            "source": "front"
+          }
+        },
+        {
+          "id": "P00",
+          "status": "ok",
+          "views": {
+            "front": {
+              "view_id": "front",
+              "target": {
+                "x": 1.61,
+                "y": 0.47,
+                "yaw": 1.545
+              },
+              "navigation_elapsed_s": 29.15,
+              "status": "ok",
+              "image": "2026-11-03_194052/P00.png",
+              "pose": {
+                "x": 1.566344290577812,
+                "y": 0.4823754619002236,
+                "yaw": 1.5437252029932338
+              },
+              "odom_pose": {
+                "x": 0.8313436491439985,
+                "y": 0.9014070549322513,
+                "yaw": -2.274562125825221
+              },
+              "error_xy_m": 0.045,
+              "error_yaw_deg": -0.1,
+              "compare": {
+                "reference_lap": "2026-11-03_193819",
+                "reference_image": "2026-11-03_193819/P00.png",
+                "view_id": "front",
+                "comparison_scope": "board",
+                "board": {
+                  "reference": {
+                    "polygon": [
+                      [
+                        229.3000030517578,
+                        192.60000610351562
+                      ],
+                      [
+                        456.3999938964844,
+                        216.60000610351562
+                      ],
+                      [
+                        458.0,
+                        319.0
+                      ],
+                      [
+                        440.8999938964844,
+                        536.5
+                      ],
+                      [
+                        235.8000030517578,
+                        578.2999877929688
+                      ],
+                      [
+                        223.5,
+                        445.8999938964844
+                      ],
+                      [
+                        218.10000610351562,
+                        313.20001220703125
+                      ]
+                    ],
+                    "inset_px": 6.0,
+                    "feature_inliers": 67,
+                    "feature_coverage": 0.194
+                  },
+                  "current": {
+                    "polygon": [
+                      [
+                        189.8000030517578,
+                        196.10000610351562
+                      ],
+                      [
+                        440.29998779296875,
+                        204.8000030517578
+                      ],
+                      [
+                        443.29998779296875,
+                        318.0
+                      ],
+                      [
+                        426.29998779296875,
+                        557.0999755859375
+                      ],
+                      [
+                        202.8000030517578,
+                        604.7000122070312
+                      ],
+                      [
+                        187.8000030517578,
+                        465.5
+                      ],
+                      [
+                        179.8000030517578,
+                        325.20001220703125
+                      ]
+                    ],
+                    "inset_px": 6.0,
+                    "feature_inliers": 57,
+                    "feature_coverage": 0.183
+                  }
+                },
+                "status": "unchanged",
+                "change": null,
+                "count": 0,
+                "changes": {},
+                "changed_ratio": 0.0,
+                "align": "features",
+                "feature_inliers": 1023,
+                "objects": [],
+                "color_correction": {
+                  "reference": {
+                    "wb_gains_bgr": [
+                      0.978,
+                      1.026,
+                      1.023
+                    ],
+                    "sat_scale": 0.6
+                  },
+                  "current": {
+                    "wb_gains_bgr": [
+                      1.0,
+                      1.043,
+                      1.035
+                    ],
+                    "sat_scale": 0.6
+                  }
+                },
+                "image": "2026-11-03_194052/P00_compare.jpg"
+              }
+            }
+          },
+          "initial_observation": false,
+          "image": "2026-11-03_194052/P00.png",
+          "pose": {
+            "x": 1.566344290577812,
+            "y": 0.4823754619002236,
+            "yaw": 1.5437252029932338
+          },
+          "target": {
+            "x": 1.61,
+            "y": 0.47,
+            "yaw": 1.545
+          },
+          "observed_at": "2026-11-03T19:41:42.586321",
+          "error_xy_m": 0.045,
+          "error_yaw_deg": -0.1,
+          "compare": {
+            "status": "unchanged",
+            "change": null,
+            "count": 0,
+            "reference_lap": "2026-11-03_193819",
+            "reference_image": "2026-11-03_193819/P00.png",
+            "image": "2026-11-03_194052/P00_compare.jpg",
+            "view_id": "front",
+            "comparison_scope": "board",
+            "board": {
+              "reference": {
+                "polygon": [
+                  [
+                    229.3000030517578,
+                    192.60000610351562
+                  ],
+                  [
+                    456.3999938964844,
+                    216.60000610351562
+                  ],
+                  [
+                    458.0,
+                    319.0
+                  ],
+                  [
+                    440.8999938964844,
+                    536.5
+                  ],
+                  [
+                    235.8000030517578,
+                    578.2999877929688
+                  ],
+                  [
+                    223.5,
+                    445.8999938964844
+                  ],
+                  [
+                    218.10000610351562,
+                    313.20001220703125
+                  ]
+                ],
+                "inset_px": 6.0,
+                "feature_inliers": 67,
+                "feature_coverage": 0.194
+              },
+              "current": {
+                "polygon": [
+                  [
+                    189.8000030517578,
+                    196.10000610351562
+                  ],
+                  [
+                    440.29998779296875,
+                    204.8000030517578
+                  ],
+                  [
+                    443.29998779296875,
+                    318.0
+                  ],
+                  [
+                    426.29998779296875,
+                    557.0999755859375
+                  ],
+                  [
+                    202.8000030517578,
+                    604.7000122070312
+                  ],
+                  [
+                    187.8000030517578,
+                    465.5
+                  ],
+                  [
+                    179.8000030517578,
+                    325.20001220703125
+                  ]
+                ],
+                "inset_px": 6.0,
+                "feature_inliers": 57,
+                "feature_coverage": 0.183
+              }
+            },
+            "changes": {},
+            "changed_ratio": 0.0,
+            "align": "features",
+            "feature_inliers": 1023,
+            "objects": [],
+            "color_correction": {
+              "reference": {
+                "wb_gains_bgr": [
+                  0.978,
+                  1.026,
+                  1.023
+                ],
+                "sat_scale": 0.6
+              },
+              "current": {
+                "wb_gains_bgr": [
+                  1.0,
+                  1.043,
+                  1.035
+                ],
+                "sat_scale": 0.6
+              }
+            }
+          },
+          "final": {
+            "status": "unchanged",
+            "changes": {},
+            "change": null,
+            "count": 0,
+            "source": "front"
+          }
+        }
+      ]
+    },
     {
       "lap": "2026-11-03_193819",
       "route": "demo_real3",
