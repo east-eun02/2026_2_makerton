@@ -1,0 +1,158 @@
+{
+  "route": "demo_real3",
+  "route_file": "/home/eun/plant_ws/install/plant_observer_gazebo/share/plant_observer_gazebo/config/patrol_demo_real3.yaml",
+  "image_rotation": 90,
+  "compare_to": "previous",
+  "reference_lap": "2026-11-04_201335",
+  "capture_policy": "front_compare_sides_for_admin",
+  "lap": 1,
+  "started": "2026-11-04T20:20:24",
+  "home": "ok",
+  "visit_order": [
+    {
+      "id": "P00",
+      "reason": "모델 보조 결과 미확인 (2026-11-04_201014)"
+    },
+    {
+      "id": "P01",
+      "reason": "모델 보조 결과 미확인 (2026-11-04_201014)"
+    }
+  ],
+  "stops": [
+    {
+      "id": "P00",
+      "status": "ok",
+      "views": {
+        "front": {
+          "view_id": "front",
+          "target": {
+            "x": 1.61,
+            "y": 0.47,
+            "yaw": 1.545
+          },
+          "navigation_elapsed_s": 15.46,
+          "status": "ok",
+          "image": "P00.png",
+          "pose": {
+            "x": 1.6061772188222152,
+            "y": 0.4869415095576819,
+            "yaw": 1.7500570016162011
+          },
+          "odom_pose": {
+            "x": 1.6935759398227257,
+            "y": 0.45902090497336934,
+            "yaw": 1.7802141011856543
+          },
+          "error_xy_m": 0.017,
+          "error_yaw_deg": 11.7,
+          "compare": {
+            "reference_lap": "2026-11-04_201335",
+            "reference_image": "P00.png",
+            "view_id": "front",
+            "comparison_scope": "board",
+            "board": {},
+            "status": "board_not_found",
+            "failed_image": "reference",
+            "reason": "보드 특징점 대응 부족",
+            "model_fallback": {
+              "status": "failed",
+              "error": "ValueError: ValueError: 식물 영역을 하나로 특정할 수 없음",
+              "total_wall_ms": 2309.87
+            }
+          }
+        }
+      },
+      "initial_observation": false,
+      "image": "P00.png",
+      "pose": {
+        "x": 1.6061772188222152,
+        "y": 0.4869415095576819,
+        "yaw": 1.7500570016162011
+      },
+      "target": {
+        "x": 1.61,
+        "y": 0.47,
+        "yaw": 1.545
+      },
+      "observed_at": "2026-11-04T20:20:41.720269",
+      "error_xy_m": 0.017,
+      "error_yaw_deg": 11.7,
+      "compare": {
+        "reference_lap": "2026-11-04_201335",
+        "reference_image": "P00.png",
+        "view_id": "front",
+        "comparison_scope": "board",
+        "board": {},
+        "status": "board_not_found",
+        "failed_image": "reference",
+        "reason": "보드 특징점 대응 부족",
+        "model_fallback": {
+          "status": "failed",
+          "error": "ValueError: ValueError: 식물 영역을 하나로 특정할 수 없음",
+          "total_wall_ms": 2309.87
+        }
+      },
+      "final": {
+        "status": "board_not_found",
+        "source": "front"
+      }
+    },
+    {
+      "id": "P01",
+      "status": "ok",
+      "views": {
+        "front": {
+          "view_id": "front",
+          "target": {
+            "x": 0.41,
+            "y": 0.5,
+            "yaw": 1.545
+          },
+          "navigation_elapsed_s": 19.7,
+          "status": "ok",
+          "image": "P01.png",
+          "pose": {
+            "x": 0.4546072019510876,
+            "y": 0.49477622388225695,
+            "yaw": 1.3995622731023067
+          },
+          "odom_pose": {
+            "x": 0.37182546225079993,
+            "y": 0.1186790198152985,
+            "yaw": 1.4722527595954271
+          },
+          "error_xy_m": 0.045,
+          "error_yaw_deg": -8.3,
+          "compare": {
+            "status": "no_reference",
+            "view_id": "front"
+          }
+        }
+      },
+      "initial_observation": false,
+      "image": "P01.png",
+      "pose": {
+        "x": 0.4546072019510876,
+        "y": 0.49477622388225695,
+        "yaw": 1.3995622731023067
+      },
+      "target": {
+        "x": 0.41,
+        "y": 0.5,
+        "yaw": 1.545
+      },
+      "observed_at": "2026-11-04T20:21:05.350339",
+      "error_xy_m": 0.045,
+      "error_yaw_deg": -8.3,
+      "compare": {
+        "status": "no_reference",
+        "view_id": "front"
+      },
+      "final": {
+        "status": "no_reference",
+        "source": "front"
+      }
+    }
+  ],
+  "finished": "2026-11-04T20:21:19"
+}
