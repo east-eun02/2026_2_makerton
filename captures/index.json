@@ -1,40 +1,9 @@
 {
-  "updated": "2026-11-04T20:25:51",
+  "updated": "2026-11-04T20:26:15",
   "baselines": {
     "demo_real3": "2026-10-31_003632"
   },
   "laps": [
-    {
-      "lap": "2026-11-04_201519",
-      "route": "demo_real3",
-      "started": "2026-11-04T20:15:19",
-      "finished": null,
-      "home": "pending",
-      "mode": null,
-      "baseline_complete": null,
-      "compare_to": "previous",
-      "reference_lap": "2026-11-04_201335",
-      "capture_policy": "front_compare_sides_for_admin",
-      "visit_order": [
-        {
-          "id": "P00",
-          "reason": "모델 보조 결과 미확인 (2026-11-04_201014)"
-        },
-        {
-          "id": "P01",
-          "reason": "모델 보조 결과 미확인 (2026-11-04_201014)"
-        }
-      ],
-      "stops": [
-        {
-          "id": "P00",
-          "status": "pending",
-          "views": {},
-          "initial_observation": false,
-          "compare": null
-        }
-      ]
-    },
     {
       "lap": "2026-11-04_201014",
       "route": "demo_real3",
