@@ -1,9 +1,153 @@
 {
-  "updated": "2026-11-04T20:11:42",
+  "updated": "2026-11-04T20:11:59",
   "baselines": {
     "demo_real3": "2026-10-31_003632"
   },
   "laps": [
+    {
+      "lap": "2026-11-04_201143",
+      "route": "demo_real3",
+      "started": "2026-11-04T20:11:43",
+      "finished": "2026-11-04T20:11:43",
+      "home": "nav_failed",
+      "mode": null,
+      "baseline_complete": null,
+      "compare_to": "previous",
+      "reference_lap": "2026-11-04_201142",
+      "capture_policy": "front_compare_sides_for_admin",
+      "visit_order": [
+        {
+          "id": "P00",
+          "reason": "모델 보조 결과 미확인 (2026-11-04_201014)"
+        },
+        {
+          "id": "P01",
+          "reason": "모델 보조 결과 미확인 (2026-11-04_201014)"
+        }
+      ],
+      "stops": [
+        {
+          "id": "P00",
+          "status": "nav_failed",
+          "views": {
+            "front": {
+              "view_id": "front",
+              "target": {
+                "x": 1.61,
+                "y": 0.47,
+                "yaw": 1.545
+              },
+              "navigation_elapsed_s": 0.25,
+              "status": "nav_failed"
+            }
+          },
+          "initial_observation": false,
+          "target": {
+            "x": 1.61,
+            "y": 0.47,
+            "yaw": 1.545
+          },
+          "observed_at": "2026-11-04T20:11:43.374927",
+          "compare": null
+        },
+        {
+          "id": "P01",
+          "status": "nav_failed",
+          "views": {
+            "front": {
+              "view_id": "front",
+              "target": {
+                "x": 0.41,
+                "y": 0.5,
+                "yaw": 1.545
+              },
+              "navigation_elapsed_s": 0.09,
+              "status": "nav_failed"
+            }
+          },
+          "initial_observation": false,
+          "target": {
+            "x": 0.41,
+            "y": 0.5,
+            "yaw": 1.545
+          },
+          "observed_at": "2026-11-04T20:11:43.478716",
+          "compare": null
+        }
+      ]
+    },
+    {
+      "lap": "2026-11-04_201142",
+      "route": "demo_real3",
+      "started": "2026-11-04T20:11:42",
+      "finished": "2026-11-04T20:11:43",
+      "home": "nav_failed",
+      "mode": null,
+      "baseline_complete": null,
+      "compare_to": "previous",
+      "reference_lap": "2026-11-04_201128",
+      "capture_policy": "front_compare_sides_for_admin",
+      "visit_order": [
+        {
+          "id": "P00",
+          "reason": "모델 보조 결과 미확인 (2026-11-04_201014)"
+        },
+        {
+          "id": "P01",
+          "reason": "모델 보조 결과 미확인 (2026-11-04_201014)"
+        }
+      ],
+      "stops": [
+        {
+          "id": "P00",
+          "status": "nav_failed",
+          "views": {
+            "front": {
+              "view_id": "front",
+              "target": {
+                "x": 1.61,
+                "y": 0.47,
+                "yaw": 1.545
+              },
+              "navigation_elapsed_s": 0.26,
+              "status": "nav_failed"
+            }
+          },
+          "initial_observation": false,
+          "target": {
+            "x": 1.61,
+            "y": 0.47,
+            "yaw": 1.545
+          },
+          "observed_at": "2026-11-04T20:11:42.658017",
+          "compare": null
+        },
+        {
+          "id": "P01",
+          "status": "nav_failed",
+          "views": {
+            "front": {
+              "view_id": "front",
+              "target": {
+                "x": 0.41,
+                "y": 0.5,
+                "yaw": 1.545
+              },
+              "navigation_elapsed_s": 0.11,
+              "status": "nav_failed"
+            }
+          },
+          "initial_observation": false,
+          "target": {
+            "x": 0.41,
+            "y": 0.5,
+            "yaw": 1.545
+          },
+          "observed_at": "2026-11-04T20:11:42.773092",
+          "compare": null
+        }
+      ]
+    },
     {
       "lap": "2026-11-04_201128",
       "route": "demo_real3",

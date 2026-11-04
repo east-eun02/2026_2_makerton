@@ -1,0 +1,70 @@
+{
+  "route": "demo_real3",
+  "route_file": "/home/eun/plant_ws/install/plant_observer_gazebo/share/plant_observer_gazebo/config/patrol_demo_real3.yaml",
+  "image_rotation": 90,
+  "compare_to": "previous",
+  "reference_lap": "2026-11-04_201142",
+  "capture_policy": "front_compare_sides_for_admin",
+  "lap": 3,
+  "started": "2026-11-04T20:11:43",
+  "home": "nav_failed",
+  "visit_order": [
+    {
+      "id": "P00",
+      "reason": "모델 보조 결과 미확인 (2026-11-04_201014)"
+    },
+    {
+      "id": "P01",
+      "reason": "모델 보조 결과 미확인 (2026-11-04_201014)"
+    }
+  ],
+  "stops": [
+    {
+      "id": "P00",
+      "status": "nav_failed",
+      "views": {
+        "front": {
+          "view_id": "front",
+          "target": {
+            "x": 1.61,
+            "y": 0.47,
+            "yaw": 1.545
+          },
+          "navigation_elapsed_s": 0.25,
+          "status": "nav_failed"
+        }
+      },
+      "initial_observation": false,
+      "target": {
+        "x": 1.61,
+        "y": 0.47,
+        "yaw": 1.545
+      },
+      "observed_at": "2026-11-04T20:11:43.374927"
+    },
+    {
+      "id": "P01",
+      "status": "nav_failed",
+      "views": {
+        "front": {
+          "view_id": "front",
+          "target": {
+            "x": 0.41,
+            "y": 0.5,
+            "yaw": 1.545
+          },
+          "navigation_elapsed_s": 0.09,
+          "status": "nav_failed"
+        }
+      },
+      "initial_observation": false,
+      "target": {
+        "x": 0.41,
+        "y": 0.5,
+        "yaw": 1.545
+      },
+      "observed_at": "2026-11-04T20:11:43.478716"
+    }
+  ],
+  "finished": "2026-11-04T20:11:43"
+}
