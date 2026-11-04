@@ -1,0 +1,103 @@
+{
+  "route": "demo_real3",
+  "route_file": "/home/eun/plant_ws/install/plant_observer_gazebo/share/plant_observer_gazebo/config/patrol_demo_real3.yaml",
+  "image_rotation": 90,
+  "compare_to": "previous",
+  "reference_lap": "2026-11-04_201143",
+  "capture_policy": "front_compare_sides_for_admin",
+  "lap": 1,
+  "started": "2026-11-04T20:13:35",
+  "home": "nav_failed",
+  "visit_order": [
+    {
+      "id": "P00",
+      "reason": "모델 보조 결과 미확인 (2026-11-04_201014)"
+    },
+    {
+      "id": "P01",
+      "reason": "모델 보조 결과 미확인 (2026-11-04_201014)"
+    }
+  ],
+  "stops": [
+    {
+      "id": "P00",
+      "status": "ok",
+      "views": {
+        "front": {
+          "view_id": "front",
+          "target": {
+            "x": 1.61,
+            "y": 0.47,
+            "yaw": 1.545
+          },
+          "navigation_elapsed_s": 42.41,
+          "status": "ok",
+          "image": "P00.png",
+          "pose": {
+            "x": 1.582820872536623,
+            "y": 0.4171368809702063,
+            "yaw": 1.2003879261765935
+          },
+          "odom_pose": {
+            "x": 1.9413422005703496,
+            "y": 0.660959486594952,
+            "yaw": 2.5005917897237677
+          },
+          "error_xy_m": 0.059,
+          "error_yaw_deg": -19.7,
+          "compare": {
+            "status": "no_reference",
+            "view_id": "front"
+          }
+        }
+      },
+      "initial_observation": false,
+      "image": "P00.png",
+      "pose": {
+        "x": 1.582820872536623,
+        "y": 0.4171368809702063,
+        "yaw": 1.2003879261765935
+      },
+      "target": {
+        "x": 1.61,
+        "y": 0.47,
+        "yaw": 1.545
+      },
+      "observed_at": "2026-11-04T20:14:19.328653",
+      "error_xy_m": 0.059,
+      "error_yaw_deg": -19.7,
+      "compare": {
+        "status": "no_reference",
+        "view_id": "front"
+      },
+      "final": {
+        "status": "no_reference",
+        "source": "front"
+      }
+    },
+    {
+      "id": "P01",
+      "status": "nav_failed",
+      "views": {
+        "front": {
+          "view_id": "front",
+          "target": {
+            "x": 0.41,
+            "y": 0.5,
+            "yaw": 1.545
+          },
+          "navigation_elapsed_s": 60.06,
+          "status": "nav_failed"
+        }
+      },
+      "initial_observation": false,
+      "target": {
+        "x": 0.41,
+        "y": 0.5,
+        "yaw": 1.545
+      },
+      "observed_at": "2026-11-04T20:15:19.399080"
+    }
+  ],
+  "finished": "2026-11-04T20:15:19"
+}
