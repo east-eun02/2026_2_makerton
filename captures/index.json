@@ -1,9 +1,547 @@
 {
-  "updated": "2026-11-25T15:04:57",
+  "updated": "2026-11-25T15:47:39",
   "baselines": {
     "demo_real3": "2026-10-31_003632"
   },
   "laps": [
+    {
+      "lap": "2026-11-25_154528",
+      "route": "demo_real3_artificial",
+      "started": "2026-11-25T15:45:28",
+      "finished": "2026-11-25T15:47:39",
+      "home": "ok",
+      "mode": null,
+      "baseline_complete": null,
+      "compare_to": "previous",
+      "reference_lap": null,
+      "capture_policy": "front_compare_sides_for_admin",
+      "visit_order": [
+        {
+          "id": "P00",
+          "reason": null
+        },
+        {
+          "id": "P01",
+          "reason": null
+        }
+      ],
+      "stops": [
+        {
+          "id": "P00",
+          "status": "ok",
+          "views": {
+            "front": {
+              "view_id": "front",
+              "target": {
+                "x": 1.61,
+                "y": 0.47,
+                "yaw": 1.545
+              },
+              "navigation_elapsed_s": 16.03,
+              "status": "ok",
+              "image": "2026-11-25_154528/P00.png",
+              "pose": {
+                "x": 1.5955817565135668,
+                "y": 0.4308822653996889,
+                "yaw": 1.7224631548197635
+              },
+              "odom_pose": {
+                "x": 1.5788960829665657,
+                "y": 0.5129429417762746,
+                "yaw": 1.8103752635063457
+              },
+              "error_xy_m": 0.042,
+              "error_yaw_deg": 10.2,
+              "compare": {
+                "status": "no_reference",
+                "view_id": "front"
+              }
+            },
+            "right": {
+              "view_id": "right",
+              "target": {
+                "x": 1.88231227555837,
+                "y": 0.3738440693123931,
+                "yaw": 1.9813323129985823
+              },
+              "purpose": "admin_review",
+              "navigation_elapsed_s": 27.8,
+              "status": "ok",
+              "pose": {
+                "x": 1.87829287931157,
+                "y": 0.38873980642728423,
+                "yaw": 2.25497029353979
+              },
+              "odom_pose": {
+                "x": 1.889561639745795,
+                "y": 0.4068065442591221,
+                "yaw": 1.8405364258270418
+              },
+              "movement_m": 0.328,
+              "viewpoint_change_deg": 26.6,
+              "image": "2026-11-25_154528/P00_right.png",
+              "error_xy_m": 0.015,
+              "error_yaw_deg": 15.7
+            },
+            "left": {
+              "view_id": "left",
+              "target": {
+                "x": 1.3330913256488968,
+                "y": 0.3880150959304576,
+                "yaw": 1.1086676870014176
+              },
+              "purpose": "admin_review",
+              "navigation_elapsed_s": 13.45,
+              "status": "ok",
+              "pose": {
+                "x": 1.3799918118538068,
+                "y": 0.4127889797505746,
+                "yaw": 0.8818597675873678
+              },
+              "odom_pose": {
+                "x": 1.3964119929103564,
+                "y": 0.6082070029640938,
+                "yaw": 0.5397260625808108
+              },
+              "movement_m": 0.206,
+              "viewpoint_change_deg": 20.7,
+              "image": "2026-11-25_154528/P00_left.png",
+              "error_xy_m": 0.053,
+              "error_yaw_deg": -13.0
+            }
+          },
+          "initial_observation": true,
+          "image": "2026-11-25_154528/P00.png",
+          "pose": {
+            "x": 1.5955817565135668,
+            "y": 0.4308822653996889,
+            "yaw": 1.7224631548197635
+          },
+          "target": {
+            "x": 1.61,
+            "y": 0.47,
+            "yaw": 1.545
+          },
+          "observed_at": "2026-11-25T15:45:46.593922",
+          "error_xy_m": 0.042,
+          "error_yaw_deg": 10.2,
+          "compare": {
+            "status": "no_reference",
+            "change": null,
+            "count": null,
+            "reference_lap": null,
+            "reference_image": null,
+            "image": null,
+            "view_id": "front"
+          },
+          "final": {
+            "status": "no_reference",
+            "source": "front"
+          },
+          "overview": {
+            "purpose": "admin_review",
+            "attempts": [
+              {
+                "view_id": "right",
+                "target": {
+                  "x": 1.88231227555837,
+                  "y": 0.3738440693123931,
+                  "yaw": 1.9813323129985823
+                },
+                "purpose": "admin_review",
+                "navigation_elapsed_s": 27.8,
+                "status": "ok",
+                "pose": {
+                  "x": 1.87829287931157,
+                  "y": 0.38873980642728423,
+                  "yaw": 2.25497029353979
+                },
+                "odom_pose": {
+                  "x": 1.889561639745795,
+                  "y": 0.4068065442591221,
+                  "yaw": 1.8405364258270418
+                },
+                "movement_m": 0.328,
+                "viewpoint_change_deg": 26.6,
+                "image": "2026-11-25_154528/P00_right.png",
+                "error_xy_m": 0.015,
+                "error_yaw_deg": 15.7
+              },
+              {
+                "view_id": "left",
+                "target": {
+                  "x": 1.3330913256488968,
+                  "y": 0.3880150959304576,
+                  "yaw": 1.1086676870014176
+                },
+                "purpose": "admin_review",
+                "navigation_elapsed_s": 13.45,
+                "status": "ok",
+                "pose": {
+                  "x": 1.3799918118538068,
+                  "y": 0.4127889797505746,
+                  "yaw": 0.8818597675873678
+                },
+                "odom_pose": {
+                  "x": 1.3964119929103564,
+                  "y": 0.6082070029640938,
+                  "yaw": 0.5397260625808108
+                },
+                "movement_m": 0.206,
+                "viewpoint_change_deg": 20.7,
+                "image": "2026-11-25_154528/P00_left.png",
+                "error_xy_m": 0.053,
+                "error_yaw_deg": -13.0
+              }
+            ],
+            "views": {
+              "right": {
+                "view_id": "right",
+                "target": {
+                  "x": 1.88231227555837,
+                  "y": 0.3738440693123931,
+                  "yaw": 1.9813323129985823
+                },
+                "purpose": "admin_review",
+                "navigation_elapsed_s": 27.8,
+                "status": "ok",
+                "pose": {
+                  "x": 1.87829287931157,
+                  "y": 0.38873980642728423,
+                  "yaw": 2.25497029353979
+                },
+                "odom_pose": {
+                  "x": 1.889561639745795,
+                  "y": 0.4068065442591221,
+                  "yaw": 1.8405364258270418
+                },
+                "movement_m": 0.328,
+                "viewpoint_change_deg": 26.6,
+                "image": "2026-11-25_154528/P00_right.png",
+                "error_xy_m": 0.015,
+                "error_yaw_deg": 15.7
+              },
+              "left": {
+                "view_id": "left",
+                "target": {
+                  "x": 1.3330913256488968,
+                  "y": 0.3880150959304576,
+                  "yaw": 1.1086676870014176
+                },
+                "purpose": "admin_review",
+                "navigation_elapsed_s": 13.45,
+                "status": "ok",
+                "pose": {
+                  "x": 1.3799918118538068,
+                  "y": 0.4127889797505746,
+                  "yaw": 0.8818597675873678
+                },
+                "odom_pose": {
+                  "x": 1.3964119929103564,
+                  "y": 0.6082070029640938,
+                  "yaw": 0.5397260625808108
+                },
+                "movement_m": 0.206,
+                "viewpoint_change_deg": 20.7,
+                "image": "2026-11-25_154528/P00_left.png",
+                "error_xy_m": 0.053,
+                "error_yaw_deg": -13.0
+              }
+            },
+            "origin_pose": {
+              "x": 1.5955817565135668,
+              "y": 0.4308822653996889,
+              "yaw": 1.7224631548197635
+            },
+            "origin_odom_pose": {
+              "x": 1.5788960829665657,
+              "y": 0.5129429417762746,
+              "yaw": 1.8103752635063457
+            },
+            "view_id": "right",
+            "target": {
+              "x": 1.88231227555837,
+              "y": 0.3738440693123931,
+              "yaw": 1.9813323129985823
+            },
+            "navigation_elapsed_s": 27.8,
+            "status": "ok",
+            "pose": {
+              "x": 1.87829287931157,
+              "y": 0.38873980642728423,
+              "yaw": 2.25497029353979
+            },
+            "odom_pose": {
+              "x": 1.889561639745795,
+              "y": 0.4068065442591221,
+              "yaw": 1.8405364258270418
+            },
+            "movement_m": 0.328,
+            "viewpoint_change_deg": 26.6,
+            "image": "2026-11-25_154528/P00_right.png",
+            "error_xy_m": 0.015,
+            "error_yaw_deg": 15.7
+          }
+        },
+        {
+          "id": "P01",
+          "status": "ok",
+          "views": {
+            "front": {
+              "view_id": "front",
+              "target": {
+                "x": 0.41,
+                "y": 0.5,
+                "yaw": 1.545
+              },
+              "navigation_elapsed_s": 17.38,
+              "status": "ok",
+              "image": "2026-11-25_154528/P01.png",
+              "pose": {
+                "x": 0.4439158252338562,
+                "y": 0.4588662597892589,
+                "yaw": 1.2367961390186604
+              },
+              "odom_pose": {
+                "x": 0.42692226704815994,
+                "y": 0.9465087018194501,
+                "yaw": 0.953692424958968
+              },
+              "error_xy_m": 0.053,
+              "error_yaw_deg": -17.7,
+              "compare": {
+                "status": "no_reference",
+                "view_id": "front"
+              }
+            },
+            "right": {
+              "view_id": "right",
+              "target": {
+                "x": 0.6823122755583699,
+                "y": 0.40384406931239314,
+                "yaw": 1.9813323129985823
+              },
+              "purpose": "admin_review",
+              "navigation_elapsed_s": 14.52,
+              "status": "ok",
+              "pose": {
+                "x": 0.6065345521485717,
+                "y": 0.44015433215245525,
+                "yaw": 2.115617254086302
+              },
+              "odom_pose": {
+                "x": 0.6383208994296347,
+                "y": 0.8452901620741395,
+                "yaw": 1.7223611114711126
+              },
+              "movement_m": 0.234,
+              "viewpoint_change_deg": 15.9,
+              "image": "2026-11-25_154528/P01_right.png",
+              "error_xy_m": 0.084,
+              "error_yaw_deg": 7.7
+            },
+            "left": {
+              "view_id": "left",
+              "target": {
+                "x": 0.13309132564889659,
+                "y": 0.4180150959304576,
+                "yaw": 1.1086676870014176
+              },
+              "purpose": "admin_review",
+              "navigation_elapsed_s": 13.69,
+              "status": "ok",
+              "pose": {
+                "x": 0.1489279357629561,
+                "y": 0.45207178149207494,
+                "yaw": 0.8781368517930035
+              },
+              "odom_pose": {
+                "x": 0.15427200660685264,
+                "y": 0.9938977804499425,
+                "yaw": 0.5236753855563498
+              },
+              "movement_m": 0.277,
+              "viewpoint_change_deg": 28.8,
+              "image": "2026-11-25_154528/P01_left.png",
+              "error_xy_m": 0.038,
+              "error_yaw_deg": -13.2
+            }
+          },
+          "initial_observation": true,
+          "image": "2026-11-25_154528/P01.png",
+          "pose": {
+            "x": 0.4439158252338562,
+            "y": 0.4588662597892589,
+            "yaw": 1.2367961390186604
+          },
+          "target": {
+            "x": 0.41,
+            "y": 0.5,
+            "yaw": 1.545
+          },
+          "observed_at": "2026-11-25T15:46:51.701907",
+          "error_xy_m": 0.053,
+          "error_yaw_deg": -17.7,
+          "compare": {
+            "status": "no_reference",
+            "change": null,
+            "count": null,
+            "reference_lap": null,
+            "reference_image": null,
+            "image": null,
+            "view_id": "front"
+          },
+          "final": {
+            "status": "no_reference",
+            "source": "front"
+          },
+          "overview": {
+            "purpose": "admin_review",
+            "attempts": [
+              {
+                "view_id": "right",
+                "target": {
+                  "x": 0.6823122755583699,
+                  "y": 0.40384406931239314,
+                  "yaw": 1.9813323129985823
+                },
+                "purpose": "admin_review",
+                "navigation_elapsed_s": 14.52,
+                "status": "ok",
+                "pose": {
+                  "x": 0.6065345521485717,
+                  "y": 0.44015433215245525,
+                  "yaw": 2.115617254086302
+                },
+                "odom_pose": {
+                  "x": 0.6383208994296347,
+                  "y": 0.8452901620741395,
+                  "yaw": 1.7223611114711126
+                },
+                "movement_m": 0.234,
+                "viewpoint_change_deg": 15.9,
+                "image": "2026-11-25_154528/P01_right.png",
+                "error_xy_m": 0.084,
+                "error_yaw_deg": 7.7
+              },
+              {
+                "view_id": "left",
+                "target": {
+                  "x": 0.13309132564889659,
+                  "y": 0.4180150959304576,
+                  "yaw": 1.1086676870014176
+                },
+                "purpose": "admin_review",
+                "navigation_elapsed_s": 13.69,
+                "status": "ok",
+                "pose": {
+                  "x": 0.1489279357629561,
+                  "y": 0.45207178149207494,
+                  "yaw": 0.8781368517930035
+                },
+                "odom_pose": {
+                  "x": 0.15427200660685264,
+                  "y": 0.9938977804499425,
+                  "yaw": 0.5236753855563498
+                },
+                "movement_m": 0.277,
+                "viewpoint_change_deg": 28.8,
+                "image": "2026-11-25_154528/P01_left.png",
+                "error_xy_m": 0.038,
+                "error_yaw_deg": -13.2
+              }
+            ],
+            "views": {
+              "right": {
+                "view_id": "right",
+                "target": {
+                  "x": 0.6823122755583699,
+                  "y": 0.40384406931239314,
+                  "yaw": 1.9813323129985823
+                },
+                "purpose": "admin_review",
+                "navigation_elapsed_s": 14.52,
+                "status": "ok",
+                "pose": {
+                  "x": 0.6065345521485717,
+                  "y": 0.44015433215245525,
+                  "yaw": 2.115617254086302
+                },
+                "odom_pose": {
+                  "x": 0.6383208994296347,
+                  "y": 0.8452901620741395,
+                  "yaw": 1.7223611114711126
+                },
+                "movement_m": 0.234,
+                "viewpoint_change_deg": 15.9,
+                "image": "2026-11-25_154528/P01_right.png",
+                "error_xy_m": 0.084,
+                "error_yaw_deg": 7.7
+              },
+              "left": {
+                "view_id": "left",
+                "target": {
+                  "x": 0.13309132564889659,
+                  "y": 0.4180150959304576,
+                  "yaw": 1.1086676870014176
+                },
+                "purpose": "admin_review",
+                "navigation_elapsed_s": 13.69,
+                "status": "ok",
+                "pose": {
+                  "x": 0.1489279357629561,
+                  "y": 0.45207178149207494,
+                  "yaw": 0.8781368517930035
+                },
+                "odom_pose": {
+                  "x": 0.15427200660685264,
+                  "y": 0.9938977804499425,
+                  "yaw": 0.5236753855563498
+                },
+                "movement_m": 0.277,
+                "viewpoint_change_deg": 28.8,
+                "image": "2026-11-25_154528/P01_left.png",
+                "error_xy_m": 0.038,
+                "error_yaw_deg": -13.2
+              }
+            },
+            "origin_pose": {
+              "x": 0.4439241248115364,
+              "y": 0.4588901710352379,
+              "yaw": 1.2366197579524576
+            },
+            "origin_odom_pose": {
+              "x": 0.4269369155446304,
+              "y": 0.9465293428520087,
+              "yaw": 0.9535160438927657
+            },
+            "view_id": "right",
+            "target": {
+              "x": 0.6823122755583699,
+              "y": 0.40384406931239314,
+              "yaw": 1.9813323129985823
+            },
+            "navigation_elapsed_s": 14.52,
+            "status": "ok",
+            "pose": {
+              "x": 0.6065345521485717,
+              "y": 0.44015433215245525,
+              "yaw": 2.115617254086302
+            },
+            "odom_pose": {
+              "x": 0.6383208994296347,
+              "y": 0.8452901620741395,
+              "yaw": 1.7223611114711126
+            },
+            "movement_m": 0.234,
+            "viewpoint_change_deg": 15.9,
+            "image": "2026-11-25_154528/P01_right.png",
+            "error_xy_m": 0.084,
+            "error_yaw_deg": 7.7
+          }
+        }
+      ]
+    },
     {
       "lap": "2026-11-25_150358",
       "route": "demo_real3",
