@@ -1,0 +1,186 @@
+{
+  "route": "demo_real3",
+  "route_file": "/home/eun/plant_ws/install/plant_observer_gazebo/share/plant_observer_gazebo/config/patrol_demo_real3.yaml",
+  "image_rotation": 90,
+  "compare_to": "previous",
+  "reference_lap": "2026-11-25_145558",
+  "capture_policy": "front_compare_sides_for_admin",
+  "lap": 1,
+  "started": "2026-11-25T15:01:12",
+  "home": "ok",
+  "visit_order": [
+    {
+      "id": "P01",
+      "reason": "최근 관측 판정 실패 (2026-11-25_145558)"
+    },
+    {
+      "id": "P00",
+      "reason": "최근 관측 이동 실패 (2026-11-25_145558)"
+    }
+  ],
+  "stops": [
+    {
+      "id": "P01",
+      "status": "ok",
+      "views": {
+        "front": {
+          "view_id": "front",
+          "target": {
+            "x": 0.41,
+            "y": 0.5,
+            "yaw": 1.545
+          },
+          "navigation_elapsed_s": 10.09,
+          "status": "ok",
+          "image": "P01.png",
+          "pose": {
+            "x": 0.38923508881095115,
+            "y": 0.43310566084480157,
+            "yaw": 1.683568449054524
+          },
+          "odom_pose": {
+            "x": 0.24203835497993842,
+            "y": 0.5448895899216896,
+            "yaw": 1.8919007302576325
+          },
+          "error_xy_m": 0.07,
+          "error_yaw_deg": 7.9,
+          "compare": {
+            "reference_lap": "2026-11-25_145558",
+            "reference_image": "P01.png",
+            "view_id": "front",
+            "comparison_scope": "board",
+            "board": {},
+            "status": "board_not_found",
+            "failed_image": "reference",
+            "reason": "보드 특징점 대응 부족",
+            "model_fallback": {
+              "status": "failed",
+              "error": "ValueError: ValueError: 식물 영역을 하나로 특정할 수 없음",
+              "total_wall_ms": 2402.29
+            },
+            "apple_model": {
+              "status": "used",
+              "model": {
+                "name": "apple_yolo26n_aug_v1.pt",
+                "weights_sha256": "c835940553515fb397b866826a4aedbe1c49f472b0abb9665818b7e495010329",
+                "ultralytics": "8.4.197",
+                "device": "cpu",
+                "raw_confidence": 0.25,
+                "input_size": 640,
+                "threads": 2
+              },
+              "inference_ms": 1366.04,
+              "total_wall_ms": 2527.67
+            }
+          }
+        }
+      },
+      "initial_observation": false,
+      "image": "P01.png",
+      "pose": {
+        "x": 0.38923508881095115,
+        "y": 0.43310566084480157,
+        "yaw": 1.683568449054524
+      },
+      "target": {
+        "x": 0.41,
+        "y": 0.5,
+        "yaw": 1.545
+      },
+      "observed_at": "2026-11-25T15:01:25.132648",
+      "error_xy_m": 0.07,
+      "error_yaw_deg": 7.9,
+      "compare": {
+        "reference_lap": "2026-11-25_145558",
+        "reference_image": "P01.png",
+        "view_id": "front",
+        "comparison_scope": "board",
+        "board": {},
+        "status": "board_not_found",
+        "failed_image": "reference",
+        "reason": "보드 특징점 대응 부족",
+        "model_fallback": {
+          "status": "failed",
+          "error": "ValueError: ValueError: 식물 영역을 하나로 특정할 수 없음",
+          "total_wall_ms": 2402.29
+        },
+        "apple_model": {
+          "status": "used",
+          "model": {
+            "name": "apple_yolo26n_aug_v1.pt",
+            "weights_sha256": "c835940553515fb397b866826a4aedbe1c49f472b0abb9665818b7e495010329",
+            "ultralytics": "8.4.197",
+            "device": "cpu",
+            "raw_confidence": 0.25,
+            "input_size": 640,
+            "threads": 2
+          },
+          "inference_ms": 1366.04,
+          "total_wall_ms": 2527.67
+        }
+      },
+      "final": {
+        "status": "board_not_found",
+        "source": "front"
+      }
+    },
+    {
+      "id": "P00",
+      "status": "ok",
+      "views": {
+        "front": {
+          "view_id": "front",
+          "target": {
+            "x": 1.61,
+            "y": 0.47,
+            "yaw": 1.545
+          },
+          "navigation_elapsed_s": 17.65,
+          "status": "ok",
+          "image": "P00.png",
+          "pose": {
+            "x": 1.571306724387262,
+            "y": 0.46987967110379103,
+            "yaw": 1.761693077550796
+          },
+          "odom_pose": {
+            "x": 1.4419053173779863,
+            "y": 0.7694814859142147,
+            "yaw": 1.9633350620697991
+          },
+          "error_xy_m": 0.039,
+          "error_yaw_deg": 12.4,
+          "compare": {
+            "status": "no_reference",
+            "view_id": "front"
+          }
+        }
+      },
+      "initial_observation": false,
+      "image": "P00.png",
+      "pose": {
+        "x": 1.571306724387262,
+        "y": 0.46987967110379103,
+        "yaw": 1.761693077550796
+      },
+      "target": {
+        "x": 1.61,
+        "y": 0.47,
+        "yaw": 1.545
+      },
+      "observed_at": "2026-11-25T15:01:50.030444",
+      "error_xy_m": 0.039,
+      "error_yaw_deg": 12.4,
+      "compare": {
+        "status": "no_reference",
+        "view_id": "front"
+      },
+      "final": {
+        "status": "no_reference",
+        "source": "front"
+      }
+    }
+  ],
+  "finished": "2026-11-25T15:02:13"
+}
