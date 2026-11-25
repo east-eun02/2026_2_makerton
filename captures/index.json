@@ -1,9 +1,601 @@
 {
-  "updated": "2026-11-25T15:02:13",
+  "updated": "2026-11-25T15:04:57",
   "baselines": {
     "demo_real3": "2026-10-31_003632"
   },
   "laps": [
+    {
+      "lap": "2026-11-25_150358",
+      "route": "demo_real3",
+      "started": "2026-11-25T15:03:58",
+      "finished": "2026-11-25T15:04:57",
+      "home": "ok",
+      "mode": null,
+      "baseline_complete": null,
+      "compare_to": "previous",
+      "reference_lap": "2026-11-25_150112",
+      "capture_policy": "front_compare_sides_for_admin",
+      "visit_order": [
+        {
+          "id": "P01",
+          "reason": "최근 관측 판정 실패 (2026-11-25_150112)"
+        },
+        {
+          "id": "P00",
+          "reason": null
+        }
+      ],
+      "stops": [
+        {
+          "id": "P01",
+          "status": "ok",
+          "views": {
+            "front": {
+              "view_id": "front",
+              "target": {
+                "x": 0.41,
+                "y": 0.5,
+                "yaw": 1.545
+              },
+              "navigation_elapsed_s": 9.58,
+              "status": "ok",
+              "image": "2026-11-25_150358/P01.png",
+              "pose": {
+                "x": 0.40748975916422464,
+                "y": 0.4522080308656863,
+                "yaw": 1.5028971023435127
+              },
+              "odom_pose": {
+                "x": 0.14130896471382445,
+                "y": 0.4228901152200165,
+                "yaw": 2.1753825178112174
+              },
+              "error_xy_m": 0.048,
+              "error_yaw_deg": -2.4,
+              "compare": {
+                "reference_lap": "2026-11-25_150112",
+                "reference_image": "2026-11-25_150112/P01.png",
+                "view_id": "front",
+                "comparison_scope": "model_bbox",
+                "status": "unchanged",
+                "change": null,
+                "count": 0,
+                "changes": {},
+                "changed_ratio": 0.0,
+                "align": "features",
+                "feature_inliers": 177,
+                "objects": [],
+                "fruit_source": "apple_model",
+                "apples": {
+                  "reference": {
+                    "normal_apple": 0,
+                    "abnormal_apple": 0
+                  },
+                  "current": {
+                    "normal_apple": 1,
+                    "abnormal_apple": 0
+                  },
+                  "changes_checked": [
+                    {
+                      "type": "fruit_added",
+                      "changed_fraction": 0.0,
+                      "counted": false
+                    }
+                  ]
+                },
+                "color_correction": {
+                  "reference": {
+                    "wb_gains_bgr": [
+                      1.011,
+                      1.029,
+                      1.032
+                    ],
+                    "sat_scale": 0.6
+                  },
+                  "current": {
+                    "wb_gains_bgr": [
+                      0.976,
+                      1.012,
+                      1.014
+                    ],
+                    "sat_scale": 0.6
+                  }
+                },
+                "analysis_source": "model_fallback",
+                "requires_review": true,
+                "primary_status": "board_not_found",
+                "primary_result": {
+                  "comparison_scope": "board",
+                  "board": {},
+                  "status": "board_not_found",
+                  "failed_image": "reference",
+                  "reason": "보드 특징점 대응 부족"
+                },
+                "model_fallback": {
+                  "model": {
+                    "name": "yolo11n-seg.pt",
+                    "weights_sha256": "55ed65c56c91713d23e8402371c6c49a6fd84f257f7dce452e8d70e41dcbe152",
+                    "ultralytics": "8.4.197",
+                    "device": "cpu",
+                    "confidence": 0.25,
+                    "input_size": 640,
+                    "threads": 2
+                  },
+                  "views": {
+                    "reference": {
+                      "confidence": 0.3998,
+                      "bbox": [
+                        308.79,
+                        228.42,
+                        473.29,
+                        512.18
+                      ],
+                      "area_ratio": 0.0634,
+                      "inference_ms": 1481.4,
+                      "image_sha256": "77839e2e5f44d192824a58ba746c26877aecf76f568cab020bff310213b26081",
+                      "cache_hit": false
+                    },
+                    "current": {
+                      "confidence": 0.6078,
+                      "bbox": [
+                        199.42,
+                        231.86,
+                        363.78,
+                        511.8
+                      ],
+                      "area_ratio": 0.0607,
+                      "inference_ms": 93.97,
+                      "image_sha256": "d18859a376b1343f4f3ece0bfc954f8b84559e036bb783e4bbcecda10bef0937",
+                      "cache_hit": false
+                    }
+                  },
+                  "status": "used",
+                  "inference_wall_ms": 2747.29,
+                  "total_wall_ms": 3715.41,
+                  "candidate_status": "unchanged"
+                },
+                "apple_model": {
+                  "status": "used",
+                  "model": {
+                    "name": "apple_yolo26n_aug_v1.pt",
+                    "weights_sha256": "c835940553515fb397b866826a4aedbe1c49f472b0abb9665818b7e495010329",
+                    "ultralytics": "8.4.197",
+                    "device": "cpu",
+                    "raw_confidence": 0.25,
+                    "input_size": 640,
+                    "threads": 2
+                  },
+                  "inference_ms": 1376.19,
+                  "total_wall_ms": 2530.84
+                },
+                "image": "2026-11-25_150358/P01_compare.jpg"
+              }
+            }
+          },
+          "initial_observation": false,
+          "image": "2026-11-25_150358/P01.png",
+          "pose": {
+            "x": 0.40748975916422464,
+            "y": 0.4522080308656863,
+            "yaw": 1.5028971023435127
+          },
+          "target": {
+            "x": 0.41,
+            "y": 0.5,
+            "yaw": 1.545
+          },
+          "observed_at": "2026-11-25T15:04:09.622986",
+          "error_xy_m": 0.048,
+          "error_yaw_deg": -2.4,
+          "compare": {
+            "status": "unchanged",
+            "change": null,
+            "count": 0,
+            "reference_lap": "2026-11-25_150112",
+            "reference_image": "2026-11-25_150112/P01.png",
+            "image": "2026-11-25_150358/P01_compare.jpg",
+            "view_id": "front",
+            "comparison_scope": "model_bbox",
+            "changes": {},
+            "changed_ratio": 0.0,
+            "align": "features",
+            "feature_inliers": 177,
+            "objects": [],
+            "fruit_source": "apple_model",
+            "apples": {
+              "reference": {
+                "normal_apple": 0,
+                "abnormal_apple": 0
+              },
+              "current": {
+                "normal_apple": 1,
+                "abnormal_apple": 0
+              },
+              "changes_checked": [
+                {
+                  "type": "fruit_added",
+                  "changed_fraction": 0.0,
+                  "counted": false
+                }
+              ]
+            },
+            "color_correction": {
+              "reference": {
+                "wb_gains_bgr": [
+                  1.011,
+                  1.029,
+                  1.032
+                ],
+                "sat_scale": 0.6
+              },
+              "current": {
+                "wb_gains_bgr": [
+                  0.976,
+                  1.012,
+                  1.014
+                ],
+                "sat_scale": 0.6
+              }
+            },
+            "analysis_source": "model_fallback",
+            "requires_review": true,
+            "primary_status": "board_not_found",
+            "primary_result": {
+              "comparison_scope": "board",
+              "board": {},
+              "status": "board_not_found",
+              "failed_image": "reference",
+              "reason": "보드 특징점 대응 부족"
+            },
+            "model_fallback": {
+              "model": {
+                "name": "yolo11n-seg.pt",
+                "weights_sha256": "55ed65c56c91713d23e8402371c6c49a6fd84f257f7dce452e8d70e41dcbe152",
+                "ultralytics": "8.4.197",
+                "device": "cpu",
+                "confidence": 0.25,
+                "input_size": 640,
+                "threads": 2
+              },
+              "views": {
+                "reference": {
+                  "confidence": 0.3998,
+                  "bbox": [
+                    308.79,
+                    228.42,
+                    473.29,
+                    512.18
+                  ],
+                  "area_ratio": 0.0634,
+                  "inference_ms": 1481.4,
+                  "image_sha256": "77839e2e5f44d192824a58ba746c26877aecf76f568cab020bff310213b26081",
+                  "cache_hit": false
+                },
+                "current": {
+                  "confidence": 0.6078,
+                  "bbox": [
+                    199.42,
+                    231.86,
+                    363.78,
+                    511.8
+                  ],
+                  "area_ratio": 0.0607,
+                  "inference_ms": 93.97,
+                  "image_sha256": "d18859a376b1343f4f3ece0bfc954f8b84559e036bb783e4bbcecda10bef0937",
+                  "cache_hit": false
+                }
+              },
+              "status": "used",
+              "inference_wall_ms": 2747.29,
+              "total_wall_ms": 3715.41,
+              "candidate_status": "unchanged"
+            },
+            "apple_model": {
+              "status": "used",
+              "model": {
+                "name": "apple_yolo26n_aug_v1.pt",
+                "weights_sha256": "c835940553515fb397b866826a4aedbe1c49f472b0abb9665818b7e495010329",
+                "ultralytics": "8.4.197",
+                "device": "cpu",
+                "raw_confidence": 0.25,
+                "input_size": 640,
+                "threads": 2
+              },
+              "inference_ms": 1376.19,
+              "total_wall_ms": 2530.84
+            }
+          },
+          "final": {
+            "status": "unchanged",
+            "changes": {},
+            "change": null,
+            "count": 0,
+            "analysis_source": "model_fallback",
+            "requires_review": true,
+            "primary_status": "board_not_found",
+            "source": "front"
+          }
+        },
+        {
+          "id": "P00",
+          "status": "ok",
+          "views": {
+            "front": {
+              "view_id": "front",
+              "target": {
+                "x": 1.61,
+                "y": 0.47,
+                "yaw": 1.545
+              },
+              "navigation_elapsed_s": 17.09,
+              "status": "ok",
+              "image": "2026-11-25_150358/P00.png",
+              "pose": {
+                "x": 1.588795729253144,
+                "y": 0.47363526162825254,
+                "yaw": 1.7732091219601755
+              },
+              "odom_pose": {
+                "x": 1.1188301310485997,
+                "y": 1.1922540069530476,
+                "yaw": 2.444363643770606
+              },
+              "error_xy_m": 0.022,
+              "error_yaw_deg": 13.1,
+              "compare": {
+                "reference_lap": "2026-11-25_150112",
+                "reference_image": "2026-11-25_150112/P00.png",
+                "view_id": "front",
+                "comparison_scope": "model_bbox",
+                "status": "unchanged",
+                "change": null,
+                "count": 0,
+                "changes": {},
+                "changed_ratio": 0.0,
+                "align": "features",
+                "feature_inliers": 248,
+                "objects": [],
+                "fruit_source": "apple_model",
+                "apples": {
+                  "reference": {
+                    "normal_apple": 0,
+                    "abnormal_apple": 0
+                  },
+                  "current": {
+                    "normal_apple": 0,
+                    "abnormal_apple": 0
+                  },
+                  "changes_checked": []
+                },
+                "color_correction": {
+                  "reference": {
+                    "wb_gains_bgr": [
+                      0.98,
+                      1.004,
+                      1.004
+                    ],
+                    "sat_scale": 0.6
+                  },
+                  "current": {
+                    "wb_gains_bgr": [
+                      0.958,
+                      0.996,
+                      1.002
+                    ],
+                    "sat_scale": 0.6
+                  }
+                },
+                "analysis_source": "model_fallback",
+                "requires_review": true,
+                "primary_status": "board_not_found",
+                "primary_result": {
+                  "comparison_scope": "board",
+                  "board": {},
+                  "status": "board_not_found",
+                  "failed_image": "reference",
+                  "reason": "보드 특징점 대응 부족"
+                },
+                "model_fallback": {
+                  "model": {
+                    "name": "yolo11n-seg.pt",
+                    "weights_sha256": "55ed65c56c91713d23e8402371c6c49a6fd84f257f7dce452e8d70e41dcbe152",
+                    "ultralytics": "8.4.197",
+                    "device": "cpu",
+                    "confidence": 0.25,
+                    "input_size": 640,
+                    "threads": 2
+                  },
+                  "views": {
+                    "reference": {
+                      "confidence": 0.432,
+                      "bbox": [
+                        213.87,
+                        220.23,
+                        432.15,
+                        533.89
+                      ],
+                      "area_ratio": 0.1065,
+                      "inference_ms": 70.14,
+                      "image_sha256": "3353cc6d3de48885bcd64ccfeead73a2cc2ce290ce11c8f32b879563a7339cea",
+                      "cache_hit": false
+                    },
+                    "current": {
+                      "confidence": 0.5912,
+                      "bbox": [
+                        180.88,
+                        223.78,
+                        390.76,
+                        518.61
+                      ],
+                      "area_ratio": 0.0924,
+                      "inference_ms": 72.73,
+                      "image_sha256": "9200116e13c56a7ccbba81a0437b8713bfd3d07fb6bd620ee42fe486185e54b9",
+                      "cache_hit": false
+                    }
+                  },
+                  "status": "used",
+                  "inference_wall_ms": 184.53,
+                  "total_wall_ms": 1049.98,
+                  "candidate_status": "unchanged"
+                },
+                "apple_model": {
+                  "status": "used",
+                  "model": {
+                    "name": "apple_yolo26n_aug_v1.pt",
+                    "weights_sha256": "c835940553515fb397b866826a4aedbe1c49f472b0abb9665818b7e495010329",
+                    "ultralytics": "8.4.197",
+                    "device": "cpu",
+                    "raw_confidence": 0.25,
+                    "input_size": 640,
+                    "threads": 2
+                  },
+                  "inference_ms": 409.83,
+                  "total_wall_ms": 410.43
+                },
+                "image": "2026-11-25_150358/P00_compare.jpg"
+              }
+            }
+          },
+          "initial_observation": false,
+          "image": "2026-11-25_150358/P00.png",
+          "pose": {
+            "x": 1.588795729253144,
+            "y": 0.47363526162825254,
+            "yaw": 1.7732091219601755
+          },
+          "target": {
+            "x": 1.61,
+            "y": 0.47,
+            "yaw": 1.545
+          },
+          "observed_at": "2026-11-25T15:04:35.040578",
+          "error_xy_m": 0.022,
+          "error_yaw_deg": 13.1,
+          "compare": {
+            "status": "unchanged",
+            "change": null,
+            "count": 0,
+            "reference_lap": "2026-11-25_150112",
+            "reference_image": "2026-11-25_150112/P00.png",
+            "image": "2026-11-25_150358/P00_compare.jpg",
+            "view_id": "front",
+            "comparison_scope": "model_bbox",
+            "changes": {},
+            "changed_ratio": 0.0,
+            "align": "features",
+            "feature_inliers": 248,
+            "objects": [],
+            "fruit_source": "apple_model",
+            "apples": {
+              "reference": {
+                "normal_apple": 0,
+                "abnormal_apple": 0
+              },
+              "current": {
+                "normal_apple": 0,
+                "abnormal_apple": 0
+              },
+              "changes_checked": []
+            },
+            "color_correction": {
+              "reference": {
+                "wb_gains_bgr": [
+                  0.98,
+                  1.004,
+                  1.004
+                ],
+                "sat_scale": 0.6
+              },
+              "current": {
+                "wb_gains_bgr": [
+                  0.958,
+                  0.996,
+                  1.002
+                ],
+                "sat_scale": 0.6
+              }
+            },
+            "analysis_source": "model_fallback",
+            "requires_review": true,
+            "primary_status": "board_not_found",
+            "primary_result": {
+              "comparison_scope": "board",
+              "board": {},
+              "status": "board_not_found",
+              "failed_image": "reference",
+              "reason": "보드 특징점 대응 부족"
+            },
+            "model_fallback": {
+              "model": {
+                "name": "yolo11n-seg.pt",
+                "weights_sha256": "55ed65c56c91713d23e8402371c6c49a6fd84f257f7dce452e8d70e41dcbe152",
+                "ultralytics": "8.4.197",
+                "device": "cpu",
+                "confidence": 0.25,
+                "input_size": 640,
+                "threads": 2
+              },
+              "views": {
+                "reference": {
+                  "confidence": 0.432,
+                  "bbox": [
+                    213.87,
+                    220.23,
+                    432.15,
+                    533.89
+                  ],
+                  "area_ratio": 0.1065,
+                  "inference_ms": 70.14,
+                  "image_sha256": "3353cc6d3de48885bcd64ccfeead73a2cc2ce290ce11c8f32b879563a7339cea",
+                  "cache_hit": false
+                },
+                "current": {
+                  "confidence": 0.5912,
+                  "bbox": [
+                    180.88,
+                    223.78,
+                    390.76,
+                    518.61
+                  ],
+                  "area_ratio": 0.0924,
+                  "inference_ms": 72.73,
+                  "image_sha256": "9200116e13c56a7ccbba81a0437b8713bfd3d07fb6bd620ee42fe486185e54b9",
+                  "cache_hit": false
+                }
+              },
+              "status": "used",
+              "inference_wall_ms": 184.53,
+              "total_wall_ms": 1049.98,
+              "candidate_status": "unchanged"
+            },
+            "apple_model": {
+              "status": "used",
+              "model": {
+                "name": "apple_yolo26n_aug_v1.pt",
+                "weights_sha256": "c835940553515fb397b866826a4aedbe1c49f472b0abb9665818b7e495010329",
+                "ultralytics": "8.4.197",
+                "device": "cpu",
+                "raw_confidence": 0.25,
+                "input_size": 640,
+                "threads": 2
+              },
+              "inference_ms": 409.83,
+              "total_wall_ms": 410.43
+            }
+          },
+          "final": {
+            "status": "unchanged",
+            "changes": {},
+            "change": null,
+            "count": 0,
+            "analysis_source": "model_fallback",
+            "requires_review": true,
+            "primary_status": "board_not_found",
+            "source": "front"
+          }
+        }
+      ]
+    },
     {
       "lap": "2026-11-25_150112",
       "route": "demo_real3",
