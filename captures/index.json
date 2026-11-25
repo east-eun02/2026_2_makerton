@@ -1,9 +1,875 @@
 {
-  "updated": "2026-11-25T15:57:19",
+  "updated": "2026-11-25T16:06:07",
   "baselines": {
     "demo_real3": "2026-10-31_003632"
   },
   "laps": [
+    {
+      "lap": "2026-11-25_160435",
+      "route": "demo_real3_artificial",
+      "started": "2026-11-25T16:04:35",
+      "finished": "2026-11-25T16:06:06",
+      "home": "ok",
+      "mode": null,
+      "baseline_complete": null,
+      "compare_to": "previous",
+      "reference_lap": "2026-11-25_155623",
+      "capture_policy": "front_compare_sides_for_admin",
+      "visit_order": [
+        {
+          "id": "P00",
+          "reason": "미확인 변화: 잎 탈락 1곳 (2026-11-25_155116)"
+        },
+        {
+          "id": "P01",
+          "reason": null
+        }
+      ],
+      "stops": [
+        {
+          "id": "P00",
+          "status": "ok",
+          "views": {
+            "front": {
+              "view_id": "front",
+              "target": {
+                "x": 1.61,
+                "y": 0.47,
+                "yaw": 1.545
+              },
+              "navigation_elapsed_s": 16.46,
+              "status": "ok",
+              "image": "2026-11-25_160435/P00.png",
+              "pose": {
+                "x": 1.5953731970764538,
+                "y": 0.4313242508164865,
+                "yaw": 1.705344626163915
+              },
+              "odom_pose": {
+                "x": 1.0519100774238832,
+                "y": 1.172762125170452,
+                "yaw": 2.6195474566756185
+              },
+              "error_xy_m": 0.041,
+              "error_yaw_deg": 9.2,
+              "compare": {
+                "reference_lap": "2026-11-25_155623",
+                "reference_image": "2026-11-25_155623/P00.png",
+                "view_id": "front",
+                "status": "changed",
+                "change": "fruit_damaged",
+                "count": 1,
+                "changes": {
+                  "fruit_damaged": 1,
+                  "fruit_lost": 1,
+                  "leaf_color": 1
+                },
+                "changed_ratio": 0.1522,
+                "align": "features",
+                "feature_inliers": 89,
+                "objects": [
+                  {
+                    "type": "leaf_color",
+                    "bbox": [
+                      134,
+                      380,
+                      40,
+                      37
+                    ],
+                    "area_px": 930
+                  },
+                  {
+                    "type": "fruit_damaged",
+                    "bbox": [
+                      352,
+                      363,
+                      57,
+                      57
+                    ],
+                    "area_px": 3249,
+                    "source": "apple_model"
+                  },
+                  {
+                    "type": "fruit_lost",
+                    "bbox": [
+                      166,
+                      334,
+                      52,
+                      53
+                    ],
+                    "area_px": 2756,
+                    "source": "apple_model"
+                  }
+                ],
+                "fruit_source": "apple_model",
+                "apples": {
+                  "reference": {
+                    "normal_apple": 0,
+                    "abnormal_apple": 1
+                  },
+                  "current": {
+                    "normal_apple": 0,
+                    "abnormal_apple": 1
+                  },
+                  "changes_checked": [
+                    {
+                      "type": "fruit_damaged",
+                      "changed_fraction": 0.485,
+                      "counted": true
+                    },
+                    {
+                      "type": "fruit_lost",
+                      "changed_fraction": 0.508,
+                      "counted": true
+                    }
+                  ]
+                },
+                "leaf_loss_source": "leaf_model",
+                "leaves": {
+                  "reference": {
+                    "normal_leaf": 9,
+                    "abnormal_leaf": 0
+                  },
+                  "current": {
+                    "normal_leaf": 8,
+                    "abnormal_leaf": 0
+                  },
+                  "changes_checked": [
+                    {
+                      "type": "leaf_loss",
+                      "changed_fraction": 0.295,
+                      "replaced_fraction": 0.199,
+                      "green_left": 0.915,
+                      "counted": false
+                    },
+                    {
+                      "type": "leaf_loss",
+                      "changed_fraction": 0.255,
+                      "replaced_fraction": 0.0,
+                      "green_left": 0.918,
+                      "counted": false
+                    },
+                    {
+                      "type": "leaf_loss",
+                      "changed_fraction": 0.161,
+                      "replaced_fraction": 0.0,
+                      "green_left": 0.716,
+                      "counted": false
+                    },
+                    {
+                      "type": "leaf_loss",
+                      "changed_fraction": 0.413,
+                      "replaced_fraction": 0.155,
+                      "green_left": 0.992,
+                      "counted": false
+                    },
+                    {
+                      "type": "leaf_loss",
+                      "changed_fraction": 0.162,
+                      "replaced_fraction": 0.313,
+                      "green_left": 0.418,
+                      "counted": false
+                    }
+                  ]
+                },
+                "color_correction": {
+                  "reference": {
+                    "wb_gains_bgr": [
+                      1.023,
+                      1.035,
+                      1.033
+                    ],
+                    "sat_scale": 0.6
+                  },
+                  "current": {
+                    "wb_gains_bgr": [
+                      1.0,
+                      1.006,
+                      1.004
+                    ],
+                    "sat_scale": 0.6
+                  }
+                },
+                "detector": {
+                  "status": "used",
+                  "models": {
+                    "apple": {
+                      "name": "apple_yolo26n_aug_v1.pt",
+                      "weights_sha256": "c835940553515fb397b866826a4aedbe1c49f472b0abb9665818b7e495010329",
+                      "classes": [
+                        "abnormal_apple",
+                        "normal_apple"
+                      ],
+                      "input_size": 640,
+                      "ultralytics": "8.4.197",
+                      "device": "cpu",
+                      "raw_confidence": 0.25,
+                      "threads": 2
+                    },
+                    "leaf": {
+                      "name": "leaf_yolo26n_aug_v5.pt",
+                      "weights_sha256": "8905f2f09ceb2834a2fefef6e43a08cb6e3f3b7656f176b0f40294238a37de1d",
+                      "classes": [
+                        "비정상 잎",
+                        "정상 잎"
+                      ],
+                      "input_size": 512,
+                      "ultralytics": "8.4.197",
+                      "device": "cpu",
+                      "raw_confidence": 0.25,
+                      "threads": 2
+                    }
+                  },
+                  "inference_ms": 1588.31,
+                  "total_wall_ms": 2817.97
+                },
+                "image": "2026-11-25_160435/P00_compare.jpg"
+              }
+            },
+            "right": {
+              "view_id": "right",
+              "target": {
+                "x": 1.88231227555837,
+                "y": 0.3738440693123931,
+                "yaw": 1.9813323129985823
+              },
+              "purpose": "admin_review",
+              "navigation_elapsed_s": 14.56,
+              "status": "ok",
+              "pose": {
+                "x": 1.8623491438406452,
+                "y": 0.4112127512721597,
+                "yaw": 2.2294724036352136
+              },
+              "odom_pose": {
+                "x": 1.2245773295830238,
+                "y": 1.342258262234114,
+                "yaw": 3.0963054786219995
+              },
+              "movement_m": 0.242,
+              "viewpoint_change_deg": 26.1,
+              "image": "2026-11-25_160435/P00_right.png",
+              "error_xy_m": 0.042,
+              "error_yaw_deg": 14.2
+            },
+            "left": {
+              "view_id": "left",
+              "target": {
+                "x": 1.3330913256488968,
+                "y": 0.3880150959304576,
+                "yaw": 1.1086676870014176
+              },
+              "purpose": "admin_review",
+              "navigation_elapsed_s": 14.29,
+              "status": "ok",
+              "pose": {
+                "x": 1.3685106677652783,
+                "y": 0.4140678577163929,
+                "yaw": 0.876154282471575
+              },
+              "odom_pose": {
+                "x": 0.9231816139157869,
+                "y": 0.9351318378101067,
+                "yaw": 1.8561702021495607
+              },
+              "movement_m": 0.27,
+              "viewpoint_change_deg": 21.7,
+              "image": "2026-11-25_160435/P00_left.png",
+              "error_xy_m": 0.044,
+              "error_yaw_deg": -13.3
+            }
+          },
+          "initial_observation": false,
+          "image": "2026-11-25_160435/P00.png",
+          "pose": {
+            "x": 1.5953731970764538,
+            "y": 0.4313242508164865,
+            "yaw": 1.705344626163915
+          },
+          "target": {
+            "x": 1.61,
+            "y": 0.47,
+            "yaw": 1.545
+          },
+          "observed_at": "2026-11-25T16:04:54.146202",
+          "error_xy_m": 0.041,
+          "error_yaw_deg": 9.2,
+          "compare": {
+            "status": "changed",
+            "change": "fruit_damaged",
+            "count": 1,
+            "reference_lap": "2026-11-25_155623",
+            "reference_image": "2026-11-25_155623/P00.png",
+            "image": "2026-11-25_160435/P00_compare.jpg",
+            "view_id": "front",
+            "changes": {
+              "fruit_damaged": 1,
+              "fruit_lost": 1,
+              "leaf_color": 1
+            },
+            "changed_ratio": 0.1522,
+            "align": "features",
+            "feature_inliers": 89,
+            "objects": [
+              {
+                "type": "leaf_color",
+                "bbox": [
+                  134,
+                  380,
+                  40,
+                  37
+                ],
+                "area_px": 930
+              },
+              {
+                "type": "fruit_damaged",
+                "bbox": [
+                  352,
+                  363,
+                  57,
+                  57
+                ],
+                "area_px": 3249,
+                "source": "apple_model"
+              },
+              {
+                "type": "fruit_lost",
+                "bbox": [
+                  166,
+                  334,
+                  52,
+                  53
+                ],
+                "area_px": 2756,
+                "source": "apple_model"
+              }
+            ],
+            "fruit_source": "apple_model",
+            "apples": {
+              "reference": {
+                "normal_apple": 0,
+                "abnormal_apple": 1
+              },
+              "current": {
+                "normal_apple": 0,
+                "abnormal_apple": 1
+              },
+              "changes_checked": [
+                {
+                  "type": "fruit_damaged",
+                  "changed_fraction": 0.485,
+                  "counted": true
+                },
+                {
+                  "type": "fruit_lost",
+                  "changed_fraction": 0.508,
+                  "counted": true
+                }
+              ]
+            },
+            "leaf_loss_source": "leaf_model",
+            "leaves": {
+              "reference": {
+                "normal_leaf": 9,
+                "abnormal_leaf": 0
+              },
+              "current": {
+                "normal_leaf": 8,
+                "abnormal_leaf": 0
+              },
+              "changes_checked": [
+                {
+                  "type": "leaf_loss",
+                  "changed_fraction": 0.295,
+                  "replaced_fraction": 0.199,
+                  "green_left": 0.915,
+                  "counted": false
+                },
+                {
+                  "type": "leaf_loss",
+                  "changed_fraction": 0.255,
+                  "replaced_fraction": 0.0,
+                  "green_left": 0.918,
+                  "counted": false
+                },
+                {
+                  "type": "leaf_loss",
+                  "changed_fraction": 0.161,
+                  "replaced_fraction": 0.0,
+                  "green_left": 0.716,
+                  "counted": false
+                },
+                {
+                  "type": "leaf_loss",
+                  "changed_fraction": 0.413,
+                  "replaced_fraction": 0.155,
+                  "green_left": 0.992,
+                  "counted": false
+                },
+                {
+                  "type": "leaf_loss",
+                  "changed_fraction": 0.162,
+                  "replaced_fraction": 0.313,
+                  "green_left": 0.418,
+                  "counted": false
+                }
+              ]
+            },
+            "color_correction": {
+              "reference": {
+                "wb_gains_bgr": [
+                  1.023,
+                  1.035,
+                  1.033
+                ],
+                "sat_scale": 0.6
+              },
+              "current": {
+                "wb_gains_bgr": [
+                  1.0,
+                  1.006,
+                  1.004
+                ],
+                "sat_scale": 0.6
+              }
+            },
+            "detector": {
+              "status": "used",
+              "models": {
+                "apple": {
+                  "name": "apple_yolo26n_aug_v1.pt",
+                  "weights_sha256": "c835940553515fb397b866826a4aedbe1c49f472b0abb9665818b7e495010329",
+                  "classes": [
+                    "abnormal_apple",
+                    "normal_apple"
+                  ],
+                  "input_size": 640,
+                  "ultralytics": "8.4.197",
+                  "device": "cpu",
+                  "raw_confidence": 0.25,
+                  "threads": 2
+                },
+                "leaf": {
+                  "name": "leaf_yolo26n_aug_v5.pt",
+                  "weights_sha256": "8905f2f09ceb2834a2fefef6e43a08cb6e3f3b7656f176b0f40294238a37de1d",
+                  "classes": [
+                    "비정상 잎",
+                    "정상 잎"
+                  ],
+                  "input_size": 512,
+                  "ultralytics": "8.4.197",
+                  "device": "cpu",
+                  "raw_confidence": 0.25,
+                  "threads": 2
+                }
+              },
+              "inference_ms": 1588.31,
+              "total_wall_ms": 2817.97
+            }
+          },
+          "final": {
+            "status": "changed",
+            "changes": {
+              "fruit_damaged": 1,
+              "fruit_lost": 1,
+              "leaf_color": 1
+            },
+            "change": "fruit_damaged",
+            "count": 1,
+            "source": "front"
+          },
+          "recheck": {
+            "purpose": "admin_review",
+            "attempts": [
+              {
+                "view_id": "right",
+                "target": {
+                  "x": 1.88231227555837,
+                  "y": 0.3738440693123931,
+                  "yaw": 1.9813323129985823
+                },
+                "purpose": "admin_review",
+                "navigation_elapsed_s": 14.56,
+                "status": "ok",
+                "pose": {
+                  "x": 1.8623491438406452,
+                  "y": 0.4112127512721597,
+                  "yaw": 2.2294724036352136
+                },
+                "odom_pose": {
+                  "x": 1.2245773295830238,
+                  "y": 1.342258262234114,
+                  "yaw": 3.0963054786219995
+                },
+                "movement_m": 0.242,
+                "viewpoint_change_deg": 26.1,
+                "image": "2026-11-25_160435/P00_right.png",
+                "error_xy_m": 0.042,
+                "error_yaw_deg": 14.2
+              },
+              {
+                "view_id": "left",
+                "target": {
+                  "x": 1.3330913256488968,
+                  "y": 0.3880150959304576,
+                  "yaw": 1.1086676870014176
+                },
+                "purpose": "admin_review",
+                "navigation_elapsed_s": 14.29,
+                "status": "ok",
+                "pose": {
+                  "x": 1.3685106677652783,
+                  "y": 0.4140678577163929,
+                  "yaw": 0.876154282471575
+                },
+                "odom_pose": {
+                  "x": 0.9231816139157869,
+                  "y": 0.9351318378101067,
+                  "yaw": 1.8561702021495607
+                },
+                "movement_m": 0.27,
+                "viewpoint_change_deg": 21.7,
+                "image": "2026-11-25_160435/P00_left.png",
+                "error_xy_m": 0.044,
+                "error_yaw_deg": -13.3
+              }
+            ],
+            "views": {
+              "right": {
+                "view_id": "right",
+                "target": {
+                  "x": 1.88231227555837,
+                  "y": 0.3738440693123931,
+                  "yaw": 1.9813323129985823
+                },
+                "purpose": "admin_review",
+                "navigation_elapsed_s": 14.56,
+                "status": "ok",
+                "pose": {
+                  "x": 1.8623491438406452,
+                  "y": 0.4112127512721597,
+                  "yaw": 2.2294724036352136
+                },
+                "odom_pose": {
+                  "x": 1.2245773295830238,
+                  "y": 1.342258262234114,
+                  "yaw": 3.0963054786219995
+                },
+                "movement_m": 0.242,
+                "viewpoint_change_deg": 26.1,
+                "image": "2026-11-25_160435/P00_right.png",
+                "error_xy_m": 0.042,
+                "error_yaw_deg": 14.2
+              },
+              "left": {
+                "view_id": "left",
+                "target": {
+                  "x": 1.3330913256488968,
+                  "y": 0.3880150959304576,
+                  "yaw": 1.1086676870014176
+                },
+                "purpose": "admin_review",
+                "navigation_elapsed_s": 14.29,
+                "status": "ok",
+                "pose": {
+                  "x": 1.3685106677652783,
+                  "y": 0.4140678577163929,
+                  "yaw": 0.876154282471575
+                },
+                "odom_pose": {
+                  "x": 0.9231816139157869,
+                  "y": 0.9351318378101067,
+                  "yaw": 1.8561702021495607
+                },
+                "movement_m": 0.27,
+                "viewpoint_change_deg": 21.7,
+                "image": "2026-11-25_160435/P00_left.png",
+                "error_xy_m": 0.044,
+                "error_yaw_deg": -13.3
+              }
+            },
+            "origin_pose": {
+              "x": 1.5953731970764538,
+              "y": 0.4313242508164865,
+              "yaw": 1.705344626163915
+            },
+            "origin_odom_pose": {
+              "x": 1.0519100774238832,
+              "y": 1.172762125170452,
+              "yaw": 2.6195474566756185
+            },
+            "view_id": "right",
+            "target": {
+              "x": 1.88231227555837,
+              "y": 0.3738440693123931,
+              "yaw": 1.9813323129985823
+            },
+            "navigation_elapsed_s": 14.56,
+            "status": "ok",
+            "pose": {
+              "x": 1.8623491438406452,
+              "y": 0.4112127512721597,
+              "yaw": 2.2294724036352136
+            },
+            "odom_pose": {
+              "x": 1.2245773295830238,
+              "y": 1.342258262234114,
+              "yaw": 3.0963054786219995
+            },
+            "movement_m": 0.242,
+            "viewpoint_change_deg": 26.1,
+            "image": "2026-11-25_160435/P00_right.png",
+            "error_xy_m": 0.042,
+            "error_yaw_deg": 14.2
+          }
+        },
+        {
+          "id": "P01",
+          "status": "ok",
+          "views": {
+            "front": {
+              "view_id": "front",
+              "target": {
+                "x": 0.41,
+                "y": 0.5,
+                "yaw": 1.545
+              },
+              "navigation_elapsed_s": 17.13,
+              "status": "ok",
+              "image": "2026-11-25_160435/P01.png",
+              "pose": {
+                "x": 0.43530373803273537,
+                "y": 0.5025866260156059,
+                "yaw": 1.2336470160291038
+              },
+              "odom_pose": {
+                "x": 0.4679653335508989,
+                "y": 0.03828726152081262,
+                "yaw": 2.4454593443333734
+              },
+              "error_xy_m": 0.025,
+              "error_yaw_deg": -17.8,
+              "compare": {
+                "reference_lap": "2026-11-25_155623",
+                "reference_image": "2026-11-25_155623/P01.png",
+                "view_id": "front",
+                "status": "unchanged",
+                "change": null,
+                "count": 0,
+                "changes": {},
+                "changed_ratio": 0.0,
+                "align": "features",
+                "feature_inliers": 1167,
+                "objects": [],
+                "fruit_source": "apple_model",
+                "apples": {
+                  "reference": {
+                    "normal_apple": 1,
+                    "abnormal_apple": 0
+                  },
+                  "current": {
+                    "normal_apple": 1,
+                    "abnormal_apple": 0
+                  },
+                  "changes_checked": []
+                },
+                "leaf_loss_source": "leaf_model",
+                "leaves": {
+                  "reference": {
+                    "normal_leaf": 4,
+                    "abnormal_leaf": 0
+                  },
+                  "current": {
+                    "normal_leaf": 6,
+                    "abnormal_leaf": 0
+                  },
+                  "changes_checked": [
+                    {
+                      "type": "leaf_loss",
+                      "changed_fraction": 0.0,
+                      "replaced_fraction": 0.0,
+                      "green_left": 1.012,
+                      "counted": false
+                    }
+                  ]
+                },
+                "color_correction": {
+                  "reference": {
+                    "wb_gains_bgr": [
+                      1.024,
+                      1.035,
+                      1.032
+                    ],
+                    "sat_scale": 0.6
+                  },
+                  "current": {
+                    "wb_gains_bgr": [
+                      1.017,
+                      1.025,
+                      1.022
+                    ],
+                    "sat_scale": 0.6
+                  }
+                },
+                "detector": {
+                  "status": "used",
+                  "models": {
+                    "apple": {
+                      "name": "apple_yolo26n_aug_v1.pt",
+                      "weights_sha256": "c835940553515fb397b866826a4aedbe1c49f472b0abb9665818b7e495010329",
+                      "classes": [
+                        "abnormal_apple",
+                        "normal_apple"
+                      ],
+                      "input_size": 640,
+                      "ultralytics": "8.4.197",
+                      "device": "cpu",
+                      "raw_confidence": 0.25,
+                      "threads": 2
+                    },
+                    "leaf": {
+                      "name": "leaf_yolo26n_aug_v5.pt",
+                      "weights_sha256": "8905f2f09ceb2834a2fefef6e43a08cb6e3f3b7656f176b0f40294238a37de1d",
+                      "classes": [
+                        "비정상 잎",
+                        "정상 잎"
+                      ],
+                      "input_size": 512,
+                      "ultralytics": "8.4.197",
+                      "device": "cpu",
+                      "raw_confidence": 0.25,
+                      "threads": 2
+                    }
+                  },
+                  "inference_ms": 292.83,
+                  "total_wall_ms": 293.56
+                },
+                "image": "2026-11-25_160435/P01_compare.jpg"
+              }
+            }
+          },
+          "initial_observation": false,
+          "image": "2026-11-25_160435/P01.png",
+          "pose": {
+            "x": 0.43530373803273537,
+            "y": 0.5025866260156059,
+            "yaw": 1.2336470160291038
+          },
+          "target": {
+            "x": 0.41,
+            "y": 0.5,
+            "yaw": 1.545
+          },
+          "observed_at": "2026-11-25T16:05:50.538555",
+          "error_xy_m": 0.025,
+          "error_yaw_deg": -17.8,
+          "compare": {
+            "status": "unchanged",
+            "change": null,
+            "count": 0,
+            "reference_lap": "2026-11-25_155623",
+            "reference_image": "2026-11-25_155623/P01.png",
+            "image": "2026-11-25_160435/P01_compare.jpg",
+            "view_id": "front",
+            "changes": {},
+            "changed_ratio": 0.0,
+            "align": "features",
+            "feature_inliers": 1167,
+            "objects": [],
+            "fruit_source": "apple_model",
+            "apples": {
+              "reference": {
+                "normal_apple": 1,
+                "abnormal_apple": 0
+              },
+              "current": {
+                "normal_apple": 1,
+                "abnormal_apple": 0
+              },
+              "changes_checked": []
+            },
+            "leaf_loss_source": "leaf_model",
+            "leaves": {
+              "reference": {
+                "normal_leaf": 4,
+                "abnormal_leaf": 0
+              },
+              "current": {
+                "normal_leaf": 6,
+                "abnormal_leaf": 0
+              },
+              "changes_checked": [
+                {
+                  "type": "leaf_loss",
+                  "changed_fraction": 0.0,
+                  "replaced_fraction": 0.0,
+                  "green_left": 1.012,
+                  "counted": false
+                }
+              ]
+            },
+            "color_correction": {
+              "reference": {
+                "wb_gains_bgr": [
+                  1.024,
+                  1.035,
+                  1.032
+                ],
+                "sat_scale": 0.6
+              },
+              "current": {
+                "wb_gains_bgr": [
+                  1.017,
+                  1.025,
+                  1.022
+                ],
+                "sat_scale": 0.6
+              }
+            },
+            "detector": {
+              "status": "used",
+              "models": {
+                "apple": {
+                  "name": "apple_yolo26n_aug_v1.pt",
+                  "weights_sha256": "c835940553515fb397b866826a4aedbe1c49f472b0abb9665818b7e495010329",
+                  "classes": [
+                    "abnormal_apple",
+                    "normal_apple"
+                  ],
+                  "input_size": 640,
+                  "ultralytics": "8.4.197",
+                  "device": "cpu",
+                  "raw_confidence": 0.25,
+                  "threads": 2
+                },
+                "leaf": {
+                  "name": "leaf_yolo26n_aug_v5.pt",
+                  "weights_sha256": "8905f2f09ceb2834a2fefef6e43a08cb6e3f3b7656f176b0f40294238a37de1d",
+                  "classes": [
+                    "비정상 잎",
+                    "정상 잎"
+                  ],
+                  "input_size": 512,
+                  "ultralytics": "8.4.197",
+                  "device": "cpu",
+                  "raw_confidence": 0.25,
+                  "threads": 2
+                }
+              },
+              "inference_ms": 292.83,
+              "total_wall_ms": 293.56
+            }
+          },
+          "final": {
+            "status": "unchanged",
+            "changes": {},
+            "change": null,
+            "count": 0,
+            "source": "front"
+          }
+        }
+      ]
+    },
     {
       "lap": "2026-11-25_155623",
       "route": "demo_real3_artificial",
