@@ -1,0 +1,586 @@
+{
+  "route": "demo_2x2_real",
+  "route_file": "/home/eun/plant_ws/install/plant_observer_gazebo/share/plant_observer_gazebo/config/patrol_demo_2x2_real.yaml",
+  "image_rotation": 90,
+  "compare_to": "previous",
+  "reference_lap": "2026-11-28_134916",
+  "capture_policy": "front_only",
+  "lap": 1,
+  "started": "2026-11-28T14:18:42",
+  "home": "ok",
+  "visit_order": [
+    {
+      "id": "P01",
+      "reason": "모델 보조 결과 미확인 (2026-11-28_125212)"
+    },
+    {
+      "id": "P00",
+      "reason": null
+    }
+  ],
+  "stops": [
+    {
+      "id": "P01",
+      "status": "ok",
+      "views": {
+        "front": {
+          "view_id": "front",
+          "target": {
+            "x": 1.1,
+            "y": 0.97,
+            "yaw": 1.5708
+          },
+          "yaw_corrections": [
+            -11.0,
+            10.6
+          ],
+          "navigation_elapsed_s": 15.78,
+          "status": "ok",
+          "image": "P01.png",
+          "pose": {
+            "x": 1.0742485385258167,
+            "y": 0.9184345230623026,
+            "yaw": 1.6737976007219104
+          },
+          "odom_pose": {
+            "x": 1.0762212726819045,
+            "y": -0.005143100801533139,
+            "yaw": 1.9595936455139886
+          },
+          "error_xy_m": 0.058,
+          "error_yaw_deg": 5.9,
+          "compare": {
+            "reference_lap": "2026-11-28_134916",
+            "reference_image": "P01.png",
+            "view_id": "front",
+            "status": "unchanged",
+            "change": null,
+            "count": 0,
+            "changes": {},
+            "changed_ratio": 0.0,
+            "align": "features",
+            "feature_inliers": 463,
+            "objects": [],
+            "fruit_source": "apple_model",
+            "apples": {
+              "reference": {
+                "normal_apple": 0,
+                "abnormal_apple": 0
+              },
+              "current": {
+                "normal_apple": 0,
+                "abnormal_apple": 0
+              },
+              "changes_checked": []
+            },
+            "leaf_loss_source": "leaf_model",
+            "leaves": {
+              "reference": {
+                "normal_leaf": 10,
+                "abnormal_leaf": 0
+              },
+              "current": {
+                "normal_leaf": 9,
+                "abnormal_leaf": 0
+              },
+              "changes_checked": [
+                {
+                  "type": "leaf_loss",
+                  "changed_fraction": 0.0,
+                  "replaced_fraction": 0.0,
+                  "green_left": 0.977,
+                  "counted": false
+                },
+                {
+                  "type": "leaf_loss",
+                  "changed_fraction": 0.0,
+                  "replaced_fraction": 0.0,
+                  "green_left": 0.99,
+                  "counted": false
+                }
+              ]
+            },
+            "color_correction": {
+              "reference": {
+                "wb_gains_bgr": [
+                  1.028,
+                  1.04,
+                  1.039
+                ],
+                "sat_scale": 0.655
+              },
+              "current": {
+                "wb_gains_bgr": [
+                  1.062,
+                  1.08,
+                  1.08
+                ],
+                "sat_scale": 0.655
+              }
+            },
+            "detector": {
+              "status": "used",
+              "models": {
+                "apple": {
+                  "name": "apple_yolo26n_aug_v1.pt",
+                  "weights_sha256": "c835940553515fb397b866826a4aedbe1c49f472b0abb9665818b7e495010329",
+                  "classes": [
+                    "abnormal_apple",
+                    "normal_apple"
+                  ],
+                  "input_size": 640,
+                  "ultralytics": "8.4.197",
+                  "device": "cpu",
+                  "raw_confidence": 0.25,
+                  "threads": 2
+                },
+                "leaf": {
+                  "name": "leaf_yolo26n_aug_v5.pt",
+                  "weights_sha256": "8905f2f09ceb2834a2fefef6e43a08cb6e3f3b7656f176b0f40294238a37de1d",
+                  "classes": [
+                    "비정상 잎",
+                    "정상 잎"
+                  ],
+                  "input_size": 512,
+                  "ultralytics": "8.4.197",
+                  "device": "cpu",
+                  "raw_confidence": 0.25,
+                  "threads": 2
+                }
+              },
+              "inference_ms": 984.78,
+              "total_wall_ms": 1828.8
+            },
+            "image": "P01_compare.jpg"
+          }
+        }
+      },
+      "initial_observation": false,
+      "image": "P01.png",
+      "pose": {
+        "x": 1.0742485385258167,
+        "y": 0.9184345230623026,
+        "yaw": 1.6737976007219104
+      },
+      "target": {
+        "x": 1.1,
+        "y": 0.97,
+        "yaw": 1.5708
+      },
+      "observed_at": "2026-11-28T14:19:00.191026",
+      "error_xy_m": 0.058,
+      "error_yaw_deg": 5.9,
+      "compare": {
+        "reference_lap": "2026-11-28_134916",
+        "reference_image": "P01.png",
+        "view_id": "front",
+        "status": "unchanged",
+        "change": null,
+        "count": 0,
+        "changes": {},
+        "changed_ratio": 0.0,
+        "align": "features",
+        "feature_inliers": 463,
+        "objects": [],
+        "fruit_source": "apple_model",
+        "apples": {
+          "reference": {
+            "normal_apple": 0,
+            "abnormal_apple": 0
+          },
+          "current": {
+            "normal_apple": 0,
+            "abnormal_apple": 0
+          },
+          "changes_checked": []
+        },
+        "leaf_loss_source": "leaf_model",
+        "leaves": {
+          "reference": {
+            "normal_leaf": 10,
+            "abnormal_leaf": 0
+          },
+          "current": {
+            "normal_leaf": 9,
+            "abnormal_leaf": 0
+          },
+          "changes_checked": [
+            {
+              "type": "leaf_loss",
+              "changed_fraction": 0.0,
+              "replaced_fraction": 0.0,
+              "green_left": 0.977,
+              "counted": false
+            },
+            {
+              "type": "leaf_loss",
+              "changed_fraction": 0.0,
+              "replaced_fraction": 0.0,
+              "green_left": 0.99,
+              "counted": false
+            }
+          ]
+        },
+        "color_correction": {
+          "reference": {
+            "wb_gains_bgr": [
+              1.028,
+              1.04,
+              1.039
+            ],
+            "sat_scale": 0.655
+          },
+          "current": {
+            "wb_gains_bgr": [
+              1.062,
+              1.08,
+              1.08
+            ],
+            "sat_scale": 0.655
+          }
+        },
+        "detector": {
+          "status": "used",
+          "models": {
+            "apple": {
+              "name": "apple_yolo26n_aug_v1.pt",
+              "weights_sha256": "c835940553515fb397b866826a4aedbe1c49f472b0abb9665818b7e495010329",
+              "classes": [
+                "abnormal_apple",
+                "normal_apple"
+              ],
+              "input_size": 640,
+              "ultralytics": "8.4.197",
+              "device": "cpu",
+              "raw_confidence": 0.25,
+              "threads": 2
+            },
+            "leaf": {
+              "name": "leaf_yolo26n_aug_v5.pt",
+              "weights_sha256": "8905f2f09ceb2834a2fefef6e43a08cb6e3f3b7656f176b0f40294238a37de1d",
+              "classes": [
+                "비정상 잎",
+                "정상 잎"
+              ],
+              "input_size": 512,
+              "ultralytics": "8.4.197",
+              "device": "cpu",
+              "raw_confidence": 0.25,
+              "threads": 2
+            }
+          },
+          "inference_ms": 984.78,
+          "total_wall_ms": 1828.8
+        },
+        "image": "P01_compare.jpg"
+      },
+      "final": {
+        "status": "unchanged",
+        "changes": {},
+        "change": null,
+        "count": 0,
+        "source": "front"
+      }
+    },
+    {
+      "id": "P00",
+      "status": "ok",
+      "views": {
+        "front": {
+          "view_id": "front",
+          "target": {
+            "x": 0.18,
+            "y": 0.95,
+            "yaw": 1.5708
+          },
+          "yaw_corrections": [
+            -17.5,
+            10.6
+          ],
+          "navigation_elapsed_s": 23.59,
+          "status": "ok",
+          "image": "P00.png",
+          "pose": {
+            "x": 0.2048693926307219,
+            "y": 0.9761318233878465,
+            "yaw": 1.6799560299597138
+          },
+          "odom_pose": {
+            "x": 0.23620466778324833,
+            "y": -0.4784297113347526,
+            "yaw": 2.121864226420631
+          },
+          "error_xy_m": 0.036,
+          "error_yaw_deg": 6.3,
+          "compare": {
+            "reference_lap": "2026-11-28_134916",
+            "reference_image": "P00.png",
+            "view_id": "front",
+            "status": "changed",
+            "change": "leaf_loss",
+            "count": 1,
+            "changes": {
+              "leaf_loss": 1
+            },
+            "changed_ratio": 0.0529,
+            "align": "features",
+            "feature_inliers": 77,
+            "objects": [
+              {
+                "type": "leaf_loss",
+                "bbox": [
+                  244,
+                  324,
+                  52,
+                  40
+                ],
+                "area_px": 2096,
+                "source": "leaf_model"
+              }
+            ],
+            "rotation_deg": 90,
+            "fruit_source": "apple_model",
+            "apples": {
+              "reference": {
+                "normal_apple": 0,
+                "abnormal_apple": 1
+              },
+              "current": {
+                "normal_apple": 0,
+                "abnormal_apple": 1
+              },
+              "changes_checked": []
+            },
+            "leaf_loss_source": "leaf_model",
+            "leaves": {
+              "reference": {
+                "normal_leaf": 7,
+                "abnormal_leaf": 0
+              },
+              "current": {
+                "normal_leaf": 10,
+                "abnormal_leaf": 0
+              },
+              "changes_checked": [
+                {
+                  "type": "leaf_loss",
+                  "changed_fraction": 0.446,
+                  "replaced_fraction": 0.0,
+                  "green_left": 0.407,
+                  "counted": false
+                },
+                {
+                  "type": "leaf_loss",
+                  "changed_fraction": 0.571,
+                  "replaced_fraction": 0.0,
+                  "green_left": 0.466,
+                  "counted": true
+                }
+              ]
+            },
+            "color_correction": {
+              "reference": {
+                "wb_gains_bgr": [
+                  1.009,
+                  1.026,
+                  1.03
+                ],
+                "sat_scale": 0.76
+              },
+              "current": {
+                "wb_gains_bgr": [
+                  1.006,
+                  1.032,
+                  1.034
+                ],
+                "sat_scale": 0.655
+              }
+            },
+            "detector": {
+              "status": "used",
+              "models": {
+                "apple": {
+                  "name": "apple_yolo26n_aug_v1.pt",
+                  "weights_sha256": "c835940553515fb397b866826a4aedbe1c49f472b0abb9665818b7e495010329",
+                  "classes": [
+                    "abnormal_apple",
+                    "normal_apple"
+                  ],
+                  "input_size": 640,
+                  "ultralytics": "8.4.197",
+                  "device": "cpu",
+                  "raw_confidence": 0.25,
+                  "threads": 2
+                },
+                "leaf": {
+                  "name": "leaf_yolo26n_aug_v5.pt",
+                  "weights_sha256": "8905f2f09ceb2834a2fefef6e43a08cb6e3f3b7656f176b0f40294238a37de1d",
+                  "classes": [
+                    "비정상 잎",
+                    "정상 잎"
+                  ],
+                  "input_size": 512,
+                  "ultralytics": "8.4.197",
+                  "device": "cpu",
+                  "raw_confidence": 0.25,
+                  "threads": 2
+                }
+              },
+              "inference_ms": 155.01,
+              "total_wall_ms": 155.42
+            },
+            "image": "P00_compare.jpg"
+          }
+        }
+      },
+      "initial_observation": false,
+      "image": "P00.png",
+      "pose": {
+        "x": 0.2048693926307219,
+        "y": 0.9761318233878465,
+        "yaw": 1.6799560299597138
+      },
+      "target": {
+        "x": 0.18,
+        "y": 0.95,
+        "yaw": 1.5708
+      },
+      "observed_at": "2026-11-28T14:19:28.074213",
+      "error_xy_m": 0.036,
+      "error_yaw_deg": 6.3,
+      "compare": {
+        "reference_lap": "2026-11-28_134916",
+        "reference_image": "P00.png",
+        "view_id": "front",
+        "status": "changed",
+        "change": "leaf_loss",
+        "count": 1,
+        "changes": {
+          "leaf_loss": 1
+        },
+        "changed_ratio": 0.0529,
+        "align": "features",
+        "feature_inliers": 77,
+        "objects": [
+          {
+            "type": "leaf_loss",
+            "bbox": [
+              244,
+              324,
+              52,
+              40
+            ],
+            "area_px": 2096,
+            "source": "leaf_model"
+          }
+        ],
+        "rotation_deg": 90,
+        "fruit_source": "apple_model",
+        "apples": {
+          "reference": {
+            "normal_apple": 0,
+            "abnormal_apple": 1
+          },
+          "current": {
+            "normal_apple": 0,
+            "abnormal_apple": 1
+          },
+          "changes_checked": []
+        },
+        "leaf_loss_source": "leaf_model",
+        "leaves": {
+          "reference": {
+            "normal_leaf": 7,
+            "abnormal_leaf": 0
+          },
+          "current": {
+            "normal_leaf": 10,
+            "abnormal_leaf": 0
+          },
+          "changes_checked": [
+            {
+              "type": "leaf_loss",
+              "changed_fraction": 0.446,
+              "replaced_fraction": 0.0,
+              "green_left": 0.407,
+              "counted": false
+            },
+            {
+              "type": "leaf_loss",
+              "changed_fraction": 0.571,
+              "replaced_fraction": 0.0,
+              "green_left": 0.466,
+              "counted": true
+            }
+          ]
+        },
+        "color_correction": {
+          "reference": {
+            "wb_gains_bgr": [
+              1.009,
+              1.026,
+              1.03
+            ],
+            "sat_scale": 0.76
+          },
+          "current": {
+            "wb_gains_bgr": [
+              1.006,
+              1.032,
+              1.034
+            ],
+            "sat_scale": 0.655
+          }
+        },
+        "detector": {
+          "status": "used",
+          "models": {
+            "apple": {
+              "name": "apple_yolo26n_aug_v1.pt",
+              "weights_sha256": "c835940553515fb397b866826a4aedbe1c49f472b0abb9665818b7e495010329",
+              "classes": [
+                "abnormal_apple",
+                "normal_apple"
+              ],
+              "input_size": 640,
+              "ultralytics": "8.4.197",
+              "device": "cpu",
+              "raw_confidence": 0.25,
+              "threads": 2
+            },
+            "leaf": {
+              "name": "leaf_yolo26n_aug_v5.pt",
+              "weights_sha256": "8905f2f09ceb2834a2fefef6e43a08cb6e3f3b7656f176b0f40294238a37de1d",
+              "classes": [
+                "비정상 잎",
+                "정상 잎"
+              ],
+              "input_size": 512,
+              "ultralytics": "8.4.197",
+              "device": "cpu",
+              "raw_confidence": 0.25,
+              "threads": 2
+            }
+          },
+          "inference_ms": 155.01,
+          "total_wall_ms": 155.42
+        },
+        "image": "P00_compare.jpg"
+      },
+      "final": {
+        "status": "changed",
+        "changes": {
+          "leaf_loss": 1
+        },
+        "change": "leaf_loss",
+        "count": 1,
+        "source": "front"
+      },
+      "recheck": {
+        "purpose": "admin_review",
+        "status": "disabled"
+      }
+    }
+  ],
+  "finished": "2026-11-28T14:19:43"
+}
